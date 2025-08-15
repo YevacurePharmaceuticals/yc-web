@@ -1,175 +1,133 @@
-# 🚀 Yevacure Website Deployment Guide
+# Yevacure Deployment Guide
 
-This guide will walk you through deploying the Yevacure Pharmaceutical website to various free hosting platforms.
+## GitHub Pages Deployment
 
-## 📋 Prerequisites
+This project is configured for deployment to GitHub Pages with automated CI/CD using GitHub Actions.
 
-- GitHub account
-- Node.js installed locally
-- Git installed locally
+### Prerequisites
 
-## 🔧 Local Setup & Testing
+1. **GitHub Repository**: Ensure your project is pushed to a GitHub repository
+2. **Repository Settings**: Configure GitHub Pages in your repository settings
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### Setup Steps
 
-2. **Test locally:**
-   ```bash
-   npm run dev
-   ```
-   Open http://localhost:5173 in your browser
+#### 1. Repository Configuration
 
-3. **Build for production:**
-   ```bash
-   npm run build
-   ```
-   This creates a `dist/` folder with optimized files
+1. Go to your GitHub repository
+2. Navigate to **Settings** → **Pages**
+3. Set **Source** to "Deploy from a branch"
+4. Select **gh-pages** branch
+5. Click **Save**
 
-## 🌐 Deployment Options
+#### 2. Environment Variables
 
-### Option 1: Vercel (Recommended - Fastest & Easiest)
+The following environment variables are automatically available:
+- `GITHUB_TOKEN`: Automatically provided by GitHub Actions
 
-**Pros:** 
-- Free tier with generous limits
-- Automatic deployments from GitHub
-- Excellent performance
-- Built-in analytics
+#### 3. Manual Deployment
 
-**Steps:**
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) and sign up with GitHub
-3. Click "New Project"
-4. Import your GitHub repository
-5. Select "React" framework preset
-6. Click "Deploy"
+To deploy manually:
 
-**Result:** Your site will be live at `https://your-project-name.vercel.app`
+```bash
+# Build the project
+npm run build
 
-### Option 2: Netlify
+# Deploy to GitHub Pages
+npm run deploy
+```
 
-**Pros:**
-- Free tier with good limits
-- Easy GitHub integration
-- Form handling capabilities
+#### 4. Automated Deployment
 
-**Steps:**
-1. Push your code to GitHub
-2. Go to [netlify.com](https://netlify.com) and sign up
-3. Click "New site from Git"
-4. Connect your GitHub repository
-5. Set build command: `npm run build`
-6. Set publish directory: `dist`
-7. Click "Deploy site"
+The project includes a GitHub Actions workflow that automatically:
+- Builds the project on every push to main/master branch
+- Deploys to GitHub Pages
+- Updates the gh-pages branch
 
-**Result:** Your site will be live at `https://random-name.netlify.app`
+### Configuration Files
 
-### Option 3: GitHub Pages
+#### package.json
+- `homepage`: Set to your GitHub Pages URL
+- `predeploy`: Builds the project before deployment
+- `deploy`: Deploys to GitHub Pages using gh-pages
 
-**Pros:**
-- Free hosting from GitHub
-- Good for static sites
-- Easy to manage
+#### vite.config.js
+- `base`: Set to your repository name for proper asset paths
+- `build.outDir`: Output directory for build files
 
-**Steps:**
-1. Add to `package.json`:
-   ```json
-   {
-     "scripts": {
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d dist"
-     }
-   }
-   ```
+#### .github/workflows/deploy.yml
+- GitHub Actions workflow for automated deployment
+- Triggers on push to main/master branch
+- Uses peaceiris/actions-gh-pages for deployment
 
-2. Install gh-pages:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
+### Custom Domain (Optional)
 
-3. Deploy:
-   ```bash
-   npm run deploy
-   ```
+If you have a custom domain:
 
-4. Go to repository Settings > Pages
-5. Select source: "Deploy from a branch"
-6. Select branch: "gh-pages"
+1. Add your domain to the CNAME file in the gh-pages branch
+2. Update the GitHub Actions workflow with your domain
+3. Configure DNS settings for your domain
 
-**Result:** Your site will be live at `https://username.github.io/repository-name`
+### Troubleshooting
 
-## 📁 What Gets Deployed
+#### Common Issues
 
-The `dist/` folder contains:
-- `index.html` - Main HTML file
-- `assets/` - CSS and JavaScript files
-- All optimized assets for production
+1. **404 Errors**: Ensure the base path in vite.config.js matches your repository name
+2. **Asset Loading Issues**: Check that all assets use relative paths
+3. **Build Failures**: Verify all dependencies are properly installed
 
-## 🔄 Continuous Deployment
+#### Debugging
 
-### Vercel/Netlify
-- Every push to main branch automatically deploys
-- Preview deployments for pull requests
-- Easy rollback to previous versions
+1. Check GitHub Actions logs for build errors
+2. Verify repository settings for GitHub Pages
+3. Ensure the gh-pages branch is created and updated
 
-### GitHub Pages
-- Deploy manually with `npm run deploy`
-- Or set up GitHub Actions for automatic deployment
+### Local Development
 
-## 🧪 Post-Deployment Testing
+```bash
+# Install dependencies
+npm install
 
-After deployment, test:
-- [ ] All pages load correctly
-- [ ] Navigation works
-- [ ] Images load properly
-- [ ] Forms work (Contact page)
-- [ ] Mobile responsiveness
-- [ ] Performance (use Lighthouse)
+# Start development server
+npm run dev
 
-## 📊 Performance Optimization
+# Build for production
+npm run build
 
-The build process automatically:
-- Minifies CSS and JavaScript
-- Optimizes images
-- Creates efficient bundles
-- Enables gzip compression
+# Preview production build
+npm run preview
+```
 
-## 🚨 Common Issues & Solutions
+### Deployment Commands
 
-### Build Fails
-- Check Node.js version (use v18+)
-- Clear `node_modules` and reinstall
-- Verify all dependencies are installed
+```bash
+# Full deployment process
+npm run deploy
 
-### Styling Issues
-- Ensure Tailwind CSS is properly configured
-- Check PostCSS configuration
-- Verify CSS imports in `index.css`
+# Build only
+npm run build
 
-### Routing Issues
-- Ensure you're using `BrowserRouter` for client-side routing
-- Check for 404 errors on direct page access
-- Verify all routes are properly defined
+# Clean and rebuild
+rm -rf dist && npm run build
+```
 
-## 📞 Support
+### Repository Structure
 
-If you encounter issues:
-1. Check the browser console for errors
-2. Verify the build output in `dist/` folder
-3. Test locally first with `npm run dev`
-4. Check hosting platform logs
+```
+yevacure/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # GitHub Actions workflow
+├── src/                        # Source code
+├── dist/                       # Build output (generated)
+├── package.json               # Dependencies and scripts
+├── vite.config.js            # Vite configuration
+└── README.md                 # Project documentation
+```
 
-## 🎯 Next Steps
+### Support
 
-After successful deployment:
-1. Set up custom domain (if needed)
-2. Configure analytics (Google Analytics, etc.)
-3. Set up monitoring and error tracking
-4. Plan content updates and maintenance
-
----
-
-**Happy Deploying! 🚀**
-
-Your Yevacure website will be live and accessible to customers worldwide.
+For deployment issues:
+1. Check GitHub Actions logs
+2. Verify repository settings
+3. Review build output in the dist folder
+4. Ensure all environment variables are set correctly
