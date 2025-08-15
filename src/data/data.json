@@ -1,0 +1,515 @@
+{
+  "company": {
+    "name": "Yevacure Pharmaceutical Pvt Ltd",
+    "tagline": "Quality Pharmaceuticals Since 2020",
+    "description": "Your trusted partner in health and wellness, delivering science-backed solutions for skincare, haircare, body care, and pet care.",
+    "address": "SRC-24-B, Shipra Rivera, Indirapuram, Ghaziabad, UP 201014",
+    "email": "yevacurepharmaceutical123@gmail.com",
+    "phone": "+91-8047785182",
+    "facebook": "https://www.facebook.com/p/Yevacure-Pharmaceutical-pvtltd-100069694669312/",
+    "founded": "2020",
+    "certifications": [
+      "FDA Approved",
+      "ISO 9001:2015",
+      "GMP Compliant",
+      "Cruelty Free",
+      "Dermatologically Tested"
+    ]
+  },
+  "products": [
+    {
+      "id": "facewash",
+      "name": "Gentle Facewash",
+      "category": "face",
+      "subcategory": "cleanser",
+      "shortDescription": "Cleanses and refreshes your skin with gentle, effective formula.",
+      "longDescription": "Our Gentle Facewash is specially formulated for all skin types, including sensitive skin. It deeply cleanses, removes impurities, excess oil, and makeup while maintaining your skin's natural moisture balance. The gentle formula ensures no irritation or dryness, leaving your skin feeling fresh, clean, and hydrated.",
+      "features": [
+        "Suitable for all skin types including sensitive skin",
+        "Dermatologically tested and approved",
+        "No parabens, sulfates, or harsh chemicals",
+        "Maintains skin's natural pH balance",
+        "Gentle enough for daily use",
+        "Removes makeup and impurities effectively"
+      ],
+      "image": {
+        "original": "gentle-facewash.jpg",
+        "path": "/images/products/facewash.webp",
+        "alt": "Gentle Facewash - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Glycerin",
+        "Cocamidopropyl Betaine",
+        "Aloe Vera Extract",
+        "Vitamin E",
+        "Panthenol",
+        "Allantoin",
+        "Chamomile Extract"
+      ],
+      "usage": "Apply a small amount to wet face, massage gently in circular motions for 30 seconds, and rinse thoroughly with lukewarm water. Use twice daily - morning and evening for best results.",
+      "benefits": [
+        "Removes dirt, oil, and makeup effectively",
+        "Hydrates and moisturizes skin",
+        "Maintains natural pH balance",
+        "Prevents breakouts and acne",
+        "Suitable for daily use",
+        "Gentle on sensitive skin"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use and consult a dermatologist. Keep out of reach of children. Store in a cool, dry place.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Cruelty Free", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "YV-FW-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "regulatory": "Compliant with FDA guidelines for cosmetic products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "100ml tube with flip-top cap",
+      "price": "₹299",
+      "availability": "In Stock"
+    },
+    {
+      "id": "shampoo",
+      "name": "Herbal Shampoo",
+      "category": "hair",
+      "subcategory": "cleanser",
+      "shortDescription": "Nourishes and strengthens your hair with natural herbal extracts.",
+      "longDescription": "Our Herbal Shampoo is enriched with traditional Indian herbs and natural extracts that have been used for centuries to promote healthy hair growth. It deeply cleanses the scalp, removes dandruff, and strengthens hair roots while adding natural shine and volume. The gentle formula is suitable for all hair types and ages.",
+      "features": [
+        "Enriched with natural herbs and extracts",
+        "Reduces hair fall and promotes growth",
+        "No harsh chemicals or synthetic fragrances",
+        "Suitable for all hair types",
+        "Anti-dandruff properties",
+        "Natural shine and volume"
+      ],
+      "image": {
+        "original": "herbal-shampoo.jpg",
+        "path": "/images/products/shampoo.webp",
+        "alt": "Herbal Shampoo - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Aloe Vera Extract",
+        "Shikakai (Acacia Concinna)",
+        "Reetha (Sapindus Mukorossi)",
+        "Bhringraj (Eclipta Alba)",
+        "Amla (Emblica Officinalis)",
+        "Neem (Azadirachta Indica)",
+        "Coconut Oil"
+      ],
+      "usage": "Wet hair thoroughly with warm water, apply shampoo to scalp and hair, massage gently for 2-3 minutes, lather well, and rinse thoroughly. Repeat if necessary for very oily hair. Use 2-3 times per week for best results.",
+      "benefits": [
+        "Strengthens hair roots and reduces hair fall",
+        "Adds natural shine and luster",
+        "Reduces dandruff and scalp irritation",
+        "Promotes healthy hair growth",
+        "Natural cleansing without harsh chemicals",
+        "Improves hair texture and manageability"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use. Not suitable for children under 12 years without medical supervision.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Natural Ingredients", "Vegan Friendly"],
+      "compliance": {
+        "batchNumber": "YV-SH-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for hair care products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "200ml bottle with pump dispenser",
+      "price": "₹399",
+      "availability": "In Stock"
+    },
+    {
+      "id": "moisturizer",
+      "name": "Daily Moisturizer",
+      "category": "face",
+      "subcategory": "hydration",
+      "shortDescription": "Hydrates and softens your skin with long-lasting moisture.",
+      "longDescription": "Our Daily Moisturizer provides intense hydration that lasts throughout the day. The lightweight, non-greasy formula is quickly absorbed and creates a protective barrier that locks in moisture while allowing your skin to breathe. Perfect for daily use, it keeps your skin soft, supple, and healthy-looking.",
+      "features": [
+        "Long-lasting hydration up to 24 hours",
+        "Lightweight, non-greasy formula",
+        "Quick absorption",
+        "Suitable for all skin types",
+        "Non-comedogenic",
+        "Fragrance-free"
+      ],
+      "image": {
+        "original": "daily-moisturizer.jpg",
+        "path": "/images/products/moisturizer.webp",
+        "alt": "Daily Moisturizer - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Shea Butter",
+        "Glycerin",
+        "Jojoba Oil",
+        "Vitamin E",
+        "Hyaluronic Acid",
+        "Ceramides",
+        "Niacinamide"
+      ],
+      "usage": "Apply evenly to clean, dry face and neck after cleansing. Use morning and night for best results. Can be used under makeup as a primer. For extra hydration, apply while skin is slightly damp.",
+      "benefits": [
+        "Deep hydration that lasts all day",
+        "Softens and smooths skin texture",
+        "Non-greasy feel",
+        "Improves skin elasticity",
+        "Protects against environmental damage",
+        "Suitable for sensitive skin"
+      ],
+      "warnings": "For external use only. Discontinue if irritation occurs. Avoid contact with eyes. Not recommended for children under 12 years.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Hypoallergenic", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "YV-MO-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for cosmetic products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "50ml jar with screw-top lid",
+      "price": "₹449",
+      "availability": "In Stock"
+    },
+    {
+      "id": "body-lotion",
+      "name": "Soothing Body Lotion",
+      "category": "body",
+      "subcategory": "hydration",
+      "shortDescription": "Deeply nourishes and soothes dry, sensitive skin.",
+      "longDescription": "Our Soothing Body Lotion is specially formulated to provide intense hydration and comfort for dry, sensitive skin. The rich, creamy formula contains natural ingredients that soothe irritation, restore moisture, and leave your skin feeling soft and supple. Perfect for daily use after bath or shower.",
+      "features": [
+        "Intense hydration for dry skin",
+        "Non-greasy, fast-absorbing formula",
+        "Hypoallergenic and gentle",
+        "Suitable for sensitive skin",
+        "Long-lasting moisture",
+        "Natural ingredients"
+      ],
+      "image": {
+        "original": "soothing-body-lotion.jpg",
+        "path": "/images/products/body-lotion.webp",
+        "alt": "Soothing Body Lotion - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Shea Butter",
+        "Cocoa Butter",
+        "Glycerin",
+        "Vitamin E",
+        "Aloe Vera Extract",
+        "Oat Extract",
+        "Chamomile Extract"
+      ],
+      "usage": "Apply generously to clean, dry skin after bath or shower. Massage gently until fully absorbed. Can be used multiple times daily for very dry skin. Best applied to slightly damp skin for enhanced absorption.",
+      "benefits": [
+        "Soothes dry and irritated skin",
+        "Restores lost moisture",
+        "Hypoallergenic and safe",
+        "Improves skin texture",
+        "Long-lasting hydration",
+        "Gentle enough for daily use"
+      ],
+      "warnings": "For external use only. Keep out of reach of children. Avoid contact with eyes. Discontinue if irritation occurs.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Hypoallergenic", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "YV-BL-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for body care products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "250ml bottle with pump dispenser",
+      "price": "₹549",
+      "availability": "In Stock"
+    },
+    {
+      "id": "pet-shampoo",
+      "name": "Petcare Gentle Shampoo",
+      "category": "petcare",
+      "subcategory": "cleanser",
+      "shortDescription": "Cleans and cares for your pet's coat with gentle, safe formula.",
+      "longDescription": "A specially formulated gentle shampoo for pets that cleans and conditions fur while being safe for sensitive skin. The pH-balanced formula is designed specifically for animals and contains natural ingredients that soothe, moisturize, and protect your pet's skin and coat.",
+      "features": [
+        "Safe for all pets including puppies and kittens",
+        "No harsh chemicals or artificial fragrances",
+        "pH balanced for animal skin",
+        "Gentle on sensitive skin",
+        "Natural ingredients",
+        "Long-lasting fresh scent"
+      ],
+      "image": {
+        "original": "petcare-gentle-shampoo.jpg",
+        "path": "/images/products/pet-shampoo.webp",
+        "alt": "Petcare Gentle Shampoo - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Coconut Oil",
+        "Aloe Vera Extract",
+        "Oatmeal",
+        "Vitamin E",
+        "Chamomile Extract",
+        "Lavender Oil",
+        "Natural Glycerin"
+      ],
+      "usage": "Wet your pet's coat thoroughly with warm water, apply shampoo and work into a lather, massage gently for 2-3 minutes, avoid eyes and ears, rinse thoroughly until water runs clear. Use as needed, typically every 2-4 weeks.",
+      "benefits": [
+        "Cleans fur thoroughly without stripping natural oils",
+        "Conditions skin and reduces itching",
+        "Safe for sensitive pet skin",
+        "Natural flea and tick repellent properties",
+        "Improves coat shine and texture",
+        "Soothes skin irritations"
+      ],
+      "warnings": "For animal use only. Avoid contact with eyes and ears. If irritation occurs, discontinue use and consult a veterinarian. Keep out of reach of children.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Veterinary Approved", "Safe for Sensitive Skin"],
+      "compliance": {
+        "batchNumber": "YV-PS-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for animal care products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "500ml bottle with flip-top cap",
+      "price": "₹399",
+      "availability": "In Stock"
+    },
+    {
+      "id": "sunscreen",
+      "name": "SPF 50+ Sunscreen",
+      "category": "face",
+      "subcategory": "protection",
+      "shortDescription": "Protects your skin from harmful UV rays with broad spectrum protection.",
+      "longDescription": "A lightweight, non-greasy sunscreen with broad spectrum SPF 50+ protection for daily use. The advanced formula provides superior protection against both UVA and UVB rays while being comfortable enough to wear every day. Water-resistant and suitable for all skin types.",
+      "features": [
+        "Broad spectrum UVA/UVB protection",
+        "SPF 50+ high protection",
+        "Water resistant up to 80 minutes",
+        "Non-comedogenic and lightweight",
+        "Suitable for all skin types",
+        "Dermatologist recommended"
+      ],
+      "image": {
+        "original": "spf50-sunscreen.jpg",
+        "path": "/images/products/sunscreen.webp",
+        "alt": "SPF 50+ Sunscreen - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Zinc Oxide",
+        "Titanium Dioxide",
+        "Aloe Vera Extract",
+        "Vitamin E",
+        "Glycerin",
+        "Niacinamide",
+        "Hyaluronic Acid"
+      ],
+      "usage": "Apply liberally 15 minutes before sun exposure. Reapply every 2 hours, especially after swimming, sweating, or towel drying. Use on all exposed skin areas. Can be worn under makeup.",
+      "benefits": [
+        "Protects from UVA and UVB radiation",
+        "Prevents sunburn and skin damage",
+        "Non-greasy and comfortable",
+        "Water resistant for outdoor activities",
+        "Anti-aging protection",
+        "Suitable for daily use"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Not recommended for children under 6 months. Reapply frequently for maximum protection.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Broad Spectrum SPF 50+", "Water Resistant"],
+      "compliance": {
+        "batchNumber": "YV-SS-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for sunscreen products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "100ml tube with flip-top cap",
+      "price": "₹599",
+      "availability": "In Stock"
+    },
+    {
+      "id": "hair-serum",
+      "name": "Repair Hair Serum",
+      "category": "hair",
+      "subcategory": "treatment",
+      "shortDescription": "Repairs and adds shine to damaged hair with nourishing formula.",
+      "longDescription": "A nourishing serum that repairs split ends, restores shine, and protects hair from damage. The lightweight formula penetrates deep into the hair shaft to repair damage from heat styling, chemical treatments, and environmental factors. Leaves hair soft, smooth, and manageable.",
+      "features": [
+        "Repairs split ends and damage",
+        "Adds shine and luster",
+        "Lightweight, non-greasy formula",
+        "Heat protection up to 450°F",
+        "Suitable for all hair types",
+        "Long-lasting effects"
+      ],
+      "image": {
+        "original": "repair-hair-serum.jpg",
+        "path": "/images/products/hair-serum.webp",
+        "alt": "Repair Hair Serum - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Cyclopentasiloxane",
+        "Dimethiconol",
+        "Argan Oil",
+        "Vitamin E",
+        "Jojoba Oil",
+        "Keratin",
+        "Biotin",
+        "Silk Proteins"
+      ],
+      "usage": "Apply a few drops to damp or dry hair, focusing on mid-lengths and ends. Can be used before heat styling for protection or after styling for shine. Use daily for best results. Avoid applying to scalp.",
+      "benefits": [
+        "Repairs heat and chemical damage",
+        "Adds natural shine and luster",
+        "Reduces frizz and flyaways",
+        "Protects from heat styling",
+        "Improves hair manageability",
+        "Long-lasting smoothness"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Not recommended for children under 12 years. Discontinue if irritation occurs.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Dermatologically Tested", "Sulfate Free"],
+      "compliance": {
+        "batchNumber": "YV-HS-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for hair care products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "100ml bottle with dropper",
+      "price": "₹699",
+      "availability": "In Stock"
+    },
+    {
+      "id": "pet-balm",
+      "name": "Petcare Paw Balm",
+      "category": "petcare",
+      "subcategory": "treatment",
+      "shortDescription": "Soothes and protects your pet's paws from dryness and cracking.",
+      "longDescription": "A natural balm to soothe, moisturize, and protect your pet's paws from dryness, cracking, and rough surfaces. The safe, natural ingredients provide healing and protection while being safe if accidentally licked. Perfect for pets with sensitive paws or those who walk on rough surfaces.",
+      "features": [
+        "Natural ingredients safe for pets",
+        "Safe if accidentally licked",
+        "Heals cracks and dryness",
+        "Protects from rough surfaces",
+        "Long-lasting protection",
+        "Non-toxic formula"
+      ],
+      "image": {
+        "original": "petcare-paw-balm.jpg",
+        "path": "/images/products/pet-balm.webp",
+        "alt": "Petcare Paw Balm - Yevacure Pharmaceutical"
+      },
+      "ingredients": ["Shea Butter", "Coconut Oil", "Beeswax", "Vitamin E", "Lavender Oil", "Tea Tree Oil", "Aloe Vera Extract"],
+      "usage": "Apply a small amount to clean, dry paws and massage gently. Best applied before walks or outdoor activities. Can be used 2-3 times daily for severely dry paws. Allow to absorb before letting pet walk on floors.",
+      "benefits": [
+        "Heals cracked and dry paw pads",
+        "Moisturizes and softens paws",
+        "Safe for pets to lick",
+        "Protects from rough surfaces",
+        "Natural healing properties",
+        "Long-lasting protection"
+      ],
+      "warnings": "For animal use only. Safe if licked, but supervise use. Not recommended for pets with open wounds. Consult veterinarian if irritation occurs.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Veterinary Approved", "Natural Ingredients"],
+      "compliance": {
+        "batchNumber": "YV-PB-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for animal care products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "50ml tin with screw-top lid",
+      "price": "₹299",
+      "availability": "In Stock"
+    },
+    {
+      "id": "body-wash",
+      "name": "Refreshing Body Wash",
+      "category": "body",
+      "subcategory": "cleanser",
+      "shortDescription": "Cleanses and revitalizes your skin with gentle, refreshing formula.",
+      "longDescription": "A gentle body wash that cleanses and revitalizes your skin, leaving it soft and refreshed. The mild formula is suitable for all skin types and provides a luxurious lather that removes dirt and impurities without stripping natural oils. The refreshing scent energizes your senses.",
+      "features": [
+        "Gentle cleansing for all skin types",
+        "Refreshing, energizing scent",
+        "Suitable for daily use",
+        "Luxurious lather",
+        "Non-drying formula",
+        "pH balanced"
+      ],
+      "image": {
+        "original": "refreshing-body-wash.jpg",
+        "path": "/images/products/body-wash.webp",
+        "alt": "Refreshing Body Wash - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aqua (Water)",
+        "Cocamidopropyl Betaine",
+        "Aloe Vera Extract",
+        "Glycerin",
+        "Coconut Oil",
+        "Vitamin E",
+        "Natural Fragrance",
+        "Chamomile Extract"
+      ],
+      "usage": "Apply to wet skin, lather well, and rinse thoroughly. Can be used daily. Best used with warm water for enhanced cleansing. Follow with moisturizer for best results.",
+      "benefits": [
+        "Cleanses gently without irritation",
+        "Revitalizes and energizes skin",
+        "Leaves skin soft and smooth",
+        "Refreshing scent",
+        "Suitable for sensitive skin",
+        "Maintains skin's natural moisture"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Keep out of reach of children.",
+      "manufacturer": "Yevacure Labs Pvt. Ltd.",
+      "certifications": ["FDA Approved", "ISO 9001", "Dermatologically Tested", "Sulfate Free"],
+      "compliance": {
+        "batchNumber": "YV-BW-2024-001",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with FDA guidelines for body care products",
+        "shelfLife": "3 years"
+      },
+      "packaging": "300ml bottle with pump dispenser",
+      "price": "₹349",
+      "availability": "In Stock"
+    }
+  ],
+  "categories": [
+    {
+      "id": "face",
+      "name": "Face Care",
+      "description": "Professional skincare products for all skin types",
+      "products": ["facewash", "moisturizer", "sunscreen"]
+    },
+    {
+      "id": "hair",
+      "name": "Hair Care",
+      "description": "Natural hair care solutions for healthy, beautiful hair",
+      "products": ["shampoo", "hair-serum"]
+    },
+    {
+      "id": "body",
+      "name": "Body Care",
+      "description": "Nourishing body care products for soft, healthy skin",
+      "products": ["body-lotion", "body-wash"]
+    },
+    {
+      "id": "petcare",
+      "name": "Pet Care",
+      "description": "Safe and effective care products for your beloved pets",
+      "products": ["pet-shampoo", "pet-balm"]
+    }
+  ]
+}
