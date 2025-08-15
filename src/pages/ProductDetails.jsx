@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import products from "../data/products";
+import ProductSchema from '../components/ProductSchema';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -350,6 +351,8 @@ function ProductDetails() {
           </div>
         </motion.div>
       </div>
+      {/* Add Product Schema for SEO */}
+      <ProductSchema product={product} />
     </div>
   );
 }

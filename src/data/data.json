@@ -2,7 +2,8 @@
   "company": {
     "name": "Yevacure Pharmaceutical Pvt Ltd",
     "tagline": "Quality Pharmaceuticals Since 2020",
-    "description": "Your trusted partner in health and wellness, delivering science-backed solutions for skincare, haircare, body care, and pet care.",
+    "description": "Yevacure Pharmaceutical Pvt Ltd is a leading pharmaceutical company based in Ghaziabad, UP, India. We specialize in manufacturing high-quality skincare, haircare, body care, and pet care products. Our FDA-approved, ISO-certified products are dermatologically tested and cruelty-free, ensuring the highest standards of quality and safety.",
+    "longDescription": "Founded in 2020, Yevacure Pharmaceutical Pvt Ltd has established itself as a trusted name in the pharmaceutical industry. We are committed to delivering science-backed solutions that promote health and wellness. Our product range includes gentle facewashes, herbal shampoos, moisturizers, body lotions, sunscreens, hair serums, body washes, and specialized pet care products. All our products are manufactured in GMP-compliant facilities and undergo rigorous quality testing.",
     "address": "SRC-24-B, Shipra Rivera, Indirapuram, Ghaziabad, UP 201014",
     "email": "yevacurepharmaceutical123@gmail.com",
     "phone": "+91-8047785182",
@@ -14,6 +15,18 @@
       "GMP Compliant",
       "Cruelty Free",
       "Dermatologically Tested"
+    ],
+    "seoKeywords": [
+      "pharmaceuticals Ghaziabad",
+      "skincare products UP",
+      "haircare products India",
+      "pet care products",
+      "FDA approved cosmetics",
+      "ISO certified pharmaceuticals",
+      "dermatologically tested products",
+      "cruelty free cosmetics",
+      "GMP compliant manufacturing",
+      "natural skincare products"
     ]
   },
   "products": [

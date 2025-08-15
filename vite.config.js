@@ -11,8 +11,15 @@ export default defineConfig({
     sourcemap: false,
     rollupOptions: {
       output: {
-        manualChunks: undefined,
-      },
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom']
+        }
+      }
     },
+    chunkSizeWarningLimit: 1000
   },
+  server: {
+    port: 3000
+  }
 })
