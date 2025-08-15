@@ -24,7 +24,7 @@ function App() {
         <div className="nav-content">
           <div className="logo" onClick={() => navigate("/")}>
             <img 
-              src="/src/assets/yevacure.png" 
+              src="/yc-web/yevacure-removebg-preview.jpg" 
               alt="Yevacure Logo" 
               className="logo-image"
             />

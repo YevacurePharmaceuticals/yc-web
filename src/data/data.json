@@ -34,7 +34,7 @@
       ],
       "image": {
         "original": "gentle-facewash.jpg",
-        "path": "/images/products/facewash.webp",
+        "path": "/yc-web/images/products/facewash.webp",
         "alt": "Gentle Facewash - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -87,7 +87,7 @@
       ],
       "image": {
         "original": "herbal-shampoo.jpg",
-        "path": "/images/products/shampoo.webp",
+        "path": "/yc-web/images/products/shampoo.webp",
         "alt": "Herbal Shampoo - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -140,7 +140,7 @@
       ],
       "image": {
         "original": "daily-moisturizer.jpg",
-        "path": "/images/products/moisturizer.webp",
+        "path": "/yc-web/images/products/moisturizer.webp",
         "alt": "Daily Moisturizer - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -193,7 +193,7 @@
       ],
       "image": {
         "original": "soothing-body-lotion.jpg",
-        "path": "/images/products/body-lotion.webp",
+        "path": "/yc-web/images/products/body-lotion.webp",
         "alt": "Soothing Body Lotion - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -246,7 +246,7 @@
       ],
       "image": {
         "original": "petcare-gentle-shampoo.jpg",
-        "path": "/images/products/pet-shampoo.webp",
+        "path": "/yc-web/images/products/pet-shampoo.webp",
         "alt": "Petcare Gentle Shampoo - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -299,7 +299,7 @@
       ],
       "image": {
         "original": "spf50-sunscreen.jpg",
-        "path": "/images/products/sunscreen.webp",
+        "path": "/yc-web/images/products/sunscreen.webp",
         "alt": "SPF 50+ Sunscreen - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -352,7 +352,7 @@
       ],
       "image": {
         "original": "repair-hair-serum.jpg",
-        "path": "/images/products/hair-serum.webp",
+        "path": "/yc-web/images/products/hair-serum.webp",
         "alt": "Repair Hair Serum - Yevacure Pharmaceutical"
       },
       "ingredients": [
@@ -405,7 +405,7 @@
       ],
       "image": {
         "original": "petcare-paw-balm.jpg",
-        "path": "/images/products/pet-balm.webp",
+        "path": "/yc-web/images/products/pet-balm.webp",
         "alt": "Petcare Paw Balm - Yevacure Pharmaceutical"
       },
       "ingredients": ["Shea Butter", "Coconut Oil", "Beeswax", "Vitamin E", "Lavender Oil", "Tea Tree Oil", "Aloe Vera Extract"],
@@ -449,7 +449,7 @@
       ],
       "image": {
         "original": "refreshing-body-wash.jpg",
-        "path": "/images/products/body-wash.webp",
+        "path": "/yc-web/images/products/body-wash.webp",
         "alt": "Refreshing Body Wash - Yevacure Pharmaceutical"
       },
       "ingredients": [
