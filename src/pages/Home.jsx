@@ -164,11 +164,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Theme Toggle */}
-      <div className="theme-toggle-container">
-        <ThemeToggle />
-      </div>
-
       {/* Hero Section */}
       <motion.section 
         className="hero"

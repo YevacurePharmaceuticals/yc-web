@@ -18,8 +18,8 @@
   --bg-tertiary: #f3f4f6;
 }
 
-/* Dark Mode Variables */
-.dark {
+/* Dark Mode Variables - Updated to use .dark-mode class */
+.dark-mode {
   --card-bg: #1f2937;
   --card-bg-hover: #374151;
   --border-color: #374151;

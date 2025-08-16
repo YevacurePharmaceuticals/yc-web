@@ -88,11 +88,11 @@ html {
   background: rgba(156, 163, 175, 0.7);
 }
 
-/* Dark mode scrollbar */
-.dark ::-webkit-scrollbar-thumb {
+/* Dark mode scrollbar - Updated to use .dark-mode class */
+.dark-mode ::-webkit-scrollbar-thumb {
   background: rgba(75, 85, 99, 0.5);
 }
 
-.dark ::-webkit-scrollbar-thumb:hover {
+.dark-mode ::-webkit-scrollbar-thumb:hover {
   background: rgba(75, 85, 99, 0.7);
 }
