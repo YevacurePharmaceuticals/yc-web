@@ -98,9 +98,7 @@ function App() {
             <div className="footer-section">
               <h4>Certifications</h4>
               <ul>
-                <li>✓ FDA Approved</li>
                 <li>✓ ISO 9001:2015</li>
-                <li>✓ GMP Compliant</li>
                 <li>✓ Cruelty Free</li>
                 <li>✓ Dermatologically Tested</li>
               </ul>

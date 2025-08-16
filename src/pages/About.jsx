@@ -181,11 +181,8 @@ function About() {
               <div className="bg-purple-50 p-6 rounded-xl">
                 <h3 className="text-xl font-semibold text-purple-900 mb-4">Certifications</h3>
                 <div className="space-y-2 text-purple-800">
-                  <p>✓ FDA Approved Products</p>
                   <p>✓ ISO 9001:2015 Certified</p>
-                  <p>✓ GMP Compliant</p>
                   <p>✓ Cruelty Free</p>
-                  <p>✓ Dermatologically Tested</p>
                 </div>
               </div>
               <div className="bg-orange-50 p-6 rounded-xl">

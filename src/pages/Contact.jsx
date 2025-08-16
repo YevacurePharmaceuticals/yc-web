@@ -268,7 +268,6 @@ function Contact() {
             <motion.div variants={itemVariants} className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl shadow-lg p-8 text-white text-center">
               <h3 className="text-2xl font-bold mb-4">Why Choose Yevacure?</h3>
               <div className="grid grid-cols-2 gap-4 text-sm">
-                <div>✅ FDA Approved</div>
                 <div>🔬 Clinically Tested</div>
                 <div>🌿 Natural Ingredients</div>
                 <div>🛡️ Quality Assured</div>

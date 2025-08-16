@@ -7,7 +7,7 @@ A modern, responsive website for Yevacure Pharmaceutical Pvt Ltd, showcasing the
 - **Modern Design**: Built with React 19, Tailwind CSS, and Framer Motion
 - **Responsive Layout**: Mobile-first design that works on all devices
 - **Enhanced UX**: Smooth animations, lazy-loaded images, and interactive elements
-- **Compliance Focus**: FDA approvals, certifications, and safety information
+- **Compliance Focus**: ISO approvals, certifications, and safety information
 - **Performance Optimized**: Lazy loading, debounced search, and optimized images
 - **Accessibility**: WCAG compliant with semantic HTML and ARIA labels
 

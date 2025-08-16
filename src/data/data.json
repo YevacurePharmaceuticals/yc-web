@@ -2,7 +2,7 @@
   "company": {
     "name": "Yevacure Pharmaceutical Pvt Ltd",
     "tagline": "Quality Pharmaceuticals Since 2020",
-    "description": "Yevacure Pharmaceutical Pvt Ltd is a leading pharmaceutical company based in Ghaziabad, UP, India. We specialize in manufacturing high-quality skincare, haircare, body care, and pet care products. Our FDA-approved, ISO-certified products are dermatologically tested and cruelty-free, ensuring the highest standards of quality and safety.",
+    "description": "Yevacure Pharmaceutical Pvt Ltd is a leading pharmaceutical company based in Ghaziabad, UP, India. We specialize in manufacturing high-quality skincare, haircare, body care, and pet care products. Our  ISO-certified products are dermatologically tested and cruelty-free, ensuring the highest standards of quality and safety.",
     "longDescription": "Founded in 2020, Yevacure Pharmaceutical Pvt Ltd has established itself as a trusted name in the pharmaceutical industry. We are committed to delivering science-backed solutions that promote health and wellness. Our product range includes gentle facewashes, herbal shampoos, moisturizers, body lotions, sunscreens, hair serums, body washes, and specialized pet care products. All our products are manufactured in GMP-compliant facilities and undergo rigorous quality testing.",
     "address": "SRC-24-B, Shipra Rivera, Indirapuram, Ghaziabad, UP 201014",
     "email": "yevacurepharmaceutical123@gmail.com",
@@ -10,7 +10,7 @@
     "facebook": "https://www.facebook.com/p/Yevacure-Pharmaceutical-pvtltd-100069694669312/",
     "founded": "2020",
     "certifications": [
-      "FDA Approved",
+      
       "ISO 9001:2015",
       "GMP Compliant",
       "Cruelty Free",
@@ -21,7 +21,6 @@
       "skincare products UP",
       "haircare products India",
       "pet care products",
-      "FDA approved cosmetics",
       "ISO certified pharmaceuticals",
       "dermatologically tested products",
       "cruelty free cosmetics",
@@ -71,12 +70,12 @@
       ],
       "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use and consult a dermatologist. Keep out of reach of children. Store in a cool, dry place.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Cruelty Free", "Dermatologically Tested"],
+      "certifications": [ "ISO 9001", "Cruelty Free", "Dermatologically Tested"],
       "compliance": {
         "batchNumber": "YV-FW-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place away from direct sunlight",
-        "regulatory": "Compliant with FDA guidelines for cosmetic products",
+        "regulatory": "Compliant with ISO guidelines for cosmetic products",
         "shelfLife": "3 years"
       },
       "packaging": "100ml tube with flip-top cap",
@@ -124,12 +123,12 @@
       ],
       "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use. Not suitable for children under 12 years without medical supervision.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Natural Ingredients", "Vegan Friendly"],
+      "certifications": [ "ISO 9001", "Natural Ingredients", "Vegan Friendly"],
       "compliance": {
         "batchNumber": "YV-SH-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for hair care products",
+        "regulatory": "Compliant with ISO guidelines for hair care products",
         "shelfLife": "3 years"
       },
       "packaging": "200ml bottle with pump dispenser",
@@ -177,12 +176,12 @@
       ],
       "warnings": "For external use only. Discontinue if irritation occurs. Avoid contact with eyes. Not recommended for children under 12 years.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Hypoallergenic", "Dermatologically Tested"],
+      "certifications": [ "ISO 9001", "Hypoallergenic", "Dermatologically Tested"],
       "compliance": {
         "batchNumber": "YV-MO-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for cosmetic products",
+        "regulatory": "Compliant with ISO guidelines for cosmetic products",
         "shelfLife": "3 years"
       },
       "packaging": "50ml jar with screw-top lid",
@@ -230,12 +229,12 @@
       ],
       "warnings": "For external use only. Keep out of reach of children. Avoid contact with eyes. Discontinue if irritation occurs.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Hypoallergenic", "Dermatologically Tested"],
+      "certifications": [ "ISO 9001", "Hypoallergenic", "Dermatologically Tested"],
       "compliance": {
         "batchNumber": "YV-BL-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for body care products",
+        "regulatory": "Compliant with ISO guidelines for body care products",
         "shelfLife": "3 years"
       },
       "packaging": "250ml bottle with pump dispenser",
@@ -283,12 +282,12 @@
       ],
       "warnings": "For animal use only. Avoid contact with eyes and ears. If irritation occurs, discontinue use and consult a veterinarian. Keep out of reach of children.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Veterinary Approved", "Safe for Sensitive Skin"],
+      "certifications": [ "ISO 9001", "Veterinary Approved", "Safe for Sensitive Skin"],
       "compliance": {
         "batchNumber": "YV-PS-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for animal care products",
+        "regulatory": "Compliant with ISO guidelines for animal care products",
         "shelfLife": "3 years"
       },
       "packaging": "500ml bottle with flip-top cap",
@@ -336,12 +335,12 @@
       ],
       "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Not recommended for children under 6 months. Reapply frequently for maximum protection.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Broad Spectrum SPF 50+", "Water Resistant"],
+      "certifications": [ "ISO 9001", "Broad Spectrum SPF 50+", "Water Resistant"],
       "compliance": {
         "batchNumber": "YV-SS-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for sunscreen products",
+        "regulatory": "Compliant with ISO guidelines for sunscreen products",
         "shelfLife": "3 years"
       },
       "packaging": "100ml tube with flip-top cap",
@@ -389,12 +388,12 @@
       ],
       "warnings": "For external use only. Avoid contact with eyes. Not recommended for children under 12 years. Discontinue if irritation occurs.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Dermatologically Tested", "Sulfate Free"],
+      "certifications": [ "ISO 9001", "Dermatologically Tested", "Sulfate Free"],
       "compliance": {
         "batchNumber": "YV-HS-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for hair care products",
+        "regulatory": "Compliant with ISO guidelines for hair care products",
         "shelfLife": "3 years"
       },
       "packaging": "100ml bottle with dropper",
@@ -433,12 +432,12 @@
       ],
       "warnings": "For animal use only. Safe if licked, but supervise use. Not recommended for pets with open wounds. Consult veterinarian if irritation occurs.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Veterinary Approved", "Natural Ingredients"],
+      "certifications": [ "ISO 9001", "Veterinary Approved", "Natural Ingredients"],
       "compliance": {
         "batchNumber": "YV-PB-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for animal care products",
+        "regulatory": "Compliant with ISO guidelines for animal care products",
         "shelfLife": "3 years"
       },
       "packaging": "50ml tin with screw-top lid",
@@ -486,12 +485,12 @@
       ],
       "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Keep out of reach of children.",
       "manufacturer": "Yevacure Labs Pvt. Ltd.",
-      "certifications": ["FDA Approved", "ISO 9001", "Dermatologically Tested", "Sulfate Free"],
+      "certifications": [ "ISO 9001", "Dermatologically Tested", "Sulfate Free"],
       "compliance": {
         "batchNumber": "YV-BW-2024-001",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with FDA guidelines for body care products",
+        "regulatory": "Compliant with ISO guidelines for body care products",
         "shelfLife": "3 years"
       },
       "packaging": "300ml bottle with pump dispenser",

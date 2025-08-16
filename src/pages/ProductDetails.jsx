@@ -338,7 +338,6 @@ function ProductDetails() {
           <h3 className="text-2xl font-bold mb-6">Why Trust This Product?</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { icon: "✅", text: "FDA Approved" },
               { icon: "🔬", text: "Clinically Tested" },
               { icon: "🌿", text: "Natural Ingredients" },
               { icon: "🛡️", text: "Quality Assured" }

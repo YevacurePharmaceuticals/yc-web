@@ -243,7 +243,6 @@ function Products() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { icon: "✅", text: "FDA Approved" },
               { icon: "🔬", text: "Clinically Tested" },
               { icon: "🌿", text: "Natural Ingredients" },
               { icon: "🛡️", text: "Quality Assured" }
