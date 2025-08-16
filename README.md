@@ -1,4 +1,4 @@
-# Yevacure Pharmaceutical Website 
+# Yevacure 
 
 A modern, responsive website for Yevacure Pharmaceutical Pvt Ltd, showcasing their pharmaceutical and personal care products with enhanced UI/UX, animations, and compliance-focused features.
 
