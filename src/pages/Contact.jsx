@@ -191,8 +191,7 @@ function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-900">Address</h4>
                     <p className="text-gray-600">
-                      SRC-24-B, Shipra Rivera, Indirapuram,<br />
-                      Ghaziabad, UP 201014, India
+                      SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
                     </p>
                   </div>
                 </div>
@@ -202,10 +201,10 @@ function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <a 
-                      href="mailto:yevacurepharmaceutical123@gmail.com"
+                      href="mailto:yevacurepharmaceuticals@gmail.com"
                       className="text-blue-600 hover:text-blue-700 transition-colors"
                     >
-                      yevacurepharmaceutical123@gmail.com
+                      yevacurepharmaceuticals@gmail.com
                     </a>
                   </div>
                 </div>
@@ -291,10 +290,10 @@ function Contact() {
                 <div className="text-4xl mb-4">🗺️</div>
                 <p className="text-gray-600">
                   Google Maps integration would go here.<br />
-                  Address: SRC-24-B, Shipra Rivera, Indirapuram, Ghaziabad, UP 201014
+                  Address: SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
                 </p>
                 <a 
-                  href="https://maps.google.com/?q=SRC-24-B,Shipra+Rivera,Indirapuram,Ghaziabad,UP+201014"
+                  href="https://maps.google.com/?q=SHOP+NO+UG+15+HRC+SHOPPING+COMPLEX+UPPER+GROUND+FLOOR+GH+PLOT+NO+1%2F2+VAIBHAV+KHAND+INDIRAPURAM+GHAZIABAD+Uttar+Pradesh+201014+India"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200"

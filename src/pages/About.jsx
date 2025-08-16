@@ -163,9 +163,9 @@ function About() {
               <div className="bg-blue-50 p-6 rounded-xl">
                 <h3 className="text-xl font-semibold text-blue-900 mb-4">Contact Details</h3>
                 <div className="space-y-3 text-blue-800">
-                  <p><strong>Email:</strong> yevacurepharmaceutical123@gmail.com</p>
-                  <p><strong>Phone:</strong> +91-8047785182</p>
-                  <p><strong>Address:</strong> SRC-24-B, Shipra Rivera, Indirapuram, Ghaziabad, UP 201014</p>
+                  <p><strong>Email:</strong> yevacurepharmaceuticals@gmail.com</p>
+                  <p><strong>Phone:</strong> +91-9871285873</p>
+                  <p><strong>Address:</strong> SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India</p>
                 </div>
               </div>
               <div className="bg-green-50 p-6 rounded-xl">

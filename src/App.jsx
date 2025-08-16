@@ -88,7 +88,7 @@ function App() {
       
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="/" element={<Navigate to="/about" replace />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
@@ -108,7 +108,7 @@ function App() {
                 delivering science-backed solutions for skincare, haircare, body care, and pet care.
               </p>
               <div className="contact-details">
-                <p><strong>Address:</strong> SRC-24-B, Shipra Rivera, Indirapuram, Ghaziabad, UP 201014</p>
+                <p><strong>Address:</strong> SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India</p>
                 <p><strong>Email:</strong> yevacurepharmaceuticals@gmail.com</p>
                 <p><strong>Phone:</strong> +91-9871285873</p>
               </div>
