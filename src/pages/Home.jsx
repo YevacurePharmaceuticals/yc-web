@@ -27,10 +27,6 @@ const testimonials = [
 ];
 const certifications = [
   {
-    name: "FDA Approved",
-    image: "https://media.istockphoto.com/id/1369753139/vector/food-and-drug-administration-symbol-icon.jpg?s=612x612&w=0&k=20&c=q0utLZz4cKuPsL3Xa_1K62-N-ZGiw_NOqNUn14kLv9o=",
-  },
-  {
     name: "ISO 9001",
     image:
       "https://www.legalraasta.com/blog/wp-content/uploads/2018/11/iso_org.jpg",
