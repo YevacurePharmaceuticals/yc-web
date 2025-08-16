@@ -1,12 +1,13 @@
-import { Routes, Route, Link, useNavigate, useLocation } from "react-router-dom";
+import { Routes, Route, Link, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion"; // For animations
-import { FiMenu, FiX } from "react-icons/fi"; // Icons
-import Home from "./pages/Home";
+import { FiMenu, FiX, FiInfo, FiPackage, FiMail, FiHome } from "react-icons/fi"; // Icons
+import Home from "./pages/Home";  
 import About from "./pages/About";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import ProductDetails from "./pages/ProductDetails";
+import ThemeToggle from "./components/ThemeToggle";
 import "./App.css";
 
 function App() {
@@ -22,23 +23,39 @@ function App() {
     <div className="app-container">
       <nav>
         <div className="nav-content">
-          <div className="logo" onClick={() => navigate("/")}>
+          <div className="logo" onClick={() => navigate("/home")}>
             <img 
-              src="/yevacure-removebg-preview.jpg" 
+              src="/yevacure.jpg" 
               alt="Yevacure Logo" 
               className="logo-image"
             />
             <span className="logo-text">Yevacure</span>
           </div>
           <div className="nav-links">
-            <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>About</Link>
-            <Link to="/products" className={location.pathname === "/products" ? "active" : ""}>Products</Link>
-            <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact</Link>
+            <Link to="/home" className={location.pathname === "/home" ? "active" : ""}>
+              <FiHome className="nav-icon" />
+              Home
+            </Link>
+            <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>
+              <FiInfo className="nav-icon" />
+              About
+            </Link>
+            <Link to="/products" className={location.pathname === "/products" ? "active" : ""}>
+              <FiPackage className="nav-icon" />
+              Products
+            </Link>
+            <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>
+              <FiMail className="nav-icon" />
+              Contact
+            </Link>
           </div>
-          <div className="mobile-menu-toggle">
-            <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
-              {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
-            </button>
+          <div className="nav-actions">
+            <ThemeToggle />
+            <div className="mobile-menu-toggle">
+              <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
+                {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+              </button>
+            </div>
           </div>
         </div>
       </nav>
@@ -50,15 +67,29 @@ function App() {
           exit={{ opacity: 0, y: -20 }}
           className="mobile-menu"
         >
-          <Link to="/about">About</Link>
-          <Link to="/products">Products</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/home">
+            <FiHome className="nav-icon" />
+            Home
+          </Link>
+          <Link to="/about">
+            <FiInfo className="nav-icon" />
+            About
+          </Link>
+          <Link to="/products">
+            <FiPackage className="nav-icon" />
+            Products
+          </Link>
+          <Link to="/contact">
+            <FiMail className="nav-icon" />
+            Contact
+          </Link>
         </motion.div>
       )}
       
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
