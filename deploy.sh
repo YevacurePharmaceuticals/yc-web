@@ -42,5 +42,5 @@ echo "🚀 Deploying to GitHub Pages..."
 npm run deploy
 
 echo "✅ Deployment completed successfully!"
-echo "🌐 Your site should be available at: https://YevacurePharmaceuticals.github.io/yc-web"
+echo "🌐 Your site should be available at: https://www.yevacure.com/"
 echo "⏳ It may take a few minutes for changes to appear."
