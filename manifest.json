@@ -1,0 +1,21 @@
+{
+  "name": "Yevacure Pharmaceutical Pvt Ltd",
+  "short_name": "Yevacure",
+  "description": "Quality pharmaceuticals since 2020. Your trusted partner in health and wellness.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#22c55e",
+  "icons": [
+    {
+      "src": "/yevacure.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/yevacure.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
