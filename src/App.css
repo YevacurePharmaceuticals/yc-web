@@ -11,7 +11,7 @@
   --brand-blue-pale: #dbeafe;   /* Very light blue for backgrounds */
   
   /* Background Colors */
-  --bg-primary: #ffffff;
+  --bg-primary: #f8f4f4;
   --bg-secondary: #f8fafc;
   --bg-tertiary: #f1f5f9;
   --bg-gradient-1: linear-gradient(135deg, var(--brand-green-pale) 0%, var(--brand-blue-pale) 100%);
@@ -103,10 +103,10 @@ nav {
 
 .logo-image {
   height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  padding: 16px;
-  background: white;
+  width: 180px;
+  border-radius: 5%;
+  padding: 8px;
+  background: rgba(217, 217, 235, 0.158);
 }
 
 .logo:hover .logo-image {
@@ -307,7 +307,7 @@ footer {
   
   .logo-image {
     height: 70px;
-    width: 70px;
+    width: 110px;
     padding: 8px;
   }
   
@@ -337,7 +337,7 @@ footer {
   
   .logo-image {
     height: 70px;
-    width: 70px;
+    width: 110px;
     padding: 8px;
   }
   
