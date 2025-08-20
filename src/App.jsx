@@ -25,7 +25,7 @@ function App() {
         <div className="nav-content">
           <div className="logo" onClick={() => navigate("/home")}>
             <img 
-              src="/yevacure.jpg" 
+              src="/yc-logo.webp" 
               alt="Yevacure Logo" 
               className="logo-image"
             />

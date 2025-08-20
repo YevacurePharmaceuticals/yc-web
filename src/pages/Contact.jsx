@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTheme } from "../context/ThemeContext";
+import "./Contact.css";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -23,6 +25,7 @@ const itemVariants = {
 };
 
 function Contact() {
+  const { isDarkMode } = useTheme();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -47,44 +50,44 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4 md:px-8 lg:px-12">
-      <div className="max-w-7xl mx-auto">
+    <div className={`contact-container ${isDarkMode ? 'dark' : 'light'}`}>
+      <div className="contact-wrapper">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="contact-header"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="contact-title">
             Contact Us
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="contact-subtitle">
             Get in touch with our team. We're here to help with any questions about our products, 
             orders, or general inquiries.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="contact-content">
           {/* Contact Form */}
           <motion.div
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="bg-white rounded-2xl shadow-lg p-8"
+            className="contact-form-card"
           >
             <motion.h2 
               variants={itemVariants}
-              className="text-2xl font-bold text-gray-900 mb-6"
+              className="form-title"
             >
               Send us a Message
             </motion.h2>
             
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+            <form onSubmit={handleSubmit} className="contact-form">
+              <motion.div variants={itemVariants} className="form-row">
+                <div className="form-field">
+                  <label htmlFor="name" className="form-label">
                     Full Name *
                   </label>
                   <input
@@ -94,12 +97,12 @@ function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                    className="form-input"
                     placeholder="Enter your full name"
                   />
                 </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                <div className="form-field">
+                  <label htmlFor="email" className="form-label">
                     Email Address *
                   </label>
                   <input
@@ -109,15 +112,15 @@ function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                    className="form-input"
                     placeholder="Enter your email"
                   />
                 </div>
               </motion.div>
 
-              <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+              <motion.div variants={itemVariants} className="form-row">
+                <div className="form-field">
+                  <label htmlFor="phone" className="form-label">
                     Phone Number
                   </label>
                   <input
@@ -126,12 +129,12 @@ function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                    className="form-input"
                     placeholder="Enter your phone number"
                   />
                 </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                <div className="form-field">
+                  <label htmlFor="subject" className="form-label">
                     Subject *
                   </label>
                   <input
@@ -141,14 +144,14 @@ function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                    className="form-input"
                     placeholder="What is this about?"
                   />
                 </div>
               </motion.div>
 
-              <motion.div variants={itemVariants}>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+              <motion.div variants={itemVariants} className="form-field">
+                <label htmlFor="message" className="form-label">
                   Message *
                 </label>
                 <textarea
@@ -158,7 +161,7 @@ function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none"
+                  className="form-textarea"
                   placeholder="Tell us how we can help you..."
                 />
               </motion.div>
@@ -166,7 +169,7 @@ function Contact() {
               <motion.div variants={itemVariants}>
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
+                  className="submit-btn"
                 >
                   Send Message
                 </button>
@@ -180,53 +183,53 @@ function Contact() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="space-y-8"
+            className="contact-info"
           >
             {/* Company Info */}
-            <motion.div variants={itemVariants} className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h3>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="text-blue-600 text-xl">📍</div>
+            <motion.div variants={itemVariants} className="info-card">
+              <h3 className="info-card-title">Get in Touch</h3>
+              <div className="info-content">
+                <div className="info-item">
+                  <div className="info-icon">📍</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Address</h4>
-                    <p className="text-gray-600">
+                    <h4 className="info-label">Address</h4>
+                    <p className="info-text">
                       SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
                     </p>
                   </div>
                 </div>
                 
-                <div className="flex items-start space-x-4">
-                  <div className="text-blue-600 text-xl">📧</div>
+                <div className="info-item">
+                  <div className="info-icon">📧</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Email</h4>
+                    <h4 className="info-label">Email</h4>
                     <a 
                       href="mailto:yevacurepharmaceuticals@gmail.com"
-                      className="text-blue-600 hover:text-blue-700 transition-colors"
+                      className="info-link"
                     >
                       yevacurepharmaceuticals@gmail.com
                     </a>
                   </div>
                 </div>
                 
-                <div className="flex items-start space-x-4">
-                  <div className="text-blue-600 text-xl">📞</div>
+                <div className="info-item">
+                  <div className="info-icon">📞</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Phone</h4>
+                    <h4 className="info-label">Phone</h4>
                     <a 
                       href="tel:+918047785182"
-                      className="text-blue-600 hover:text-blue-700 transition-colors"
+                      className="info-link"
                     >
                       +91-8047785182
                     </a>
                   </div>
                 </div>
                 
-                <div className="flex items-start space-x-4">
-                  <div className="text-blue-600 text-xl">🕒</div>
+                <div className="info-item">
+                  <div className="info-icon">🕒</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Business Hours</h4>
-                    <p className="text-gray-600">
+                    <h4 className="info-label">Business Hours</h4>
+                    <p className="info-text">
                       Monday - Friday: 9:00 AM - 6:00 PM<br />
                       Saturday: 9:00 AM - 2:00 PM<br />
                       Sunday: Closed
@@ -237,39 +240,39 @@ function Contact() {
             </motion.div>
 
             {/* Social Links */}
-            <motion.div variants={itemVariants} className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Follow Us</h3>
-              <div className="flex space-x-4">
+            <motion.div variants={itemVariants} className="social-card">
+              <h3 className="social-card-title">Follow Us</h3>
+              <div className="social-links">
                 <a 
                   href="https://www.facebook.com/p/Yevacure-Pharmaceutical-pvtltd-100069694669312/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg transition-all duration-200 transform hover:scale-105"
+                  className="social-link facebook"
                 >
-                  <span className="text-xl">📘</span>
+                  <span className="social-icon">📘</span>
                 </a>
                 <a 
                   href="#"
-                  className="bg-pink-600 hover:bg-pink-700 text-white p-3 rounded-lg transition-all duration-200 transform hover:scale-105"
+                  className="social-link instagram"
                 >
-                  <span className="text-xl">📷</span>
+                  <span className="social-icon">📷</span>
                 </a>
                 <a 
                   href="#"
-                  className="bg-blue-400 hover:bg-blue-500 text-white p-3 rounded-lg transition-all duration-200 transform hover:scale-105"
+                  className="social-link twitter"
                 >
-                  <span className="text-xl">🐦</span>
+                  <span className="social-icon">🐦</span>
                 </a>
               </div>
             </motion.div>
 
             {/* Trust Badges */}
-            <motion.div variants={itemVariants} className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl shadow-lg p-8 text-white text-center">
-              <h3 className="text-2xl font-bold mb-4">Why Choose Yevacure?</h3>
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div>🔬 Clinically Tested</div>
-                <div>🌿 Natural Ingredients</div>
-                <div>🛡️ Quality Assured</div>
+            <motion.div variants={itemVariants} className="trust-card">
+              <h3 className="trust-card-title">Why Choose Yevacure?</h3>
+              <div className="trust-badges">
+                <div className="trust-badge">🔬 Clinically Tested</div>
+                <div className="trust-badge">🌿 Natural Ingredients</div>
+                <div className="trust-badge">🛡️ Quality Assured</div>
               </div>
             </motion.div>
           </motion.div>
@@ -281,14 +284,14 @@ function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mt-16"
+          className="map-section"
         >
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Find Us</h3>
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-4xl mb-4">🗺️</div>
-                <p className="text-gray-600">
+          <div className="map-card">
+            <h3 className="map-title">Find Us</h3>
+            <div className="map-placeholder">
+              <div className="map-content">
+                <div className="map-icon">🗺️</div>
+                <p className="map-text">
                   Google Maps integration would go here.<br />
                   Address: SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
                 </p>
@@ -296,7 +299,7 @@ function Contact() {
                   href="https://maps.google.com/?q=SHOP+NO+UG+15+HRC+SHOPPING+COMPLEX+UPPER+GROUND+FLOOR+GH+PLOT+NO+1%2F2+VAIBHAV+KHAND+INDIRAPURAM+GHAZIABAD+Uttar+Pradesh+201014+India"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200"
+                  className="map-link"
                 >
                   Open in Google Maps
                 </a>
