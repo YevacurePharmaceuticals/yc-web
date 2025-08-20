@@ -194,7 +194,7 @@ function Contact() {
                   <div>
                     <h4 className="info-label">Address</h4>
                     <p className="info-text">
-                      SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
+                      #UG15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
                     </p>
                   </div>
                 </div>
@@ -293,7 +293,7 @@ function Contact() {
                 <div className="map-icon">🗺️</div>
                 <p className="map-text">
                   Google Maps integration would go here.<br />
-                  Address: SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
+                  Address: #UG15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India
                 </p>
                 <a 
                   href="https://maps.google.com/?q=SHOP+NO+UG+15+HRC+SHOPPING+COMPLEX+UPPER+GROUND+FLOOR+GH+PLOT+NO+1%2F2+VAIBHAV+KHAND+INDIRAPURAM+GHAZIABAD+Uttar+Pradesh+201014+India"

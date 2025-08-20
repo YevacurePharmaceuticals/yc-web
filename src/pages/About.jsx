@@ -169,7 +169,7 @@ function About() {
                 <div className="info-card-content">
                   <p><strong>Email:</strong> yevacurepharmaceuticals@gmail.com</p>
                   <p><strong>Phone:</strong> +91-9871285873</p>
-                  <p><strong>Address:</strong> SHOP NO UG 15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India</p>
+                  <p><strong>Address:</strong> #UG15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India</p>
                 </div>
               </div>
               <div className="info-card hours-card">
