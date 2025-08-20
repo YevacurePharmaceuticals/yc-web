@@ -12,3 +12,10 @@ Sitemap: https://yevacurepharmaceuticals.github.io/yc-web/sitemap.xml
 Allow: /products/
 Allow: /about/
 Allow: /contact/
+
+# Favicon and icon files
+Allow: /favicon.ico
+Allow: /favicon-16x16.png
+Allow: /favicon-32x32.png
+Allow: /apple-touch-icon.png
+Allow: /yc-logo.webp
