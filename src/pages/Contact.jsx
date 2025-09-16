@@ -239,7 +239,7 @@ function Contact() {
                   <span className="social-icon">📘</span>
                 </a>
                 <a 
-                  href="#"
+                  href="https://www.instagram.com/yevacure_pharmaceuticals?igsh=MXI1eGljNGptMHVvZg=="
                   className="social-link instagram"
                 >
                   <span className="social-icon">📷</span>
