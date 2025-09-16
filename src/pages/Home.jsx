@@ -165,7 +165,7 @@ function Home() {
       </div>
 
       {/* Hero Section */}
-      <motion.section 
+      {/* <motion.section 
         className="hero"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -211,7 +211,7 @@ function Home() {
             />
           </motion.div>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       {/* Why Choose Us */}
       <motion.section 
