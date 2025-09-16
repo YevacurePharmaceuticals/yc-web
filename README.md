@@ -193,7 +193,6 @@ Test on:
 
 For technical support or questions about the website:
 - **Email**: yevacurepharmaceuticals@gmail.com
-- **Phone**: +91-8047785182
 
 ## 📄 License
 

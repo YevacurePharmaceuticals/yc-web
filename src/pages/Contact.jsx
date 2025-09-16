@@ -119,7 +119,7 @@ function Contact() {
               </motion.div>
 
               <motion.div variants={itemVariants} className="form-row">
-                <div className="form-field">
+                {/* <div className="form-field">
                   <label htmlFor="phone" className="form-label">
                     Phone Number
                   </label>
@@ -132,7 +132,7 @@ function Contact() {
                     className="form-input"
                     placeholder="Enter your phone number"
                   />
-                </div>
+                </div> */}
                 <div className="form-field">
                   <label htmlFor="subject" className="form-label">
                     Subject *
@@ -208,19 +208,6 @@ function Contact() {
                       className="info-link"
                     >
                       yevacurepharmaceuticals@gmail.com
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="info-item">
-                  <div className="info-icon">📞</div>
-                  <div>
-                    <h4 className="info-label">Phone</h4>
-                    <a 
-                      href="tel:+918047785182"
-                      className="info-link"
-                    >
-                      +91-8047785182
                     </a>
                   </div>
                 </div>

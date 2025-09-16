@@ -1,12 +1,12 @@
 import { Routes, Route, Link, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion"; // For animations
+// import { motion } from "framer-motion"; // For animations
 import { FiMenu, FiX, FiInfo, FiPackage, FiMail, FiHome } from "react-icons/fi"; // Icons
 import Home from "./pages/Home";  
 import About from "./pages/About";
-import Products from "./pages/Products";
+// import Products from "./pages/Products";
 import Contact from "./pages/Contact";
-import ProductDetails from "./pages/ProductDetails";
+// import ProductDetails from "./pages/ProductDetails";
 import ThemeToggle from "./components/ThemeToggle";
 import "./App.css";
 
@@ -40,10 +40,10 @@ function App() {
               <FiInfo className="nav-icon" />
               About
             </Link>
-            <Link to="/products" className={location.pathname === "/products" ? "active" : ""}>
+            {/* <Link to="/products" className={location.pathname === "/products" ? "active" : ""}>
               <FiPackage className="nav-icon" />
               Products
-            </Link>
+            </Link> */}
             <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>
               <FiMail className="nav-icon" />
               Contact
@@ -75,10 +75,10 @@ function App() {
             <FiInfo className="nav-icon" />
             About
           </Link>
-          <Link to="/products">
+          {/* <Link to="/products">
             <FiPackage className="nav-icon" />
             Products
-          </Link>
+          </Link> */}
           <Link to="/contact">
             <FiMail className="nav-icon" />
             Contact
@@ -91,9 +91,9 @@ function App() {
           <Route path="/" element={<Navigate to="/about" replace />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
+          {/* <Route path="/products" element={<Products />} /> */}
           <Route path="/contact" element={<Contact />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
+          {/* <Route path="/product/:id" element={<ProductDetails />} /> */}
         </Routes>
       </main>
       
@@ -110,7 +110,7 @@ function App() {
               <div className="contact-details">
                 <p><strong>Address:</strong> #UG15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India</p>
                 <p><strong>Email:</strong> yevacurepharmaceuticals@gmail.com</p>
-                <p><strong>Phone:</strong> +91-9871285873</p>
+                {/* <p><strong>Phone:</strong> +91-9871285873</p> */}
               </div>
             </div>
 
@@ -120,7 +120,7 @@ function App() {
               <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/products">Products</Link></li>
+                {/* <li><Link to="/products">Products</Link></li> */}
                 <li><Link to="/contact">Contact</Link></li>
               </ul>
             </div>
