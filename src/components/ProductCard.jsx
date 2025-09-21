@@ -71,13 +71,13 @@ function ProductCard({ product }) {
           </div>
 
           {/* Price Badge */}
-          {product.price && (
+          {/* {product.price && (
             <div className="product-price-badge">
               <span className="price-text">
                 {product.price}
               </span>
             </div>
-          )}
+          )} */}
         </div>
 
         {/* Content Section */}

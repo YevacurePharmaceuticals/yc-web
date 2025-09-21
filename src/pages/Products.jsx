@@ -8,10 +8,7 @@ import "./Products.css";
 
 const categories = [
   { id: "all", name: "All Products", icon: "🛍️" },
-  { id: "face", name: "Face Care", icon: "🧴" },
-  { id: "hair", name: "Hair Care", icon: "💇‍♀️" },
-  { id: "body", name: "Body Care", icon: "🛁" },
-  { id: "petcare", name: "Pet Care", icon: "🐾" }
+  { id: "face", name: "Face Care", icon: "🧴" }
 ];
 
 const containerVariants = {
@@ -97,8 +94,9 @@ function Products() {
             Our Products
           </h1>
           <p className="products-subtitle">
-            Discover our comprehensive range of pharmaceutical-grade skincare, haircare, 
-            body care, and pet care products, all backed by science and quality assurance.
+            Discover our premium YC FACIUM Glutathione Brightening Face Wash - 
+            a revolutionary Triple-Power Formula that unlocks radiant skin with 
+            Glutathione, Kojic Acid & Vitamin C.
           </p>
         </motion.div>
 

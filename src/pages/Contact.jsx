@@ -41,12 +41,33 @@ function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log("Form submitted:", formData);
-    alert("Thank you for your message! We'll get back to you soon.");
-    setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+
+    // Send to Google Form
+    const googleFormURL = "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse";
+    
+    const formBody = new URLSearchParams();
+    formBody.append("entry.1111111111", formData.name);     // replace with your entry IDs
+    formBody.append("entry.2222222222", formData.email);
+    formBody.append("entry.3333333333", formData.phone);
+    formBody.append("entry.4444444444", formData.subject);
+    formBody.append("entry.5555555555", formData.message);
+
+    try {
+      await fetch(googleFormURL, {
+        method: "POST",
+        body: formBody,
+        mode: "no-cors" // prevents CORS errors
+      });
+
+      console.log("Form submitted:", formData);
+      alert("Thank you! Your message has been sent.");
+      setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+    } catch (error) {
+      console.error("Error submitting to Google Form:", error);
+      alert("Something went wrong. Please try again.");
+    }
   };
 
   return (

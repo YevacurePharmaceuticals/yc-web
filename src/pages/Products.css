@@ -6,11 +6,11 @@
   color: var(--text-primary);
   transition: background-color 0.4s ease, color 0.4s ease;
   min-height: 100vh;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .products-wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -159,12 +159,13 @@
   color: var(--accent-primary);
 }
 
-/* Products Grid */
+/* Products Grid - Enhanced for better space utilization */
 .products-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
+  align-items: start;
 }
 
 /* No Results */
@@ -258,7 +259,7 @@
 /* Desktop and Tablet Breakpoints */
 @media (min-width: 768px) {
   .products-container {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .products-title {
@@ -279,7 +280,8 @@
   }
 
   .products-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
   }
 
   .trust-badges-grid {
@@ -297,7 +299,7 @@
 
 @media (min-width: 1024px) {
   .products-container {
-    padding: 4rem 2rem;
+    padding: 2.5rem 2rem;
   }
 
   .products-title {
@@ -305,7 +307,8 @@
   }
 
   .products-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2.5rem;
   }
 
   .trust-badges {
@@ -319,7 +322,15 @@
 
 @media (min-width: 1280px) {
   .products-grid {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 3rem;
   }
 }
 

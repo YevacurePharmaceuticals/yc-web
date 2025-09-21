@@ -5,6 +5,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import { useTheme } from "../context/ThemeContext";
 import ThemeToggle from "../components/ThemeToggle";
 import products from "../data/products";
+import { useEffect, useRef, useState } from "react";
 import "./Home.css";
 
 const featuredProducts = products.slice(0, 3);
@@ -87,6 +88,39 @@ const itemVariants = {
 
 function Home() {
   const { isDarkMode } = useTheme();
+  const videoRef = useRef(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoError, setVideoError] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const handleLoadedData = () => {
+      setVideoLoaded(true);
+      video.classList.add('loaded');
+    };
+
+    const handleError = () => {
+      setVideoError(true);
+      video.parentElement.classList.add('video-failed');
+    };
+
+    const handleCanPlay = () => {
+      // Ensure video plays when it can
+      video.play().catch(console.warn);
+    };
+
+    video.addEventListener('loadeddata', handleLoadedData);
+    video.addEventListener('error', handleError);
+    video.addEventListener('canplay', handleCanPlay);
+
+    return () => {
+      video.removeEventListener('loadeddata', handleLoadedData);
+      video.removeEventListener('error', handleError);
+      video.removeEventListener('canplay', handleCanPlay);
+    };
+  }, []);
 
   return (
     <div className={`home-container ${isDarkMode ? 'dark' : 'light'}`}>
@@ -165,21 +199,57 @@ function Home() {
       </div>
 
       {/* Hero Section */}
-      {/* <motion.section 
+      <motion.section 
         className="hero"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
+        <div className="hero-video-container">
+          <video
+            ref={videoRef}
+            className="hero-video"
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            poster="/images/products/body-lotion.webp"
+          >
+            <source src="/herobanner.mp4" type="video/mp4" />
+            {/* Fallback for browsers that don't support video */}
+            Your browser does not support the video tag.
+          </video>
+          <div className="hero-overlay"></div>
+          
+          {/* Loading indicator */}
+          {!videoLoaded && !videoError && (
+            <div className="video-loading">
+              <div className="loading-spinner"></div>
+              <p>Loading video...</p>
+            </div>
+          )}
+          
+          {/* Fallback image when video fails */}
+          {videoError && (
+            <LazyLoadImage
+              effect="blur"
+              src="/images/products/body-lotion.webp"
+              alt="Natural Beauty Products"
+              className="hero-fallback-image"
+            />
+          )}
+        </div>
+        
         <div className="hero-content">
           <div className="hero-text">
-            <motion.h2
+            <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Natural Beauty, Naturally You
-            </motion.h2>
+              Claim your offer now!
+            </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -198,20 +268,8 @@ function Home() {
               </Link>
             </motion.div>
           </div>
-          <motion.div
-            className="hero-image"
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            <LazyLoadImage
-              effect="blur"
-              src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80"
-              alt="Natural Beauty Products"
-            />
-          </motion.div>
         </div>
-      </motion.section> */}
+      </motion.section>
 
       {/* Why Choose Us */}
       <motion.section 
@@ -255,7 +313,7 @@ function Home() {
       </motion.section>
 
       {/* Featured Products - Fixed Layout */}
-      <motion.section 
+      {/* <motion.section 
         className="featured-section"
         variants={containerVariants}
         initial="hidden"
@@ -291,7 +349,7 @@ function Home() {
             </motion.div>
           ))}
         </div>
-      </motion.section>
+      </motion.section> */}
 
       {/* How It Works */}
       <motion.section 

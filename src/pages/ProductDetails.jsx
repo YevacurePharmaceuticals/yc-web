@@ -171,7 +171,7 @@ function ProductDetails() {
                 {product.category.charAt(0).toUpperCase() + product.category.slice(1)}
               </span>
               <p className="product-description">
-                {product.description}
+                {product.longDescription}
               </p>
             </div>
 
