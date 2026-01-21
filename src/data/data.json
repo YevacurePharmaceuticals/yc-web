@@ -2,14 +2,13 @@
   "company": {
     "name": "Yevacure Pharmaceutical Pvt Ltd",
     "tagline": "Quality Pharmaceuticals Since 2020",
-    "description": "Yevacure Pharmaceutical Pvt Ltd is a leading pharmaceutical company based in Ghaziabad, UP, India. We specialize in manufacturing high-quality skincare, haircare, body care, and pet care products. Our  ISO-certified products are dermatologically tested and cruelty-free, ensuring the highest standards of quality and safety.",
+    "description": "Yevacure Pharmaceutical Pvt Ltd is a leading pharmaceutical company based in Ghaziabad, UP, India. We specialize in manufacturing high-quality skincare, haircare, body care, and pet care products. Our ISO-certified products are dermatologically tested and cruelty-free, ensuring the highest standards of quality and safety.",
     "longDescription": "Founded in 2020, Yevacure Pharmaceutical Pvt Ltd has established itself as a trusted name in the pharmaceutical industry. We are committed to delivering science-backed solutions that promote health and wellness. Our product range includes gentle facewashes, herbal shampoos, moisturizers, body lotions, sunscreens, hair serums, body washes, and specialized pet care products. All our products are manufactured in GMP-compliant facilities and undergo rigorous quality testing.",
     "address": "#UG15 HRC SHOPPING COMPLEX UPPER, GROUND FLOOR GH PLOT NO 1/2 VAIBHAV KHAND, INDIRAPURAM, GHAZIABAD, Uttar Pradesh 201014, India",
     "email": "yevacurepharmaceuticals@gmail.com",
     "facebook": "https://www.facebook.com/p/Yevacure-Pharmaceutical-pvtltd-100069694669312/",
     "founded": "2020",
     "certifications": [
-      
       "ISO 9001:2015",
       "GMP Compliant",
       "Cruelty Free",
@@ -19,7 +18,7 @@
       "pharmaceuticals Ghaziabad",
       "skincare products UP",
       "haircare products India",
-      "pet care products",
+      "nutraceuticals supplements",
       "ISO certified pharmaceuticals",
       "dermatologically tested products",
       "cruelty free cosmetics",
@@ -29,63 +28,715 @@
   },
   "products": [
     {
-      "id": "yc-facium-glutathione",
-      "name": "YC FACIUM Glutathione Brightening Face Wash",
+      "id": "yc-facium-facewash",
+      "name": "YC FACIUM Glutathione Face Wash",
       "category": "face",
       "subcategory": "cleanser",
-      "shortDescription": "Unlock Radiant Skin with our Triple-Power Formula featuring Glutathione, Kojic Acid & Vitamin C.",
-      "longDescription": "YC FACIUM Glutathione Brightening Face Wash is a revolutionary skincare product that combines the power of three potent ingredients to deliver comprehensive skin benefits. Our Triple-Power Formula features Glutathione for antioxidant protection and skin brightening, Kojic Acid for reducing hyperpigmentation, and Vitamin C for boosting collagen production and enhancing skin radiance. This advanced face wash is designed to transform your skincare routine and unlock your skin's natural glow.",
+      "shortDescription": "Enriched with Glutathione, Aloe Vera, and Vitamin C & E Complex for brightening and whitening.",
+      "longDescription": "YC FACIUM Glutathione Face Wash is a revolutionary skincare product that combines the power of Glutathione with Aloe Vera and Vitamin C & E Complex. This advanced formula provides comprehensive skin benefits including brightening, whitening, and antioxidant protection. Suitable for all types of skin, this face wash is designed to give you radiant, healthy-looking skin with regular use.",
       "features": [
-        "Triple-Power Formula with Glutathione, Kojic Acid & Vitamin C",
-        "Brightens skin and reduces hyperpigmentation",
-        "Antioxidant protection against environmental damage",
-        "Boosts collagen production for firmer skin",
+        "Enriched with Glutathione for skin brightening",
+        "Contains Aloe Vera for soothing and hydration",
+        "Vitamin C & E Complex for antioxidant protection",
+        "Brightening and whitening formula",
         "Suitable for all skin types",
-        "Dermatologically tested and approved",
-        "Comprehensive skin benefits in one face wash"
+        "Dermatologically tested",
+        "100ml convenient packaging"
       ],
       "image": {
-        "original": "glutahione.jpg",
-        "path": "/images/products/glutahione.jpg",
-        "alt": "YC FACIUM Glutathione Brightening Face Wash - Yevacure Pharmaceutical"
+        "original": "yc-faciumfacewash.jpeg",
+        "path": "/images/products/yc-faciumfacewash.jpeg",
+        "alt": "YC FACIUM Glutathione Face Wash - Yevacure Pharmaceutical"
       },
       "ingredients": [
         "Aqua (Water)",
         "Glutathione",
-        "Kojic Acid",
-        "Vitamin C (Ascorbic Acid)",
         "Aloe Vera Extract",
+        "Vitamin C (Ascorbic Acid)",
+        "Vitamin E",
         "Glycerin",
         "Cocamidopropyl Betaine",
-        "Vitamin E",
-        "Natural Moisturizing Factors",
-        "Chamomile Extract"
+        "Natural Moisturizing Factors"
       ],
-      "usage": "Massage onto damp skin in gentle circular motions for 30-60 seconds, rinse with lukewarm water. Use twice daily - morning and evening for best results. Follow with your regular moisturizer and sunscreen during the day.",
+      "usage": "Wet your face with water. Apply a small amount of face wash and massage gently in circular motions for 30-60 seconds. Rinse thoroughly with lukewarm water. Use twice daily for best results.",
       "benefits": [
-        "Brightens skin tone and reduces dark spots",
-        "Reduces hyperpigmentation and age spots",
+        "Brightens skin tone",
+        "Reduces dark spots and hyperpigmentation",
         "Provides antioxidant protection",
-        "Boosts collagen production",
-        "Improves skin texture and radiance",
-        "Gentle cleansing without over-drying",
-        "Suitable for daily use",
-        "Comprehensive skin benefits in one product"
+        "Gentle cleansing",
+        "Soothes and hydrates skin",
+        "Suitable for daily use"
       ],
-      "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use and consult a dermatologist. Keep out of reach of children. Store in a cool, dry place. Use sunscreen during the day as Vitamin C may increase sun sensitivity.",
+      "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use. Keep out of reach of children. Store in a cool, dry place.",
       "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
       "certifications": ["ISO 9001", "Cruelty Free", "Dermatologically Tested", "GMP Compliant"],
       "compliance": {
-        "batchNumber": "YC-FG-2024-001",
+        "batchNumber": "YC-FW-2024",
         "expiryDate": "36 months from manufacturing",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "regulatory": "Compliant with ISO guidelines for cosmetic products",
         "shelfLife": "3 years"
       },
-      "packaging": "100ml tube with flip-top cap",
+      "packaging": "100ml tube",
+      "price": "₹349",
+      "availability": "In Stock",
+      "usp": "Triple power brightening formula for radiant skin"
+    },
+    {
+      "id": "yc-facium-cream",
+      "name": "YC FACIUM Glutathione Skin Glowing Cream",
+      "category": "face",
+      "subcategory": "moisturizer",
+      "shortDescription": "Skin glowing cream with the power of Glutathione for brightening, whitening, and Vitamin C & E Complex.",
+      "longDescription": "YC FACIUM Glutathione Skin Glowing Cream is formulated with advanced ingredients to brighten and nourish your skin. Enriched with Glutathione, this cream provides powerful antioxidant benefits while Vitamin C & E Complex enhances skin radiance and protects against environmental damage. Perfect for all skin types, this lightweight cream absorbs quickly and delivers visible results.",
+      "features": [
+        "Brightening and whitening formula",
+        "Enriched with Glutathione",
+        "Vitamin C & E Complex",
+        "Suitable for all types of skin",
+        "Lightweight and fast-absorbing",
+        "50gm convenient size"
+      ],
+      "image": {
+        "original": "yc-facium.jpeg",
+        "path": "/images/products/yc-facium.jpeg",
+        "alt": "YC FACIUM Glutathione Skin Glowing Cream - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Glutathione",
+        "Vitamin C",
+        "Vitamin E",
+        "Aloe Vera Extract",
+        "Glycerin",
+        "Natural Moisturizing Factors",
+        "Antioxidants"
+      ],
+      "usage": "Apply a small amount to clean, dry face and neck. Massage gently in upward circular motions until fully absorbed. Use twice daily for best results.",
+      "benefits": [
+        "Brightens and evens skin tone",
+        "Reduces dark spots",
+        "Provides deep hydration",
+        "Antioxidant protection",
+        "Improves skin texture",
+        "Gives natural glow"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue use if irritation occurs. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Cruelty Free", "Dermatologically Tested", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YC-FC-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with ISO guidelines",
+        "shelfLife": "3 years"
+      },
+      "packaging": "50gm jar",
+      "price": "₹449",
+      "availability": "In Stock",
+      "usp": "Glutathione-powered skin brightening cream"
+    },
+    {
+      "id": "yc-facium-serum",
+      "name": "YC FACIUM Face Serum",
+      "category": "face",
+      "subcategory": "serum",
+      "shortDescription": "Advance Anti-Ageing Formula for brightening, heals skin, and prevents ageing.",
+      "longDescription": "YC FACIUM Face Serum is a premium anti-ageing solution that combines advanced ingredients to combat signs of ageing while brightening and healing your skin. This concentrated serum penetrates deep into the skin layers to provide intensive care, reduce fine lines, and restore youthful radiance.",
+      "features": [
+        "Advance Anti-Ageing Formula",
+        "Brightening properties",
+        "Heals and repairs skin",
+        "Prevents premature ageing",
+        "Lightweight serum texture",
+        "30ml concentrated formula"
+      ],
+      "image": {
+        "original": "Yc-faciumfaceserum.jpeg",
+        "path": "/images/products/Yc-faciumfaceserum.jpeg",
+        "alt": "YC FACIUM Face Serum - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Hyaluronic Acid",
+        "Vitamin C",
+        "Peptides",
+        "Antioxidants",
+        "Collagen Boosters",
+        "Natural Extracts"
+      ],
+      "usage": "Apply 2-3 drops to clean face and neck. Gently massage until absorbed. Use morning and evening before moisturizer. Follow with sunscreen during the day.",
+      "benefits": [
+        "Reduces fine lines and wrinkles",
+        "Brightens skin tone",
+        "Improves skin elasticity",
+        "Deep hydration",
+        "Repairs damaged skin",
+        "Prevents signs of ageing"
+      ],
+      "warnings": "For external use only. Avoid direct contact with eyes. Store in a cool place.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Cruelty Free", "Dermatologically Tested", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YC-FS-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with ISO guidelines",
+        "shelfLife": "2 years"
+      },
+      "packaging": "30ml bottle with dropper",
+      "price": "₹599",
+      "availability": "In Stock",
+      "usp": "Advanced anti-ageing and brightening serum"
+    },
+    {
+      "id": "eboderm-shampoo",
+      "name": "EBODERM Anti-Dandruff Shampoo",
+      "category": "hair",
+      "subcategory": "shampoo",
+      "shortDescription": "Ketoconazole & Zinc Pyrithione Shampoo for effective dandruff control.",
+      "longDescription": "EBODERM Anti-Dandruff Shampoo is a clinically proven formula containing Ketoconazole and Zinc Pyrithione to effectively combat dandruff and scalp conditions. This therapeutic shampoo not only treats dandruff but also helps maintain a healthy scalp environment, preventing recurrence.",
+      "features": [
+        "Contains Ketoconazole 2%",
+        "Zinc Pyrithione for scalp health",
+        "Clinically proven formula",
+        "Anti-fungal properties",
+        "Prevents dandruff recurrence",
+        "60ml convenient size"
+      ],
+      "image": {
+        "original": "anti-dandruff.jpeg",
+        "path": "/images/products/anti-dandruff.jpeg",
+        "alt": "EBODERM Anti-Dandruff Shampoo - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Ketoconazole 2%",
+        "Zinc Pyrithione",
+        "Aqua",
+        "Sodium Laureth Sulfate",
+        "Cocamidopropyl Betaine",
+        "Glycerin",
+        "Menthol"
+      ],
+      "usage": "Wet hair thoroughly. Apply shampoo and massage into scalp. Leave on for 3-5 minutes. Rinse thoroughly. Use 2-3 times per week or as directed by physician.",
+      "benefits": [
+        "Eliminates dandruff",
+        "Controls scalp itching",
+        "Anti-fungal action",
+        "Prevents flaking",
+        "Maintains scalp health",
+        "Clinically tested"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. If contact occurs, rinse thoroughly with water. Discontinue if irritation develops. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "EB-SH-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "3 years"
+      },
+      "packaging": "60ml bottle",
+      "price": "₹299",
+      "availability": "In Stock",
+      "usp": "Medical-grade anti-dandruff treatment"
+    },
+    {
+      "id": "hairsalus-solution",
+      "name": "HAIRSALUS 5% Minoxidil Topical Solution",
+      "category": "hair",
+      "subcategory": "treatment",
+      "shortDescription": "Hair Regrowth Treatment that revitalizes hair follicles and stimulates growth.",
+      "longDescription": "HAIRSALUS 5% is a clinically proven Minoxidil topical solution designed for hair regrowth treatment. This alcohol-free formula revitalizes hair follicles, stimulates growth, and is clinically proven to help regrow hair. Extra strength formulation provides effective results for both men and women experiencing hair loss.",
+      "features": [
+        "5% Minoxidil concentration",
+        "Alcohol-free formula",
+        "Hair regrowth treatment",
+        "Revitalizes hair follicles",
+        "Stimulates hair growth",
+        "Clinically proven effective",
+        "60ml spray bottle"
+      ],
+      "image": {
+        "original": "hairsalus.jpeg",
+        "path": "/images/products/hairsalus.jpeg",
+        "alt": "HAIRSALUS 5% Minoxidil Solution - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Minoxidil 5%",
+        "Propylene Glycol",
+        "Purified Water",
+        "Ethanol (minimal)",
+        "Propellant"
+      ],
+      "usage": "Apply 1ml twice daily directly to the scalp in the area of hair thinning. Massage gently. Wash hands after application. Do not rinse. Use continuously for best results.",
+      "benefits": [
+        "Promotes hair regrowth",
+        "Strengthens hair follicles",
+        "Reduces hair fall",
+        "Increases hair density",
+        "Clinically proven results",
+        "Suitable for men and women"
+      ],
+      "warnings": "For external use only. For use on scalp only. Avoid contact with eyes. May cause temporary scalp irritation. Consult doctor if pregnant or breastfeeding. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "HS-MX-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store at room temperature away from heat",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "60ml spray bottle",
+      "price": "₹749",
+      "availability": "In Stock",
+      "usp": "Clinically proven hair regrowth solution"
+    },
+    {
+      "id": "coltihair-tablets",
+      "name": "COLTIHAIR Tablets",
+      "category": "nutraceuticals",
+      "subcategory": "hair-supplement",
+      "shortDescription": "Biotin, Amino Acids, Iron, Vitamins, Minerals & Grape Seed Extract for healthy hair.",
+      "longDescription": "COLTIHAIR Tablets are a comprehensive nutraceutical supplement designed to promote healthy hair from within. This advanced formula combines Biotin, essential Amino Acids, Iron, Vitamins, Minerals, and Grape Seed Extract to nourish hair follicles, strengthen hair, and support overall hair health.",
+      "features": [
+        "Biotin for hair strength",
+        "Amino Acids for hair growth",
+        "Iron for healthy follicles",
+        "Essential vitamins and minerals",
+        "Grape Seed Extract antioxidants",
+        "10x1x10 Tablets blister pack"
+      ],
+      "image": {
+        "original": "coltihair.jpeg",
+        "path": "/images/products/coltihair.jpeg",
+        "alt": "COLTIHAIR Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Biotin",
+        "Amino Acids",
+        "Iron",
+        "Vitamin A, C, E",
+        "Zinc",
+        "Selenium",
+        "Grape Seed Extract",
+        "Minerals"
+      ],
+      "usage": "Take 1 tablet daily after meals or as directed by healthcare professional. Do not exceed recommended dosage.",
+      "benefits": [
+        "Promotes hair growth",
+        "Strengthens hair follicles",
+        "Reduces hair fall",
+        "Improves hair texture",
+        "Supports overall hair health",
+        "Provides essential nutrients"
+      ],
+      "warnings": "Food supplement, not for medicinal use. Consult doctor if pregnant, nursing, or on medication. Keep out of reach of children. Do not exceed recommended dose.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["FSSAI", "ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "CT-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Nutraceutical compliant",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x1x10 Tablets",
+      "price": "₹599",
+      "availability": "In Stock",
+      "usp": "Complete hair nutrition supplement"
+    },
+    {
+      "id": "yc-truncle-serum",
+      "name": "YC TRUNCLE Hair Serum",
+      "category": "hair",
+      "subcategory": "serum",
+      "shortDescription": "Specially designed to nourish and smooth hair, leaving it shiny, soft, and manageable.",
+      "longDescription": "YC TRUNCLE Hair Serum is a premium hair care solution that delivers salon-quality results at home. This advanced serum is formulated to nourish, smooth, and protect your hair while adding brilliant shine and manageability. Perfect for all hair types, it helps tame frizz and provides long-lasting nourishment.",
+      "features": [
+        "Nourishes hair deeply",
+        "Smooths and tames frizz",
+        "Adds brilliant shine",
+        "Makes hair soft and manageable",
+        "Lightweight formula",
+        "Suitable for all hair types"
+      ],
+      "image": {
+        "original": "truncle.jpeg",
+        "path": "/images/products/truncle.jpeg",
+        "alt": "YC TRUNCLE Hair Serum - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Argan Oil",
+        "Vitamin E",
+        "Silk Proteins",
+        "Natural Oils",
+        "UV Protectants",
+        "Shine Enhancers"
+      ],
+      "usage": "Apply a few drops to damp or dry hair. Distribute evenly through mid-lengths to ends. Style as desired. Do not rinse. Use daily for best results.",
+      "benefits": [
+        "Reduces frizz",
+        "Adds shine and luster",
+        "Protects from heat damage",
+        "Smooths hair texture",
+        "Provides nourishment",
+        "Non-greasy formula"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Keep out of reach of children. Store in a cool place.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Cruelty Free", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "TR-HS-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "3 years"
+      },
+      "packaging": "Spray bottle",
       "price": "₹399",
       "availability": "In Stock",
-      "usp": "Comprehensive skin benefits in one face wash - Get Your Glow On!"
+      "usp": "Professional salon-quality hair serum"
+    },
+    {
+      "id": "yc-piedocare-spray",
+      "name": "YC PIEDOCARE - Good Bye Fungi!",
+      "category": "foot-care",
+      "subcategory": "treatment",
+      "shortDescription": "Prevents your feet from fungal infections with Natural Lavender, Lemon and Rosemary extract.",
+      "longDescription": "YC PIEDOCARE is a specialized foot care solution designed to prevent and treat fungal infections. Formulated with natural ingredients including Lavender, Lemon, and Rosemary extracts, this spray provides effective protection while being gentle on the skin. Perfect for maintaining healthy, fungi-free feet.",
+      "features": [
+        "Prevents fungal infections",
+        "Natural Lavender extract",
+        "Lemon extract for freshness",
+        "Rosemary extract benefits",
+        "Easy spray application",
+        "50ml convenient size"
+      ],
+      "image": {
+        "original": "piedocare.jpeg",
+        "path": "/images/products/piedocare.jpeg",
+        "alt": "YC PIEDOCARE Foot Care Spray - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Lavender Extract",
+        "Lemon Extract",
+        "Rosemary Extract",
+        "Tea Tree Oil",
+        "Eucalyptus Oil",
+        "Alcohol",
+        "Purified Water"
+      ],
+      "usage": "Spray directly on clean, dry feet, focusing on areas between toes and soles. Use twice daily or as needed. Allow to dry before wearing socks or shoes.",
+      "benefits": [
+        "Prevents fungal infections",
+        "Eliminates odor",
+        "Refreshes feet",
+        "Natural antiseptic action",
+        "Soothes irritation",
+        "Quick-drying formula"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes, mucous membranes, and damaged skin. Do not use if allergic to ingredients. Keep away from children. Do not spray near fire or flame.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "PC-SP-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool place away from heat",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "50ml spray bottle",
+      "price": "₹249",
+      "availability": "In Stock",
+      "usp": "Natural anti-fungal foot care solution"
+    },
+    {
+      "id": "yc-serenesoft-lotion",
+      "name": "YC SERENE SOFT Moisturising Body Lotion",
+      "category": "body",
+      "subcategory": "lotion",
+      "shortDescription": "Enriched with Aloe Vera & Vitamin E for daily care of sensitive skin.",
+      "longDescription": "YC SERENE SOFT Moisturising Body Lotion is specially formulated for sensitive skin. Enriched with Aloe Vera and Vitamin E, this non-greasy body lotion provides deep hydration while relieving skin dryness. The gentle formula is suitable for all skin types and is specially recommended for use after washing and bathing.",
+      "features": [
+        "Enriched with Aloe Vera",
+        "Contains Vitamin E",
+        "Relieves skin dryness",
+        "Suitable for all skin types",
+        "Non-greasy formula",
+        "Daily care for sensitive skin",
+        "300ml generous size"
+      ],
+      "image": {
+        "original": "serenesooft.jpeg",
+        "path": "/images/products/serenesooft.jpeg",
+        "alt": "YC SERENE SOFT Body Lotion - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Light Liquid Paraffin",
+        "Aloe Vera Extract",
+        "Glycerine",
+        "Wheat Germ Oil",
+        "Olive Oil",
+        "Allantoin",
+        "Tocopheryl Acetate (Vitamin E)",
+        "Oat Extract",
+        "Perfume",
+        "Lotion Base"
+      ],
+      "usage": "Specially recommended for use after washing and bathing. Massage this richly formulated skin lotion gently on body and face or as advised by your dermatologist. Protect from heat and direct sunlight.",
+      "benefits": [
+        "Deep moisturization",
+        "Relieves dryness",
+        "Keeps skin soft and supple",
+        "Provides moisture to skin",
+        "Retains moisture",
+        "Non-comedogenic",
+        "Suitable for sensitive skin"
+      ],
+      "warnings": "For external use only. Protect from heat and direct sunlight. Keep out of reach of children.",
+      "manufacturer": "Manufactured by: Hanssan Healthcare Pvt Ltd. Marketed by: Yevacure Pharmaceutical Private Limited",
+      "certifications": ["ISO 9001:2015", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "168-Cos-Pb",
+        "expiryDate": "Check packaging",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "As per label"
+      },
+      "packaging": "300ml bottle",
+      "price": "₹349",
+      "availability": "In Stock",
+      "usp": "Gentle moisturizing lotion for sensitive skin"
+    },
+    {
+      "id": "yevahep-ds-syrup",
+      "name": "YEVAHEP-DS Syrup - Herbal Liver Tonic",
+      "category": "nutraceuticals",
+      "subcategory": "liver-health",
+      "shortDescription": "A Herbal Liver Tonic - Sugar Free Ayurvedic Medicine for liver health.",
+      "longDescription": "YEVAHEP-DS Syrup is a comprehensive herbal liver tonic formulated using Ayurvedic principles. This sugar-free formulation supports liver health, aids in detoxification, and helps maintain optimal liver function. Perfect for those looking for natural liver support without added sugar.",
+      "features": [
+        "Herbal liver tonic",
+        "Sugar-free formulation",
+        "Ayurvedic medicine",
+        "Supports liver function",
+        "Natural ingredients",
+        "200ml bottle"
+      ],
+      "image": {
+        "original": "Yevahep-DSSYruplivertonic.jpeg",
+        "path": "/images/products/Yevahep-DSSYruplivertonic.jpeg",
+        "alt": "YEVAHEP-DS Liver Tonic Syrup - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Silymarin",
+        "Kutki Extract",
+        "Bhumi Amla",
+        "Punarnava",
+        "Kalmegh",
+        "Giloy",
+        "Herbal Extracts"
+      ],
+      "usage": "Adults: 2 teaspoons (10ml) twice daily after meals or as directed by physician. Children: As advised by physician.",
+      "benefits": [
+        "Supports liver health",
+        "Aids in detoxification",
+        "Improves digestion",
+        "Protects liver cells",
+        "Natural hepatoprotective",
+        "Sugar-free formula"
+      ],
+      "warnings": "Store in a cool, dry place. Shake well before use. Keep out of reach of children. Consult physician if symptoms persist.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "Ayurvedic"],
+      "compliance": {
+        "batchNumber": "YH-DS-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Ayurvedic medicine compliant",
+        "shelfLife": "2 years"
+      },
+      "packaging": "200ml bottle",
+      "price": "₹299",
+      "availability": "In Stock",
+      "usp": "Sugar-free Ayurvedic liver tonic"
+    },
+    {
+      "id": "yevamox-cv-tablets",
+      "name": "YEVAMOX-CV Tablets",
+      "category": "pharmaceuticals",
+      "subcategory": "antibiotic",
+      "shortDescription": "Amoxycillin & Potassium Clavulanate Tablets IP 625mg for bacterial infections.",
+      "longDescription": "YEVAMOX-CV Tablets contain Amoxycillin and Potassium Clavulanate, a powerful combination antibiotic used to treat a wide range of bacterial infections. This prescription medication is effective against bacteria resistant to amoxicillin alone, providing comprehensive antibacterial coverage.",
+      "features": [
+        "Amoxycillin 500mg",
+        "Potassium Clavulanate 125mg",
+        "Broad-spectrum antibiotic",
+        "IP standard formulation",
+        "10x10 tablets pack",
+        "Prescription medicine"
+      ],
+      "image": {
+        "original": "yevamox.jpeg",
+        "path": "/images/products/yevamox.jpeg",
+        "alt": "YEVAMOX-CV Antibiotic Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Amoxycillin Trihydrate IP 500mg",
+        "Potassium Clavulanate Diluted IP 125mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Usually 1 tablet twice or thrice daily. Complete the full course even if symptoms improve. Take with food to reduce stomach upset.",
+      "benefits": [
+        "Treats bacterial infections",
+        "Broad-spectrum coverage",
+        "Effective against resistant bacteria",
+        "Reduces infection symptoms",
+        "Prevents complications"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Complete full course. May cause allergic reactions. Inform doctor of any allergies. Keep out of reach of children. Not for viral infections.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YM-CV-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place below 25°C",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "₹199",
+      "availability": "In Stock",
+      "usp": "Effective broad-spectrum antibiotic combination"
+    },
+    {
+      "id": "yevavit9g-capsules",
+      "name": "YEVAVIT9G Softgel Capsules",
+      "category": "nutraceuticals",
+      "subcategory": "multivitamin",
+      "shortDescription": "Omega-3, DHA, Green Tea Extract, Ginseng Extract, and comprehensive multivitamin formula.",
+      "longDescription": "YEVAVIT9G Softgel Capsules are a comprehensive nutraceutical supplement combining Omega-3 Fatty Acids, DHA, Green Tea Extract, Ginseng Extract, Ginkgo Biloba Extract, and essential vitamins and minerals. This advanced formula supports overall health, cognitive function, cardiovascular health, and provides antioxidant protection.",
+      "features": [
+        "Omega-3 Fatty Acids",
+        "EPA and DHA",
+        "Green Tea Extract",
+        "Ginseng Extract",
+        "Ginkgo Biloba Extract",
+        "Grape Seed Extract",
+        "Essential amino acids",
+        "Multivitamins and minerals",
+        "10x1x10 Softgel Capsules"
+      ],
+      "image": {
+        "original": "yevavit9g.jpeg",
+        "path": "/images/products/yevavit9g.jpeg",
+        "alt": "YEVAVIT9G Multivitamin Softgel - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Omega-3 Fatty Acid (EPA, DHA)",
+        "Green Tea Extract",
+        "Ginseng Extract",
+        "Ginkgo Biloba Extract",
+        "Grape Seed Extract",
+        "Garlic Extract",
+        "Ginger Root Extract",
+        "Green Coffee Beans Extract",
+        "Glycyrrhiza Glabra Extract",
+        "Guggul Extract",
+        "Essential Amino Acids",
+        "Piperine",
+        "Lactic Acid Bacillus",
+        "Lycopene",
+        "L-Carnitine L-Tartrate",
+        "Citrus Bioflavonoids",
+        "Mixed Carotenoids",
+        "Choline Bitartrate",
+        "Multivitamins",
+        "Multiminerals",
+        "Anti-Oxidant",
+        "Trace Elements"
+      ],
+      "usage": "Take 1 capsule daily after meals or as directed by healthcare professional. Do not exceed recommended dose.",
+      "benefits": [
+        "Supports heart health",
+        "Enhances cognitive function",
+        "Boosts immunity",
+        "Provides antioxidant protection",
+        "Improves energy levels",
+        "Supports overall wellness"
+      ],
+      "warnings": "Food supplement, not for medicinal use. Consult doctor if pregnant, nursing, or on medication. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["FSSAI", "ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YV-9G-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Nutraceutical compliant",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x1x10 Softgel Capsules",
+      "price": "₹799",
+      "availability": "In Stock",
+      "usp": "Complete wellness supplement with 9G formula"
+    },
+    {
+      "id": "yevazzit-tablets",
+      "name": "YEVAZZIT Tablets",
+      "category": "nutraceuticals",
+      "subcategory": "multivitamin",
+      "shortDescription": "Beta Carotene, Chromium, Selenium, Silymarin, Zinc & Multivitamins for overall health.",
+      "longDescription": "YEVAZZIT Tablets are a comprehensive multivitamin and mineral supplement formulated to support overall health and wellness. This advanced formula combines Beta Carotene, Chromium, Selenium, Silymarin, Zinc, and essential multivitamins to provide complete nutritional support for daily health maintenance.",
+      "features": [
+        "Beta Carotene for vision",
+        "Chromium for metabolism",
+        "Selenium antioxidant",
+        "Silymarin for liver support",
+        "Zinc for immunity",
+        "Essential multivitamins",
+        "10x1x10 Tablets pack"
+      ],
+      "image": {
+        "original": "Yevazzit.jpeg",
+        "path": "/images/products/Yevazzit.jpeg",
+        "alt": "YEVAZZIT Multivitamin Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Beta Carotene",
+        "Chromium",
+        "Selenium",
+        "Silymarin",
+        "Zinc",
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin E",
+        "B-Complex Vitamins",
+        "Essential Minerals"
+      ],
+      "usage": "Take 1 tablet daily after meals or as directed by healthcare professional. Do not exceed recommended dosage.",
+      "benefits": [
+        "Supports immune system",
+        "Promotes healthy vision",
+        "Liver protection",
+        "Antioxidant support",
+        "Improves metabolism",
+        "Overall wellness"
+      ],
+      "warnings": "Food supplement, not for medicinal use. Consult doctor if pregnant, nursing, or on medication. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["FSSAI", "ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YZ-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Nutraceutical compliant",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x1x10 Tablets",
+      "price": "₹449",
+      "availability": "In Stock",
+      "usp": "Complete multivitamin with liver support"
     }
   ],
   "categories": [
@@ -93,7 +744,37 @@
       "id": "face",
       "name": "Face Care",
       "description": "Professional skincare products for all skin types",
-      "products": ["yc-facium-glutathione"]
+      "products": ["yc-facium-facewash", "yc-facium-cream", "yc-facium-serum"]
+    },
+    {
+      "id": "hair",
+      "name": "Hair Care",
+      "description": "Comprehensive hair care solutions for healthy, beautiful hair",
+      "products": ["eboderm-shampoo", "hairsalus-solution", "yc-truncle-serum"]
+    },
+    {
+      "id": "body",
+      "name": "Body Care",
+      "description": "Nourishing body care products for smooth, healthy skin",
+      "products": ["yc-serenesoft-lotion"]
+    },
+    {
+      "id": "foot-care",
+      "name": "Foot Care",
+      "description": "Specialized foot care solutions",
+      "products": ["yc-piedocare-spray"]
+    },
+    {
+      "id": "nutraceuticals",
+      "name": "Nutraceuticals",
+      "description": "Health supplements and vitamins for overall wellness",
+      "products": ["coltihair-tablets", "yevahep-ds-syrup", "yevavit9g-capsules", "yevazzit-tablets"]
+    },
+    {
+      "id": "pharmaceuticals",
+      "name": "Pharmaceuticals",
+      "description": "Prescription medicines for various health conditions",
+      "products": ["yevamox-cv-tablets"]
     }
   ]
 }
