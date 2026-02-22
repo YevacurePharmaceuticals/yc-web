@@ -32,6 +32,11 @@
       "name": "YC FACIUM Glutathione Face Wash",
       "category": "face",
       "subcategory": "cleanser",
+      "therapeuticCategory": "Dermatology",
+      "dosageForm": "Facewash",
+      "strength": "100ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Enriched with Glutathione, Aloe Vera, and Vitamin C & E Complex for brightening and whitening.",
       "longDescription": "YC FACIUM Glutathione Face Wash is a revolutionary skincare product that combines the power of Glutathione with Aloe Vera and Vitamin C & E Complex. This advanced formula provides comprehensive skin benefits including brightening, whitening, and antioxidant protection. Suitable for all types of skin, this face wash is designed to give you radiant, healthy-looking skin with regular use.",
       "features": [
@@ -87,6 +92,11 @@
       "name": "YC FACIUM Glutathione Skin Glowing Cream",
       "category": "face",
       "subcategory": "moisturizer",
+      "therapeuticCategory": "Dermatology",
+      "dosageForm": "Cream",
+      "strength": "50gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Skin glowing cream with the power of Glutathione for brightening, whitening, and Vitamin C & E Complex.",
       "longDescription": "YC FACIUM Glutathione Skin Glowing Cream is formulated with advanced ingredients to brighten and nourish your skin. Enriched with Glutathione, this cream provides powerful antioxidant benefits while Vitamin C & E Complex enhances skin radiance and protects against environmental damage. Perfect for all skin types, this lightweight cream absorbs quickly and delivers visible results.",
       "features": [
@@ -140,6 +150,11 @@
       "name": "YC FACIUM Face Serum",
       "category": "face",
       "subcategory": "serum",
+      "therapeuticCategory": "Dermatology",
+      "dosageForm": "Serum",
+      "strength": "30ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Advance Anti-Ageing Formula for brightening, heals skin, and prevents ageing.",
       "longDescription": "YC FACIUM Face Serum is a premium anti-ageing solution that combines advanced ingredients to combat signs of ageing while brightening and healing your skin. This concentrated serum penetrates deep into the skin layers to provide intensive care, reduce fine lines, and restore youthful radiance.",
       "features": [
@@ -192,6 +207,11 @@
       "name": "EBODERM Anti-Dandruff Shampoo",
       "category": "hair",
       "subcategory": "shampoo",
+      "therapeuticCategory": "Trichology",
+      "dosageForm": "Shampoo",
+      "strength": "60ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Ketoconazole & Zinc Pyrithione Shampoo for effective dandruff control.",
       "longDescription": "EBODERM Anti-Dandruff Shampoo is a clinically proven formula containing Ketoconazole and Zinc Pyrithione to effectively combat dandruff and scalp conditions. This therapeutic shampoo not only treats dandruff but also helps maintain a healthy scalp environment, preventing recurrence.",
       "features": [
@@ -245,6 +265,11 @@
       "name": "HAIRSALUS 5% Minoxidil Topical Solution",
       "category": "hair",
       "subcategory": "treatment",
+      "therapeuticCategory": "Trichology",
+      "dosageForm": "Topical Solution",
+      "strength": "60ml/5%",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Hair Regrowth Treatment that revitalizes hair follicles and stimulates growth.",
       "longDescription": "HAIRSALUS 5% is a clinically proven Minoxidil topical solution designed for hair regrowth treatment. This alcohol-free formula revitalizes hair follicles, stimulates growth, and is clinically proven to help regrow hair. Extra strength formulation provides effective results for both men and women experiencing hair loss.",
       "features": [
@@ -297,6 +322,11 @@
       "name": "COLTIHAIR Tablets",
       "category": "nutraceuticals",
       "subcategory": "hair-supplement",
+      "therapeuticCategory": "Nutraceuticals",
+      "dosageForm": "Tablet",
+      "strength": "10x1x10",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Biotin, Amino Acids, Iron, Vitamins, Minerals & Grape Seed Extract for healthy hair.",
       "longDescription": "COLTIHAIR Tablets are a comprehensive nutraceutical supplement designed to promote healthy hair from within. This advanced formula combines Biotin, essential Amino Acids, Iron, Vitamins, Minerals, and Grape Seed Extract to nourish hair follicles, strengthen hair, and support overall hair health.",
       "features": [
@@ -351,6 +381,11 @@
       "name": "YC TRUNCLE Hair Serum",
       "category": "hair",
       "subcategory": "serum",
+      "therapeuticCategory": "Trichology",
+      "dosageForm": "Serum",
+      "strength": "-",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Specially designed to nourish and smooth hair, leaving it shiny, soft, and manageable.",
       "longDescription": "YC TRUNCLE Hair Serum is a premium hair care solution that delivers salon-quality results at home. This advanced serum is formulated to nourish, smooth, and protect your hair while adding brilliant shine and manageability. Perfect for all hair types, it helps tame frizz and provides long-lasting nourishment.",
       "features": [
@@ -403,6 +438,11 @@
       "name": "YC PIEDOCARE - Good Bye Fungi!",
       "category": "foot-care",
       "subcategory": "treatment",
+      "therapeuticCategory": "Dermatology",
+      "dosageForm": "Spray",
+      "strength": "50ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Prevents your feet from fungal infections with Natural Lavender, Lemon and Rosemary extract.",
       "longDescription": "YC PIEDOCARE is a specialized foot care solution designed to prevent and treat fungal infections. Formulated with natural ingredients including Lavender, Lemon, and Rosemary extracts, this spray provides effective protection while being gentle on the skin. Perfect for maintaining healthy, fungi-free feet.",
       "features": [
@@ -456,6 +496,11 @@
       "name": "YC SERENE SOFT Moisturising Body Lotion",
       "category": "body",
       "subcategory": "lotion",
+      "therapeuticCategory": "General Wellness",
+      "dosageForm": "Lotion",
+      "strength": "300ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Enriched with Aloe Vera & Vitamin E for daily care of sensitive skin.",
       "longDescription": "YC SERENE SOFT Moisturising Body Lotion is specially formulated for sensitive skin. Enriched with Aloe Vera and Vitamin E, this non-greasy body lotion provides deep hydration while relieving skin dryness. The gentle formula is suitable for all skin types and is specially recommended for use after washing and bathing.",
       "features": [
@@ -514,6 +559,11 @@
       "name": "YEVAHEP-DS Syrup - Herbal Liver Tonic",
       "category": "nutraceuticals",
       "subcategory": "liver-health",
+      "therapeuticCategory": "Hepatoprotective",
+      "dosageForm": "Syrup",
+      "strength": "200ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "A Herbal Liver Tonic - Sugar Free Ayurvedic Medicine for liver health.",
       "longDescription": "YEVAHEP-DS Syrup is a comprehensive herbal liver tonic formulated using Ayurvedic principles. This sugar-free formulation supports liver health, aids in detoxification, and helps maintain optimal liver function. Perfect for those looking for natural liver support without added sugar.",
       "features": [
@@ -567,6 +617,11 @@
       "name": "YEVAMOX-CV Tablets",
       "category": "pharmaceuticals",
       "subcategory": "antibiotic",
+      "therapeuticCategory": "Anti-Infective",
+      "dosageForm": "Tablet",
+      "strength": "625mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
       "shortDescription": "Amoxycillin & Potassium Clavulanate Tablets IP 625mg for bacterial infections.",
       "longDescription": "YEVAMOX-CV Tablets contain Amoxycillin and Potassium Clavulanate, a powerful combination antibiotic used to treat a wide range of bacterial infections. This prescription medication is effective against bacteria resistant to amoxicillin alone, providing comprehensive antibacterial coverage.",
       "features": [
@@ -615,6 +670,11 @@
       "name": "YEVAVIT9G Softgel Capsules",
       "category": "nutraceuticals",
       "subcategory": "multivitamin",
+      "therapeuticCategory": "Nutraceuticals",
+      "dosageForm": "Softgel Capsule",
+      "strength": "10x1x10",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Omega-3, DHA, Green Tea Extract, Ginseng Extract, and comprehensive multivitamin formula.",
       "longDescription": "YEVAVIT9G Softgel Capsules are a comprehensive nutraceutical supplement combining Omega-3 Fatty Acids, DHA, Green Tea Extract, Ginseng Extract, Ginkgo Biloba Extract, and essential vitamins and minerals. This advanced formula supports overall health, cognitive function, cardiovascular health, and provides antioxidant protection.",
       "features": [
@@ -686,6 +746,11 @@
       "name": "YEVAZZIT Tablets",
       "category": "nutraceuticals",
       "subcategory": "multivitamin",
+      "therapeuticCategory": "Nutraceuticals",
+      "dosageForm": "Tablet",
+      "strength": "10x1x10",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
       "shortDescription": "Beta Carotene, Chromium, Selenium, Silymarin, Zinc & Multivitamins for overall health.",
       "longDescription": "YEVAZZIT Tablets are a comprehensive multivitamin and mineral supplement formulated to support overall health and wellness. This advanced formula combines Beta Carotene, Chromium, Selenium, Silymarin, Zinc, and essential multivitamins to provide complete nutritional support for daily health maintenance.",
       "features": [
@@ -741,40 +806,40 @@
   ],
   "categories": [
     {
-      "id": "face",
-      "name": "Face Care",
-      "description": "Professional skincare products for all skin types",
-      "products": ["yc-facium-facewash", "yc-facium-cream", "yc-facium-serum"]
+      "id": "dermatology",
+      "name": "Dermatology",
+      "description": "Skincare solutions including facewash, creams, serums, and topical treatments",
+      "products": ["yc-facium-facewash", "yc-facium-cream", "yc-facium-serum", "yc-piedocare-spray"]
     },
     {
-      "id": "hair",
-      "name": "Hair Care",
-      "description": "Comprehensive hair care solutions for healthy, beautiful hair",
+      "id": "trichology",
+      "name": "Trichology",
+      "description": "Hair care treatments including anti-dandruff, hair regrowth, and nourishing serums",
       "products": ["eboderm-shampoo", "hairsalus-solution", "yc-truncle-serum"]
-    },
-    {
-      "id": "body",
-      "name": "Body Care",
-      "description": "Nourishing body care products for smooth, healthy skin",
-      "products": ["yc-serenesoft-lotion"]
-    },
-    {
-      "id": "foot-care",
-      "name": "Foot Care",
-      "description": "Specialized foot care solutions",
-      "products": ["yc-piedocare-spray"]
     },
     {
       "id": "nutraceuticals",
       "name": "Nutraceuticals",
-      "description": "Health supplements and vitamins for overall wellness",
-      "products": ["coltihair-tablets", "yevahep-ds-syrup", "yevavit9g-capsules", "yevazzit-tablets"]
+      "description": "Dietary supplements and multivitamin formulations for overall wellness",
+      "products": ["coltihair-tablets", "yevavit9g-capsules", "yevazzit-tablets"]
     },
     {
-      "id": "pharmaceuticals",
-      "name": "Pharmaceuticals",
-      "description": "Prescription medicines for various health conditions",
+      "id": "hepatoprotective",
+      "name": "Hepatoprotective",
+      "description": "Herbal liver care formulations for liver health and detoxification",
+      "products": ["yevahep-ds-syrup"]
+    },
+    {
+      "id": "anti-infective",
+      "name": "Anti-Infective",
+      "description": "Broad-spectrum antibiotics for bacterial infection treatment",
       "products": ["yevamox-cv-tablets"]
+    },
+    {
+      "id": "general-wellness",
+      "name": "General Wellness",
+      "description": "Daily care products for skin hydration and body wellness",
+      "products": ["yc-serenesoft-lotion"]
     }
   ]
 }

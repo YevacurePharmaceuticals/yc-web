@@ -1,0 +1,51 @@
+/* ProductCard.css - Corporate B2B product card styles */
+
+/* Card hover transition */
+.product-card {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Product image - square aspect ratio, object-fit cover */
+.product-card-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
+
+/* Line clamp utilities (fallback for older browsers) */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Image placeholder center alignment */
+.product-card-image.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Focus states for accessibility */
+.product-card a:focus-visible {
+  outline: 2px solid #1e40af;
+  outline-offset: 2px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .product-card {
+    transition: none;
+  }
+
+  .product-card:hover {
+    transform: none;
+  }
+}

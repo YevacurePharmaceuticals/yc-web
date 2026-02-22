@@ -1,24 +1,36 @@
+import { useParams, Navigate } from 'react-router-dom';
 import { useState, useMemo, useCallback } from 'react';
-import { Link } from 'react-router-dom';
 import debounce from 'lodash.debounce';
-import { Download, ArrowRight, Package, Filter, X } from 'lucide-react';
 import MetaTags from '../components/seo/MetaTags';
 import PageBanner from '../components/layout/PageBanner';
-import SectionHeading from '../components/ui/SectionHeading';
 import CatalogDownload from '../components/ui/CatalogDownload';
 import ProductGrid from '../components/product/ProductGrid';
 import ProductFilter from '../components/product/ProductFilter';
+import { Filter, X } from 'lucide-react';
 import data from '../data/data.json';
 import './Products.css';
 
-function Products() {
-  const [selectedCategories, setSelectedCategories] = useState([]);
+function ProductCategory() {
+  const { category } = useParams();
+
   const [selectedDosageForms, setSelectedDosageForms] = useState([]);
   const [search, setSearch] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [sortBy, setSortBy] = useState('name-asc');
   const [showMobileFilter, setShowMobileFilter] = useState(false);
 
+  /* Find the matching category from data */
+  const categoryData = useMemo(
+    () => data.categories.find((c) => c.id === category),
+    [category]
+  );
+
+  /* If category not found, redirect to /products */
+  if (!categoryData) {
+    return <Navigate to="/products" replace />;
+  }
+
+  /* Debounced search handler */
   const debouncedSetSearch = useCallback(
     debounce((value) => {
       setDebouncedSearch(value);
@@ -34,40 +46,30 @@ function Products() {
     [debouncedSetSearch]
   );
 
-  const handleCategoryChange = useCallback((category) => {
-    setSelectedCategories((prev) =>
-      prev.includes(category)
-        ? prev.filter((c) => c !== category)
-        : [...prev, category]
-    );
-  }, []);
-
   const handleDosageFormChange = useCallback((form) => {
     setSelectedDosageForms((prev) =>
       prev.includes(form) ? prev.filter((f) => f !== form) : [...prev, form]
     );
   }, []);
 
-  /* Derive unique therapeutic categories from products */
-  const therapeuticCategories = useMemo(() => {
-    const cats = new Set(data.products.map((p) => p.therapeuticCategory).filter(Boolean));
-    return [...cats].sort();
-  }, []);
+  /* Get all products belonging to this category */
+  const categoryProducts = useMemo(() => {
+    return data.products.filter(
+      (p) =>
+        p.therapeuticCategory &&
+        p.therapeuticCategory.toLowerCase() === categoryData.name.toLowerCase()
+    );
+  }, [categoryData]);
 
-  /* Derive unique dosage forms from products */
+  /* Derive unique dosage forms for this category's products */
   const dosageForms = useMemo(() => {
-    const forms = new Set(data.products.map((p) => p.dosageForm).filter(Boolean));
+    const forms = new Set(categoryProducts.map((p) => p.dosageForm).filter(Boolean));
     return [...forms].sort();
-  }, []);
+  }, [categoryProducts]);
 
-  /* Filter and sort products */
+  /* Filter and sort */
   const filteredProducts = useMemo(() => {
-    let result = [...data.products];
-
-    /* Filter by therapeutic category */
-    if (selectedCategories.length > 0) {
-      result = result.filter((p) => selectedCategories.includes(p.therapeuticCategory));
-    }
+    let result = [...categoryProducts];
 
     /* Filter by dosage form */
     if (selectedDosageForms.length > 0) {
@@ -81,7 +83,6 @@ function Products() {
         (p) =>
           p.name.toLowerCase().includes(q) ||
           p.shortDescription.toLowerCase().includes(q) ||
-          (p.therapeuticCategory && p.therapeuticCategory.toLowerCase().includes(q)) ||
           (p.dosageForm && p.dosageForm.toLowerCase().includes(q))
       );
     }
@@ -111,63 +112,33 @@ function Products() {
     });
 
     return result;
-  }, [selectedCategories, selectedDosageForms, debouncedSearch, sortBy]);
+  }, [categoryProducts, selectedDosageForms, debouncedSearch, sortBy]);
 
   return (
-    <div className="products-page">
+    <div className="category-page">
       <MetaTags
-        title="Products"
-        description="Explore the complete range of Yevacure pharmaceutical products including dermatology, trichology, nutraceuticals, hepatoprotective, anti-infective, and general wellness formulations."
+        title={categoryData.name}
+        description={`${categoryData.name} products by Yevacure Pharmaceutical - ${categoryData.description}`}
       />
 
       {/* Page Banner */}
       <PageBanner
-        title="Our Products"
-        subtitle="ISO-certified pharmaceutical formulations across six therapeutic segments"
+        title={categoryData.name}
+        subtitle={categoryData.description}
         breadcrumbItems={[
           { label: 'Home', to: '/' },
-          { label: 'Products' },
+          { label: 'Products', to: '/products' },
+          { label: categoryData.name },
         ]}
       />
 
       {/* Catalog Download */}
       <CatalogDownload />
 
-      {/* Category Overview Cards */}
-      <section className="category-overview">
-        <div className="category-overview-inner">
-          <SectionHeading
-            title="Therapeutic Categories"
-            subtitle="Browse our product portfolio by therapeutic segment"
-          />
-          <div className="category-cards-grid">
-            {data.categories.map((cat) => (
-              <Link
-                key={cat.id}
-                to={`/products/${cat.id}`}
-                className="category-overview-card"
-              >
-                <h3 className="category-card-name">{cat.name}</h3>
-                <p className="category-card-desc">{cat.description}</p>
-                <div className="category-card-footer">
-                  <span className="category-card-count">
-                    {cat.products.length} {cat.products.length === 1 ? 'product' : 'products'}
-                  </span>
-                  <ArrowRight className="category-card-arrow" size={16} />
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Complete Product Range */}
-      <section className="products-range">
-        <div className="products-range-inner">
-          <SectionHeading
-            title="Complete Product Range"
-            subtitle="Filter, search, and explore our full pharmaceutical portfolio"
-          />
+      {/* Main Content */}
+      <section className="category-page-main">
+        <div className="category-page-inner">
+          <p className="category-page-desc">{categoryData.description}</p>
 
           {/* Mobile Filter Toggle */}
           <div className="products-filter-toggle">
@@ -191,14 +162,13 @@ function Products() {
 
           {/* Two Column Layout */}
           <div className="products-main">
-            {/* Sidebar */}
+            {/* Sidebar - no category filter since we are already on a category page */}
             <div className={`products-sidebar ${showMobileFilter ? 'products-sidebar--open' : ''}`}>
               <ProductFilter
-                categories={therapeuticCategories}
+                categories={[]}
                 dosageForms={dosageForms}
-                selectedCategories={selectedCategories}
+                selectedCategories={[]}
                 selectedDosageForms={selectedDosageForms}
-                onCategoryChange={handleCategoryChange}
                 onDosageFormChange={handleDosageFormChange}
                 onSearchChange={handleSearchChange}
                 searchValue={search}
@@ -211,7 +181,7 @@ function Products() {
             <div className="products-content">
               <ProductGrid
                 products={filteredProducts}
-                emptyMessage="No products match your current filters. Try adjusting your search or filter criteria."
+                emptyMessage={`No ${categoryData.name} products match your current filters. Try adjusting your search or filter criteria.`}
               />
             </div>
           </div>
@@ -221,4 +191,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default ProductCategory;

@@ -1,0 +1,360 @@
+/* Inquiry.css - Product Inquiry page styles */
+
+/* Page Container */
+.inquiry-page {
+  background: #ffffff;
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+.inquiry-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Two Column Layout */
+.inquiry-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* Form Card */
+.inquiry-form-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.inquiry-form-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Form Layout */
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inquiry-form .form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.inquiry-form .form-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.2px;
+}
+
+.inquiry-form .form-input,
+.inquiry-form .form-textarea,
+.inquiry-form .form-select {
+  padding: 0.7rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1e293b;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  resize: none;
+  font-family: inherit;
+}
+
+.inquiry-form .form-select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.75rem center;
+  background-repeat: no-repeat;
+  background-size: 1.25em 1.25em;
+  padding-right: 2.5rem;
+}
+
+.inquiry-form .form-input:focus,
+.inquiry-form .form-textarea:focus,
+.inquiry-form .form-select:focus {
+  outline: none;
+  border-color: #1e40af;
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+}
+
+.inquiry-form .form-input[readonly] {
+  background: #f9fafb;
+  color: #6b7280;
+  cursor: default;
+}
+
+.inquiry-form .form-input::placeholder,
+.inquiry-form .form-textarea::placeholder {
+  color: #9ca3af;
+}
+
+/* Submit Button */
+.inquiry-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  background: #1e40af;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.85rem 1.75rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.inquiry-submit-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+}
+
+.inquiry-submit-btn:focus {
+  outline: 2px solid #1e40af;
+  outline-offset: 2px;
+}
+
+/* Success Message */
+.success-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.success-icon {
+  color: #16a34a;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.success-text-bold {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.success-text {
+  font-size: 0.85rem;
+  color: #15803d;
+  line-height: 1.5;
+}
+
+.success-link {
+  color: #166534;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.success-link:hover {
+  color: #14532d;
+}
+
+/* Product Info Sidebar */
+.product-info-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-info-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+.product-info-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #f9fafb;
+}
+
+.product-info-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info-image-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+}
+
+.product-info-details {
+  padding: 1.5rem;
+}
+
+.product-info-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.product-info-category {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  margin-bottom: 0.5rem;
+}
+
+.product-info-dosage {
+  display: block;
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.product-info-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 0.75rem;
+}
+
+.product-info-description {
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.product-info-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e40af;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.product-info-back-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Help Card */
+.inquiry-help-card {
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.inquiry-help-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.inquiry-help-text {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.inquiry-help-email {
+  display: inline-block;
+  background: #ffffff;
+  color: #1e40af;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.inquiry-help-email:hover {
+  background: #f0f9ff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Desktop Layout */
+@media (min-width: 768px) {
+  .inquiry-wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .inquiry-layout {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .inquiry-form-card {
+    padding: 2.5rem;
+  }
+
+  .product-info-sidebar {
+    position: sticky;
+    top: 100px;
+    align-self: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inquiry-wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .inquiry-layout {
+    gap: 3rem;
+  }
+
+  .inquiry-form-title {
+    font-size: 1.65rem;
+  }
+}
+
+/* Accessibility Focus States */
+.inquiry-form .form-input:focus,
+.inquiry-form .form-textarea:focus,
+.inquiry-form .form-select:focus,
+.inquiry-submit-btn:focus,
+.product-info-back-link:focus,
+.inquiry-help-email:focus {
+  outline: 2px solid #1e40af;
+  outline-offset: 2px;
+}

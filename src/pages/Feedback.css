@@ -1,0 +1,248 @@
+/* =========================================================
+   Feedback.css — Feedback & Testimonials Page
+   Clean, professional. No dark mode, no emojis.
+   ========================================================= */
+
+/* ── Page Wrapper ── */
+.feedback-page {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+/* ── Doctor Reviews Section ── */
+.doctor-reviews {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.doctor-reviews-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.doctor-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #bfdbfe;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.doctor-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-2px);
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.doctor-icon {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+}
+
+.doctor-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.125rem;
+}
+
+.doctor-specialty {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.doctor-review-content {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.quote-icon {
+  color: #cbd5e1;
+  margin-bottom: 0.5rem;
+  flex-shrink: 0;
+}
+
+.doctor-review {
+  font-size: 0.9375rem;
+  color: #475569;
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Star Rating ── */
+.star-rating {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.star-filled {
+  color: #f59e0b;
+}
+
+.star-empty {
+  color: #d1d5db;
+}
+
+/* ── Customer Reviews Section ── */
+.customer-reviews {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.customer-reviews-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.customer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.customer-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.customer-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-2px);
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.customer-icon {
+  flex-shrink: 0;
+  color: #94a3b8;
+}
+
+.customer-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.0625rem;
+}
+
+.customer-location {
+  font-size: 0.8125rem;
+  color: #64748b;
+}
+
+.customer-review {
+  font-size: 0.9375rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* ── CTA Section ── */
+.feedback-cta {
+  padding: 4rem 1.5rem;
+  background: #ffffff;
+}
+
+.feedback-cta-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feedback-cta-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.feedback-cta-text {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+/* ═══════════════════════════════════════
+   Responsive Breakpoints
+   ═══════════════════════════════════════ */
+
+/* Tablet -- 640px */
+@media (min-width: 640px) {
+  .doctor-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .customer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet landscape -- 768px */
+@media (min-width: 768px) {
+  .customer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop -- 1024px */
+@media (min-width: 1024px) {
+  .feedback-cta-title {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile -- below 640px */
+@media (max-width: 639px) {
+  .doctor-reviews,
+  .customer-reviews,
+  .feedback-cta {
+    padding: 3rem 1rem;
+  }
+
+  .doctor-card,
+  .customer-card {
+    padding: 1.25rem;
+  }
+
+  .feedback-cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .doctor-card,
+  .customer-card {
+    transition: none;
+  }
+}

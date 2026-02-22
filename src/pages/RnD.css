@@ -1,0 +1,236 @@
+/* =========================================================
+   RnD.css — Research & Development Page
+   Clean, professional. No dark mode, no emojis.
+   ========================================================= */
+
+/* ── Page Wrapper ── */
+.rnd-page {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+/* ── R&D Overview ── */
+.rnd-overview {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.rnd-overview-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.rnd-overview-content {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rnd-overview-text {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.rnd-overview-text:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Focus Areas ── */
+.rnd-focus {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.rnd-focus-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.rnd-focus-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.rnd-focus-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.rnd-focus-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.rnd-focus-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1rem;
+}
+
+.rnd-focus-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.rnd-focus-desc {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── Innovation Capabilities ── */
+.rnd-capabilities {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.rnd-capabilities-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.rnd-capabilities-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.rnd-cap-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.rnd-cap-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.rnd-cap-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1rem;
+}
+
+.rnd-cap-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.rnd-cap-desc {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── CTA Section ── */
+.rnd-cta {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.rnd-cta-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rnd-cta-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.rnd-cta-text {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+/* ═══════════════════════════════════════
+   Responsive Breakpoints
+   ═══════════════════════════════════════ */
+
+/* Tablet – 640px */
+@media (min-width: 640px) {
+  .rnd-focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rnd-capabilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet landscape – 768px */
+@media (min-width: 768px) {
+  .rnd-capabilities-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop – 1024px */
+@media (min-width: 1024px) {
+  .rnd-focus-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .rnd-cta-title {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile – below 640px */
+@media (max-width: 639px) {
+  .rnd-overview,
+  .rnd-focus,
+  .rnd-capabilities,
+  .rnd-cta {
+    padding: 3rem 1rem;
+  }
+
+  .rnd-focus-card,
+  .rnd-cap-card {
+    padding: 1.5rem;
+  }
+
+  .rnd-cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .rnd-focus-card,
+  .rnd-cap-card {
+    transition: none;
+  }
+}

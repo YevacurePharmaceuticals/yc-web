@@ -1,0 +1,326 @@
+/* =========================================================
+   Exports.css — Global Exports Page
+   Clean, professional. No dark mode, no emojis.
+   ========================================================= */
+
+/* ── Page Wrapper ── */
+.exports-page {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+/* ── Export Capabilities ── */
+.exports-capabilities {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.exports-capabilities-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.exports-cap-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.exports-cap-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.exports-cap-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.exports-cap-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1rem;
+}
+
+.exports-cap-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.exports-cap-desc {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── Markets Served ── */
+.exports-markets {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.exports-markets-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.exports-markets-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.exports-market-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.exports-market-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.exports-market-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #1e40af;
+  margin: 0 auto 0.75rem;
+}
+
+.exports-market-region {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.exports-market-desc {
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* ── Product Range for Export ── */
+.exports-products {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.exports-products-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.exports-products-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.exports-products-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.exports-products-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1.25rem;
+}
+
+.exports-products-text {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.8;
+  margin-bottom: 1.75rem;
+}
+
+/* ── Export Advantages ── */
+.exports-advantages {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.exports-advantages-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.exports-adv-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.exports-adv-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.exports-adv-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.exports-adv-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1rem;
+}
+
+.exports-adv-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.exports-adv-desc {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── CTA Section ── */
+.exports-cta {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.exports-cta-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.exports-cta-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.exports-cta-text {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+/* ═══════════════════════════════════════
+   Responsive Breakpoints
+   ═══════════════════════════════════════ */
+
+/* Tablet – 640px */
+@media (min-width: 640px) {
+  .exports-cap-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .exports-markets-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .exports-adv-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet landscape – 768px */
+@media (min-width: 768px) {
+  .exports-cap-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .exports-markets-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop – 1024px */
+@media (min-width: 1024px) {
+  .exports-markets-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .exports-adv-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .exports-cta-title {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile – below 640px */
+@media (max-width: 639px) {
+  .exports-capabilities,
+  .exports-markets,
+  .exports-products,
+  .exports-advantages,
+  .exports-cta {
+    padding: 3rem 1rem;
+  }
+
+  .exports-cap-card,
+  .exports-market-card,
+  .exports-adv-card {
+    padding: 1.5rem;
+  }
+
+  .exports-products-card {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .exports-cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .exports-cap-card,
+  .exports-market-card,
+  .exports-adv-card {
+    transition: none;
+  }
+}

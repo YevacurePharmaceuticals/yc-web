@@ -1,0 +1,321 @@
+/* =========================================================
+   Quality.css — Quality Assurance Page
+   Clean, professional. No dark mode, no emojis.
+   ========================================================= */
+
+/* ── Page Wrapper ── */
+.quality-page {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+/* ── Quality Policy Statement ── */
+.qa-policy {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.qa-policy-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.qa-policy-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #1e40af;
+  border-radius: 0.75rem;
+  padding: 2.5rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.qa-policy-icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+}
+
+.qa-policy-quote {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.8;
+  font-style: italic;
+  margin: 0;
+}
+
+/* ── QA Process ── */
+.qa-process {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.qa-process-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.qa-process-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.qa-process-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.qa-process-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.qa-process-card-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1rem;
+}
+
+.qa-process-card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.qa-process-card-desc {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── Regulatory Compliance ── */
+.qa-compliance {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.qa-compliance-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.qa-compliance-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.qa-compliance-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.qa-compliance-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-2px);
+}
+
+.qa-compliance-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+
+.qa-compliance-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.qa-compliance-desc {
+  font-size: 0.9375rem;
+  color: #475569;
+  line-height: 1.75;
+}
+
+/* ── Quality Infrastructure ── */
+.qa-infrastructure {
+  padding: 5rem 1.5rem;
+  background: #f8fafc;
+}
+
+.qa-infrastructure-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.qa-infra-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.qa-infra-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.qa-infra-card:hover {
+  box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+  transform: translateY(-3px);
+}
+
+.qa-infra-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background: #eff6ff;
+  color: #1e40af;
+  margin: 0 auto 1rem;
+}
+
+.qa-infra-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.qa-infra-desc {
+  font-size: 0.9375rem;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── CTA Section ── */
+.qa-cta {
+  padding: 5rem 1.5rem;
+  background: #ffffff;
+}
+
+.qa-cta-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.qa-cta-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.qa-cta-text {
+  font-size: 1.0625rem;
+  color: #475569;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+/* ═══════════════════════════════════════
+   Responsive Breakpoints
+   ═══════════════════════════════════════ */
+
+/* Tablet – 640px */
+@media (min-width: 640px) {
+  .qa-process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qa-infra-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qa-compliance-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet landscape – 768px */
+@media (min-width: 768px) {
+  .qa-infra-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop – 1024px */
+@media (min-width: 1024px) {
+  .qa-process-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .qa-cta-title {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile – below 640px */
+@media (max-width: 639px) {
+  .qa-policy,
+  .qa-process,
+  .qa-compliance,
+  .qa-infrastructure,
+  .qa-cta {
+    padding: 3rem 1rem;
+  }
+
+  .qa-policy-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.75rem 1.5rem;
+  }
+
+  .qa-process-card,
+  .qa-compliance-card,
+  .qa-infra-card {
+    padding: 1.5rem;
+  }
+
+  .qa-cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .qa-process-card,
+  .qa-compliance-card,
+  .qa-infra-card {
+    transition: none;
+  }
+}
