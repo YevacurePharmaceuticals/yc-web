@@ -30,9 +30,9 @@
     {
       "id": "yc-facium-facewash",
       "name": "YC FACIUM Glutathione Face Wash",
-      "category": "face",
+      "category": "skin-care",
       "subcategory": "cleanser",
-      "therapeuticCategory": "Dermatology",
+      "therapeuticCategory": "Skin Care",
       "dosageForm": "Facewash",
       "strength": "100ml",
       "exportAvailable": false,
@@ -83,16 +83,16 @@
         "shelfLife": "3 years"
       },
       "packaging": "100ml tube",
-      "price": "₹349",
+      "price": "₹425",
       "availability": "In Stock",
       "usp": "Triple power brightening formula for radiant skin"
     },
     {
       "id": "yc-facium-cream",
       "name": "YC FACIUM Glutathione Skin Glowing Cream",
-      "category": "face",
+      "category": "skin-care",
       "subcategory": "moisturizer",
-      "therapeuticCategory": "Dermatology",
+      "therapeuticCategory": "Skin Care",
       "dosageForm": "Cream",
       "strength": "50gm",
       "exportAvailable": false,
@@ -141,16 +141,16 @@
         "shelfLife": "3 years"
       },
       "packaging": "50gm jar",
-      "price": "₹449",
+      "price": "₹460",
       "availability": "In Stock",
       "usp": "Glutathione-powered skin brightening cream"
     },
     {
       "id": "yc-facium-serum",
       "name": "YC FACIUM Face Serum",
-      "category": "face",
+      "category": "skin-care",
       "subcategory": "serum",
-      "therapeuticCategory": "Dermatology",
+      "therapeuticCategory": "Skin Care",
       "dosageForm": "Serum",
       "strength": "30ml",
       "exportAvailable": false,
@@ -198,305 +198,16 @@
         "shelfLife": "2 years"
       },
       "packaging": "30ml bottle with dropper",
-      "price": "₹599",
+      "price": "₹500",
       "availability": "In Stock",
       "usp": "Advanced anti-ageing and brightening serum"
     },
     {
-      "id": "eboderm-shampoo",
-      "name": "EBODERM Anti-Dandruff Shampoo",
-      "category": "hair",
-      "subcategory": "shampoo",
-      "therapeuticCategory": "Trichology",
-      "dosageForm": "Shampoo",
-      "strength": "60ml",
-      "exportAvailable": false,
-      "prescriptionRequired": false,
-      "shortDescription": "Ketoconazole & Zinc Pyrithione Shampoo for effective dandruff control.",
-      "longDescription": "EBODERM Anti-Dandruff Shampoo is a clinically proven formula containing Ketoconazole and Zinc Pyrithione to effectively combat dandruff and scalp conditions. This therapeutic shampoo not only treats dandruff but also helps maintain a healthy scalp environment, preventing recurrence.",
-      "features": [
-        "Contains Ketoconazole 2%",
-        "Zinc Pyrithione for scalp health",
-        "Clinically proven formula",
-        "Anti-fungal properties",
-        "Prevents dandruff recurrence",
-        "60ml convenient size"
-      ],
-      "image": {
-        "original": "anti-dandruff.jpeg",
-        "path": "/images/products/anti-dandruff.jpeg",
-        "alt": "EBODERM Anti-Dandruff Shampoo - Yevacure Pharmaceutical"
-      },
-      "ingredients": [
-        "Ketoconazole 2%",
-        "Zinc Pyrithione",
-        "Aqua",
-        "Sodium Laureth Sulfate",
-        "Cocamidopropyl Betaine",
-        "Glycerin",
-        "Menthol"
-      ],
-      "usage": "Wet hair thoroughly. Apply shampoo and massage into scalp. Leave on for 3-5 minutes. Rinse thoroughly. Use 2-3 times per week or as directed by physician.",
-      "benefits": [
-        "Eliminates dandruff",
-        "Controls scalp itching",
-        "Anti-fungal action",
-        "Prevents flaking",
-        "Maintains scalp health",
-        "Clinically tested"
-      ],
-      "warnings": "For external use only. Avoid contact with eyes. If contact occurs, rinse thoroughly with water. Discontinue if irritation develops. Keep out of reach of children.",
-      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
-      "certifications": ["ISO 9001", "GMP Compliant"],
-      "compliance": {
-        "batchNumber": "EB-SH-2024",
-        "expiryDate": "36 months from manufacturing",
-        "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with pharmaceutical standards",
-        "shelfLife": "3 years"
-      },
-      "packaging": "60ml bottle",
-      "price": "₹299",
-      "availability": "In Stock",
-      "usp": "Medical-grade anti-dandruff treatment"
-    },
-    {
-      "id": "hairsalus-solution",
-      "name": "HAIRSALUS 5% Minoxidil Topical Solution",
-      "category": "hair",
-      "subcategory": "treatment",
-      "therapeuticCategory": "Trichology",
-      "dosageForm": "Topical Solution",
-      "strength": "60ml/5%",
-      "exportAvailable": false,
-      "prescriptionRequired": false,
-      "shortDescription": "Hair Regrowth Treatment that revitalizes hair follicles and stimulates growth.",
-      "longDescription": "HAIRSALUS 5% is a clinically proven Minoxidil topical solution designed for hair regrowth treatment. This alcohol-free formula revitalizes hair follicles, stimulates growth, and is clinically proven to help regrow hair. Extra strength formulation provides effective results for both men and women experiencing hair loss.",
-      "features": [
-        "5% Minoxidil concentration",
-        "Alcohol-free formula",
-        "Hair regrowth treatment",
-        "Revitalizes hair follicles",
-        "Stimulates hair growth",
-        "Clinically proven effective",
-        "60ml spray bottle"
-      ],
-      "image": {
-        "original": "hairsalus.jpeg",
-        "path": "/images/products/hairsalus.jpeg",
-        "alt": "HAIRSALUS 5% Minoxidil Solution - Yevacure Pharmaceutical"
-      },
-      "ingredients": [
-        "Minoxidil 5%",
-        "Propylene Glycol",
-        "Purified Water",
-        "Ethanol (minimal)",
-        "Propellant"
-      ],
-      "usage": "Apply 1ml twice daily directly to the scalp in the area of hair thinning. Massage gently. Wash hands after application. Do not rinse. Use continuously for best results.",
-      "benefits": [
-        "Promotes hair regrowth",
-        "Strengthens hair follicles",
-        "Reduces hair fall",
-        "Increases hair density",
-        "Clinically proven results",
-        "Suitable for men and women"
-      ],
-      "warnings": "For external use only. For use on scalp only. Avoid contact with eyes. May cause temporary scalp irritation. Consult doctor if pregnant or breastfeeding. Keep out of reach of children.",
-      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
-      "certifications": ["ISO 9001", "GMP Compliant"],
-      "compliance": {
-        "batchNumber": "HS-MX-2024",
-        "expiryDate": "24 months from manufacturing",
-        "storage": "Store at room temperature away from heat",
-        "regulatory": "Compliant with pharmaceutical standards",
-        "shelfLife": "2 years"
-      },
-      "packaging": "60ml spray bottle",
-      "price": "₹749",
-      "availability": "In Stock",
-      "usp": "Clinically proven hair regrowth solution"
-    },
-    {
-      "id": "coltihair-tablets",
-      "name": "COLTIHAIR Tablets",
-      "category": "nutraceuticals",
-      "subcategory": "hair-supplement",
-      "therapeuticCategory": "Nutraceuticals",
-      "dosageForm": "Tablet",
-      "strength": "10x1x10",
-      "exportAvailable": false,
-      "prescriptionRequired": false,
-      "shortDescription": "Biotin, Amino Acids, Iron, Vitamins, Minerals & Grape Seed Extract for healthy hair.",
-      "longDescription": "COLTIHAIR Tablets are a comprehensive nutraceutical supplement designed to promote healthy hair from within. This advanced formula combines Biotin, essential Amino Acids, Iron, Vitamins, Minerals, and Grape Seed Extract to nourish hair follicles, strengthen hair, and support overall hair health.",
-      "features": [
-        "Biotin for hair strength",
-        "Amino Acids for hair growth",
-        "Iron for healthy follicles",
-        "Essential vitamins and minerals",
-        "Grape Seed Extract antioxidants",
-        "10x1x10 Tablets blister pack"
-      ],
-      "image": {
-        "original": "coltihair.jpeg",
-        "path": "/images/products/coltihair.jpeg",
-        "alt": "COLTIHAIR Tablets - Yevacure Pharmaceutical"
-      },
-      "ingredients": [
-        "Biotin",
-        "Amino Acids",
-        "Iron",
-        "Vitamin A, C, E",
-        "Zinc",
-        "Selenium",
-        "Grape Seed Extract",
-        "Minerals"
-      ],
-      "usage": "Take 1 tablet daily after meals or as directed by healthcare professional. Do not exceed recommended dosage.",
-      "benefits": [
-        "Promotes hair growth",
-        "Strengthens hair follicles",
-        "Reduces hair fall",
-        "Improves hair texture",
-        "Supports overall hair health",
-        "Provides essential nutrients"
-      ],
-      "warnings": "Food supplement, not for medicinal use. Consult doctor if pregnant, nursing, or on medication. Keep out of reach of children. Do not exceed recommended dose.",
-      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
-      "certifications": ["FSSAI", "ISO 9001", "GMP Compliant"],
-      "compliance": {
-        "batchNumber": "CT-TB-2024",
-        "expiryDate": "24 months from manufacturing",
-        "storage": "Store in a cool, dry place",
-        "regulatory": "Nutraceutical compliant",
-        "shelfLife": "2 years"
-      },
-      "packaging": "10x1x10 Tablets",
-      "price": "₹599",
-      "availability": "In Stock",
-      "usp": "Complete hair nutrition supplement"
-    },
-    {
-      "id": "yc-truncle-serum",
-      "name": "YC TRUNCLE Hair Serum",
-      "category": "hair",
-      "subcategory": "serum",
-      "therapeuticCategory": "Trichology",
-      "dosageForm": "Serum",
-      "strength": "-",
-      "exportAvailable": false,
-      "prescriptionRequired": false,
-      "shortDescription": "Specially designed to nourish and smooth hair, leaving it shiny, soft, and manageable.",
-      "longDescription": "YC TRUNCLE Hair Serum is a premium hair care solution that delivers salon-quality results at home. This advanced serum is formulated to nourish, smooth, and protect your hair while adding brilliant shine and manageability. Perfect for all hair types, it helps tame frizz and provides long-lasting nourishment.",
-      "features": [
-        "Nourishes hair deeply",
-        "Smooths and tames frizz",
-        "Adds brilliant shine",
-        "Makes hair soft and manageable",
-        "Lightweight formula",
-        "Suitable for all hair types"
-      ],
-      "image": {
-        "original": "truncle.jpeg",
-        "path": "/images/products/truncle.jpeg",
-        "alt": "YC TRUNCLE Hair Serum - Yevacure Pharmaceutical"
-      },
-      "ingredients": [
-        "Argan Oil",
-        "Vitamin E",
-        "Silk Proteins",
-        "Natural Oils",
-        "UV Protectants",
-        "Shine Enhancers"
-      ],
-      "usage": "Apply a few drops to damp or dry hair. Distribute evenly through mid-lengths to ends. Style as desired. Do not rinse. Use daily for best results.",
-      "benefits": [
-        "Reduces frizz",
-        "Adds shine and luster",
-        "Protects from heat damage",
-        "Smooths hair texture",
-        "Provides nourishment",
-        "Non-greasy formula"
-      ],
-      "warnings": "For external use only. Avoid contact with eyes. Keep out of reach of children. Store in a cool place.",
-      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
-      "certifications": ["ISO 9001", "Cruelty Free", "Dermatologically Tested"],
-      "compliance": {
-        "batchNumber": "TR-HS-2024",
-        "expiryDate": "36 months from manufacturing",
-        "storage": "Store in a cool, dry place",
-        "regulatory": "Compliant with cosmetic standards",
-        "shelfLife": "3 years"
-      },
-      "packaging": "Spray bottle",
-      "price": "₹399",
-      "availability": "In Stock",
-      "usp": "Professional salon-quality hair serum"
-    },
-    {
-      "id": "yc-piedocare-spray",
-      "name": "YC PIEDOCARE - Good Bye Fungi!",
-      "category": "foot-care",
-      "subcategory": "treatment",
-      "therapeuticCategory": "Dermatology",
-      "dosageForm": "Spray",
-      "strength": "50ml",
-      "exportAvailable": false,
-      "prescriptionRequired": false,
-      "shortDescription": "Prevents your feet from fungal infections with Natural Lavender, Lemon and Rosemary extract.",
-      "longDescription": "YC PIEDOCARE is a specialized foot care solution designed to prevent and treat fungal infections. Formulated with natural ingredients including Lavender, Lemon, and Rosemary extracts, this spray provides effective protection while being gentle on the skin. Perfect for maintaining healthy, fungi-free feet.",
-      "features": [
-        "Prevents fungal infections",
-        "Natural Lavender extract",
-        "Lemon extract for freshness",
-        "Rosemary extract benefits",
-        "Easy spray application",
-        "50ml convenient size"
-      ],
-      "image": {
-        "original": "piedocare.jpeg",
-        "path": "/images/products/piedocare.jpeg",
-        "alt": "YC PIEDOCARE Foot Care Spray - Yevacure Pharmaceutical"
-      },
-      "ingredients": [
-        "Lavender Extract",
-        "Lemon Extract",
-        "Rosemary Extract",
-        "Tea Tree Oil",
-        "Eucalyptus Oil",
-        "Alcohol",
-        "Purified Water"
-      ],
-      "usage": "Spray directly on clean, dry feet, focusing on areas between toes and soles. Use twice daily or as needed. Allow to dry before wearing socks or shoes.",
-      "benefits": [
-        "Prevents fungal infections",
-        "Eliminates odor",
-        "Refreshes feet",
-        "Natural antiseptic action",
-        "Soothes irritation",
-        "Quick-drying formula"
-      ],
-      "warnings": "For external use only. Avoid contact with eyes, mucous membranes, and damaged skin. Do not use if allergic to ingredients. Keep away from children. Do not spray near fire or flame.",
-      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
-      "certifications": ["ISO 9001", "Dermatologically Tested"],
-      "compliance": {
-        "batchNumber": "PC-SP-2024",
-        "expiryDate": "24 months from manufacturing",
-        "storage": "Store in a cool place away from heat",
-        "regulatory": "Compliant with cosmetic standards",
-        "shelfLife": "2 years"
-      },
-      "packaging": "50ml spray bottle",
-      "price": "₹249",
-      "availability": "In Stock",
-      "usp": "Natural anti-fungal foot care solution"
-    },
-    {
       "id": "yc-serenesoft-lotion",
       "name": "YC SERENE SOFT Moisturising Body Lotion",
-      "category": "body",
+      "category": "skin-care",
       "subcategory": "lotion",
-      "therapeuticCategory": "General Wellness",
+      "therapeuticCategory": "Skin Care",
       "dosageForm": "Lotion",
       "strength": "300ml",
       "exportAvailable": false,
@@ -550,16 +261,1321 @@
         "shelfLife": "As per label"
       },
       "packaging": "300ml bottle",
-      "price": "₹349",
+      "price": "₹300",
       "availability": "In Stock",
       "usp": "Gentle moisturizing lotion for sensitive skin"
     },
     {
+      "id": "yc-truncle-spray",
+      "name": "YC TRUNCLE Spray",
+      "category": "skin-care",
+      "subcategory": "spray",
+      "therapeuticCategory": "Skin Care",
+      "dosageForm": "Spray",
+      "strength": "-",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Specially designed to nourish and smooth hair, leaving it shiny, soft, and manageable.",
+      "longDescription": "YC TRUNCLE Hair Serum is a premium hair care solution that delivers salon-quality results at home. This advanced serum is formulated to nourish, smooth, and protect your hair while adding brilliant shine and manageability. Perfect for all hair types, it helps tame frizz and provides long-lasting nourishment.",
+      "features": [
+        "Nourishes hair deeply",
+        "Smooths and tames frizz",
+        "Adds brilliant shine",
+        "Makes hair soft and manageable",
+        "Lightweight formula",
+        "Suitable for all hair types"
+      ],
+      "image": {
+        "original": "truncle.jpeg",
+        "path": "/images/products/truncle.jpeg",
+        "alt": "YC TRUNCLE Spray - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Argan Oil",
+        "Vitamin E",
+        "Silk Proteins",
+        "Natural Oils",
+        "UV Protectants",
+        "Shine Enhancers"
+      ],
+      "usage": "Apply a few drops to damp or dry hair. Distribute evenly through mid-lengths to ends. Style as desired. Do not rinse. Use daily for best results.",
+      "benefits": [
+        "Reduces frizz",
+        "Adds shine and luster",
+        "Protects from heat damage",
+        "Smooths hair texture",
+        "Provides nourishment",
+        "Non-greasy formula"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Keep out of reach of children. Store in a cool place.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Cruelty Free", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "TR-HS-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "3 years"
+      },
+      "packaging": "Spray bottle",
+      "price": "₹460",
+      "availability": "In Stock",
+      "usp": "Professional salon-quality hair spray"
+    },
+    {
+      "id": "yc-piedocare-spray",
+      "name": "YC PIEDOCARE - Good Bye Fungi!",
+      "category": "skin-care",
+      "subcategory": "treatment",
+      "therapeuticCategory": "Skin Care",
+      "dosageForm": "Spray",
+      "strength": "50ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Prevents your feet from fungal infections with Natural Lavender, Lemon and Rosemary extract.",
+      "longDescription": "YC PIEDOCARE is a specialized foot care solution designed to prevent and treat fungal infections. Formulated with natural ingredients including Lavender, Lemon, and Rosemary extracts, this spray provides effective protection while being gentle on the skin. Perfect for maintaining healthy, fungi-free feet.",
+      "features": [
+        "Prevents fungal infections",
+        "Natural Lavender extract",
+        "Lemon extract for freshness",
+        "Rosemary extract benefits",
+        "Easy spray application",
+        "50ml convenient size"
+      ],
+      "image": {
+        "original": "piedocare.jpeg",
+        "path": "/images/products/piedocare.jpeg",
+        "alt": "YC PIEDOCARE Foot Care Spray - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Lavender Extract",
+        "Lemon Extract",
+        "Rosemary Extract",
+        "Tea Tree Oil",
+        "Eucalyptus Oil",
+        "Alcohol",
+        "Purified Water"
+      ],
+      "usage": "Spray directly on clean, dry feet, focusing on areas between toes and soles. Use twice daily or as needed. Allow to dry before wearing socks or shoes.",
+      "benefits": [
+        "Prevents fungal infections",
+        "Eliminates odor",
+        "Refreshes feet",
+        "Natural antiseptic action",
+        "Soothes irritation",
+        "Quick-drying formula"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes, mucous membranes, and damaged skin. Do not use if allergic to ingredients. Keep away from children. Do not spray near fire or flame.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Dermatologically Tested"],
+      "compliance": {
+        "batchNumber": "PC-SP-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool place away from heat",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "50ml spray bottle",
+      "price": "₹500",
+      "availability": "In Stock",
+      "usp": "Natural anti-fungal foot care solution"
+    },
+    {
+      "id": "photosalus-sunscreen",
+      "name": "PHOTOSALUS Sunscreen 50GM",
+      "category": "skin-care",
+      "subcategory": "sunscreen",
+      "therapeuticCategory": "Skin Care",
+      "dosageForm": "Cream",
+      "strength": "50gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Broad-spectrum sunscreen for daily UV protection and skin care.",
+      "longDescription": "PHOTOSALUS Sunscreen provides broad-spectrum protection against harmful UVA and UVB rays. This lightweight, non-greasy formula is designed for daily use to prevent sun damage, premature ageing, and hyperpigmentation. Suitable for all skin types, it absorbs quickly and provides long-lasting protection.",
+      "features": [
+        "Broad-spectrum UV protection",
+        "Lightweight and non-greasy",
+        "Daily use formula",
+        "Prevents sun damage",
+        "Suitable for all skin types",
+        "50gm convenient size"
+      ],
+      "image": {
+        "original": "",
+        "path": "/images/products/sunscreen.jpeg",
+        "alt": "PHOTOSALUS Sunscreen - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Zinc Oxide",
+        "Titanium Dioxide",
+        "Aloe Vera Extract",
+        "Vitamin E",
+        "Glycerin",
+        "Aqua",
+        "Cream Base"
+      ],
+      "usage": "Apply generously 15-20 minutes before sun exposure. Reapply every 2-3 hours or after swimming or sweating. Use daily for best protection.",
+      "benefits": [
+        "Protects against UVA and UVB rays",
+        "Prevents sunburn and tanning",
+        "Reduces risk of premature ageing",
+        "Non-greasy feel",
+        "Moisturizes skin",
+        "Suitable for daily use"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. If irritation occurs, discontinue use. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "Dermatologically Tested", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "PS-SC-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "50gm tube",
+      "price": "₹650",
+      "availability": "In Stock",
+      "usp": "Daily broad-spectrum sun protection"
+    },
+    {
+      "id": "hairsalus-solution",
+      "name": "HAIRSALUS 5% Minoxidil Topical Solution",
+      "category": "hair-care",
+      "subcategory": "treatment",
+      "therapeuticCategory": "Hair Care",
+      "dosageForm": "Topical Solution",
+      "strength": "60ml/5%",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Hair Regrowth Treatment that revitalizes hair follicles and stimulates growth.",
+      "longDescription": "HAIRSALUS 5% is a clinically proven Minoxidil topical solution designed for hair regrowth treatment. This alcohol-free formula revitalizes hair follicles, stimulates growth, and is clinically proven to help regrow hair. Extra strength formulation provides effective results for both men and women experiencing hair loss.",
+      "features": [
+        "5% Minoxidil concentration",
+        "Alcohol-free formula",
+        "Hair regrowth treatment",
+        "Revitalizes hair follicles",
+        "Stimulates hair growth",
+        "Clinically proven effective",
+        "60ml spray bottle"
+      ],
+      "image": {
+        "original": "hairsalus.jpeg",
+        "path": "/images/products/hairsalus.jpeg",
+        "alt": "HAIRSALUS 5% Minoxidil Solution - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Minoxidil 5%",
+        "Propylene Glycol",
+        "Purified Water",
+        "Ethanol (minimal)",
+        "Propellant"
+      ],
+      "usage": "Apply 1ml twice daily directly to the scalp in the area of hair thinning. Massage gently. Wash hands after application. Do not rinse. Use continuously for best results.",
+      "benefits": [
+        "Promotes hair regrowth",
+        "Strengthens hair follicles",
+        "Reduces hair fall",
+        "Increases hair density",
+        "Clinically proven results",
+        "Suitable for men and women"
+      ],
+      "warnings": "For external use only. For use on scalp only. Avoid contact with eyes. May cause temporary scalp irritation. Consult doctor if pregnant or breastfeeding. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "HS-MX-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store at room temperature away from heat",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "60ml spray bottle",
+      "price": "₹750",
+      "availability": "In Stock",
+      "usp": "Clinically proven hair regrowth solution"
+    },
+    {
+      "id": "hairsalus-f-solution",
+      "name": "HAIRSALUS F 5% Minoxidil Topical Solution",
+      "category": "hair-care",
+      "subcategory": "treatment",
+      "therapeuticCategory": "Hair Care",
+      "dosageForm": "Topical Solution",
+      "strength": "60ml/5%",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Hair Regrowth Treatment with Finasteride that revitalizes hair follicles and stimulates growth.",
+      "longDescription": "HAIRSALUS F 5% is a clinically proven Minoxidil topical solution with Finasteride designed for advanced hair regrowth treatment. This formula revitalizes hair follicles, stimulates growth, and is clinically proven to help regrow hair. The addition of Finasteride provides enhanced results for hair loss treatment.",
+      "features": [
+        "5% Minoxidil concentration",
+        "Contains Finasteride",
+        "Hair regrowth treatment",
+        "Revitalizes hair follicles",
+        "Stimulates hair growth",
+        "Clinically proven effective",
+        "60ml spray bottle"
+      ],
+      "image": {
+        "original": "hairsalusF.jpeg",
+        "path": "/images/products/hairsalusF.jpeg",
+        "alt": "HAIRSALUS F 5% Minoxidil Solution - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Minoxidil 5%",
+        "Finasteride",
+        "Propylene Glycol",
+        "Purified Water",
+        "Ethanol (minimal)",
+        "Propellant"
+      ],
+      "usage": "Apply 1ml twice daily directly to the scalp in the area of hair thinning. Massage gently. Wash hands after application. Do not rinse. Use continuously for best results.",
+      "benefits": [
+        "Promotes hair regrowth",
+        "Strengthens hair follicles",
+        "Reduces hair fall",
+        "Increases hair density",
+        "Enhanced results with Finasteride",
+        "Suitable for men"
+      ],
+      "warnings": "For external use only. For use on scalp only. Avoid contact with eyes. May cause temporary scalp irritation. Consult doctor if pregnant or breastfeeding. Keep out of reach of children. Not recommended for women.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "HS-MXF-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store at room temperature away from heat",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "60ml spray bottle",
+      "price": "₹900",
+      "availability": "In Stock",
+      "usp": "Advanced hair regrowth solution with Finasteride"
+    },
+    {
+      "id": "coltihair-tablets",
+      "name": "COLTIHAIR Tablets",
+      "category": "hair-care",
+      "subcategory": "hair-supplement",
+      "therapeuticCategory": "Hair Care",
+      "dosageForm": "Tablet",
+      "strength": "10x1x10",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Biotin, Amino Acids, Iron, Vitamins, Minerals & Grape Seed Extract for healthy hair.",
+      "longDescription": "COLTIHAIR Tablets are a comprehensive nutraceutical supplement designed to promote healthy hair from within. This advanced formula combines Biotin, essential Amino Acids, Iron, Vitamins, Minerals, and Grape Seed Extract to nourish hair follicles, strengthen hair, and support overall hair health.",
+      "features": [
+        "Biotin for hair strength",
+        "Amino Acids for hair growth",
+        "Iron for healthy follicles",
+        "Essential vitamins and minerals",
+        "Grape Seed Extract antioxidants",
+        "10x1x10 Tablets blister pack"
+      ],
+      "image": {
+        "original": "coltihair.jpeg",
+        "path": "/images/products/coltihair.jpeg",
+        "alt": "COLTIHAIR Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Biotin",
+        "Amino Acids",
+        "Iron",
+        "Vitamin A, C, E",
+        "Zinc",
+        "Selenium",
+        "Grape Seed Extract",
+        "Minerals"
+      ],
+      "usage": "Take 1 tablet daily after meals or as directed by healthcare professional. Do not exceed recommended dosage.",
+      "benefits": [
+        "Promotes hair growth",
+        "Strengthens hair follicles",
+        "Reduces hair fall",
+        "Improves hair texture",
+        "Supports overall hair health",
+        "Provides essential nutrients"
+      ],
+      "warnings": "Food supplement, not for medicinal use. Consult doctor if pregnant, nursing, or on medication. Keep out of reach of children. Do not exceed recommended dose.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["FSSAI", "ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "CT-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Nutraceutical compliant",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x1x10 Tablets",
+      "price": "₹173",
+      "availability": "In Stock",
+      "usp": "Complete hair nutrition supplement"
+    },
+    {
+      "id": "eboderm-shampoo",
+      "name": "EBODERM Anti-Dandruff Shampoo",
+      "category": "hair-care",
+      "subcategory": "shampoo",
+      "therapeuticCategory": "Hair Care",
+      "dosageForm": "Shampoo",
+      "strength": "60ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Ketoconazole & Zinc Pyrithione Shampoo for effective dandruff control.",
+      "longDescription": "EBODERM Anti-Dandruff Shampoo is a clinically proven formula containing Ketoconazole and Zinc Pyrithione to effectively combat dandruff and scalp conditions. This therapeutic shampoo not only treats dandruff but also helps maintain a healthy scalp environment, preventing recurrence.",
+      "features": [
+        "Contains Ketoconazole 2%",
+        "Zinc Pyrithione for scalp health",
+        "Clinically proven formula",
+        "Anti-fungal properties",
+        "Prevents dandruff recurrence",
+        "60ml convenient size"
+      ],
+      "image": {
+        "original": "anti-dandruff.jpeg",
+        "path": "/images/products/anti-dandruff.jpeg",
+        "alt": "EBODERM Anti-Dandruff Shampoo - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Ketoconazole 2%",
+        "Zinc Pyrithione",
+        "Aqua",
+        "Sodium Laureth Sulfate",
+        "Cocamidopropyl Betaine",
+        "Glycerin",
+        "Menthol"
+      ],
+      "usage": "Wet hair thoroughly. Apply shampoo and massage into scalp. Leave on for 3-5 minutes. Rinse thoroughly. Use 2-3 times per week or as directed by physician.",
+      "benefits": [
+        "Eliminates dandruff",
+        "Controls scalp itching",
+        "Anti-fungal action",
+        "Prevents flaking",
+        "Maintains scalp health",
+        "Clinically tested"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. If contact occurs, rinse thoroughly with water. Discontinue if irritation develops. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "EB-SH-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "3 years"
+      },
+      "packaging": "60ml bottle",
+      "price": "₹199",
+      "availability": "In Stock",
+      "usp": "Medical-grade anti-dandruff treatment"
+    },
+    {
+      "id": "yc-fine-tab",
+      "name": "YC FINE Terbinafine Tablets",
+      "category": "fungal-bacterial",
+      "subcategory": "antifungal",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Tablet",
+      "strength": "250mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Terbinafine Hydrochloride Tablets IP 250mg for fungal infections.",
+      "longDescription": "YC FINE contains Terbinafine Hydrochloride 250mg, an effective antifungal medication used to treat various fungal infections including tinea corporis, tinea cruris, tinea pedis, and onychomycosis. This prescription medication works by inhibiting fungal cell membrane synthesis.",
+      "features": [
+        "Terbinafine Hydrochloride IP 250mg",
+        "Broad-spectrum antifungal",
+        "10x7 Tablets pack",
+        "Prescription medicine",
+        "Effective against dermatophytes",
+        "Oral antifungal treatment"
+      ],
+      "image": {
+        "original": "IMG-20241005-WA0105(1).jpg",
+        "path": "/images/products/IMG-20241005-WA0105(1).jpg",
+        "alt": "YC FINE Terbinafine Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Terbinafine Hydrochloride IP 250mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Usually 1 tablet once daily. Complete the full course of treatment even if symptoms improve.",
+      "benefits": [
+        "Treats fungal infections effectively",
+        "Broad-spectrum antifungal action",
+        "Targets dermatophyte infections",
+        "Treats nail fungal infections",
+        "Well-absorbed orally"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. May cause liver function changes. Inform doctor of any liver conditions. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YF-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x7 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Effective oral antifungal treatment"
+    },
+    {
+      "id": "luishh-cream",
+      "name": "LUISHH Luliconazole Cream 30GM",
+      "category": "fungal-bacterial",
+      "subcategory": "antifungal",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Cream",
+      "strength": "30gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Luliconazole 1% w/w Cream for topical treatment of fungal skin infections.",
+      "longDescription": "LUISHH Cream contains Luliconazole 1% w/w, a potent topical antifungal agent used to treat various fungal skin infections including tinea corporis, tinea cruris, and tinea pedis. Luliconazole is an imidazole antifungal that works by inhibiting ergosterol synthesis in fungal cell membranes.",
+      "features": [
+        "Luliconazole 1% w/w",
+        "Topical antifungal cream",
+        "30gm tube",
+        "Effective against dermatophytes",
+        "Once daily application",
+        "Fast-acting formula"
+      ],
+      "image": {
+        "original": "IMG-20230422-WA0086.jpg",
+        "path": "/images/products/IMG-20230422-WA0086.jpg",
+        "alt": "LUISHH Luliconazole Cream - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Luliconazole 1% w/w",
+        "Cream Base q.s."
+      ],
+      "usage": "Apply a thin layer to the affected area once daily for the prescribed duration. Clean and dry the affected area before application.",
+      "benefits": [
+        "Treats fungal skin infections",
+        "Once daily application convenience",
+        "Effective against multiple fungal species",
+        "Rapid symptom relief",
+        "Well-tolerated topical treatment"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes and mucous membranes. Discontinue if irritation occurs. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "LU-CR-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "30gm tube",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Potent topical antifungal with once-daily dosing"
+    },
+    {
+      "id": "ermolfine-cream",
+      "name": "ERMOLFINE Cream 30GM",
+      "category": "fungal-bacterial",
+      "subcategory": "antifungal",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Cream",
+      "strength": "30gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Topical antifungal cream for the treatment of fungal skin infections.",
+      "longDescription": "ERMOLFINE Cream is a topical antifungal formulation designed to treat various fungal skin infections. This 30gm cream provides effective relief from fungal infections including ringworm, athlete's foot, and jock itch with regular application as directed.",
+      "features": [
+        "Topical antifungal cream",
+        "30gm tube",
+        "Treats multiple fungal infections",
+        "Easy to apply",
+        "Effective formula",
+        "Dermatologically suitable"
+      ],
+      "image": {
+        "original": "eamrolfine.jpeg",
+        "path": "/images/products/eamrolfine.jpeg",
+        "alt": "ERMOLFINE Cream - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Antifungal Active Ingredient",
+        "Cream Base q.s."
+      ],
+      "usage": "Apply a thin layer to the affected area as directed by physician. Clean and dry the affected area before application.",
+      "benefits": [
+        "Treats fungal skin infections",
+        "Easy topical application",
+        "Effective against common dermatophytes",
+        "Provides symptomatic relief",
+        "Suitable for affected skin areas"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "EM-CR-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "30gm tube",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Effective topical antifungal treatment"
+    },
+    {
+      "id": "yevabet-cream",
+      "name": "YEVABET Cream 15GM",
+      "category": "fungal-bacterial",
+      "subcategory": "antifungal",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Cream",
+      "strength": "15gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Fusidic Acid & Beclomethasone Dipropionate Cream for bacterial skin infections with inflammation.",
+      "longDescription": "YEVABET Cream contains Fusidic Acid and Beclomethasone Dipropionate, a combination providing antibacterial and anti-inflammatory action. This 15gm cream is effective for treating bacterial skin infections accompanied by inflammation, eczema, and dermatitis.",
+      "features": [
+        "Topical treatment cream",
+        "15gm compact tube",
+        "Treats skin infections",
+        "Targeted application",
+        "Effective formula",
+        "Convenient size for travel"
+      ],
+      "image": {
+        "original": "yevabet.jpeg",
+        "path": "/images/products/yevabet.jpeg",
+        "alt": "YEVABET Cream - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Active Pharmaceutical Ingredient",
+        "Cream Base q.s."
+      ],
+      "usage": "Apply a thin layer to the affected area as directed by physician. Clean and dry the affected area before application.",
+      "benefits": [
+        "Treats skin infections effectively",
+        "Easy topical application",
+        "Convenient compact size",
+        "Provides symptomatic relief",
+        "Suitable for localized treatment"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Keep out of reach of children. Use as directed by physician.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YB-CR-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "15gm tube",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Compact topical treatment for skin infections"
+    },
+    {
+      "id": "yevaderm-ointment",
+      "name": "YEVADERM Ointment 20GM",
+      "category": "fungal-bacterial",
+      "subcategory": "topical",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Ointment",
+      "strength": "20gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Mupirocin 2.0% w/w Ointment for bacterial skin infections.",
+      "longDescription": "YEVADERM Ointment contains Mupirocin 2.0% w/w, a topical antibacterial agent effective against bacterial skin infections including impetigo, folliculitis, and wound infections. This 20gm ointment works by inhibiting bacterial protein synthesis.",
+      "features": [
+        "Topical ointment formulation",
+        "20gm tube",
+        "Treats skin conditions",
+        "Targeted application",
+        "Dermatological formula",
+        "Easy to apply"
+      ],
+      "image": {
+        "original": "yevaderm.jpeg",
+        "path": "/images/products/yevaderm.jpeg",
+        "alt": "YEVADERM Ointment - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Active Pharmaceutical Ingredient",
+        "Ointment Base q.s."
+      ],
+      "usage": "Apply a thin layer to the affected area as directed by physician. Clean and dry the affected area before application.",
+      "benefits": [
+        "Treats dermatological conditions",
+        "Ointment base for prolonged contact",
+        "Provides symptomatic relief",
+        "Suitable for dry skin conditions",
+        "Easy application"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Keep out of reach of children. Use as directed by physician.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YD-OI-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "20gm tube",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Effective topical treatment for skin conditions"
+    },
+    {
+      "id": "clotryva-powder",
+      "name": "CLOTRYVA Clotrimazole Dusting Powder 100GM",
+      "category": "fungal-bacterial",
+      "subcategory": "antifungal",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Powder",
+      "strength": "100gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Clotrimazole Dusting Powder for broad-spectrum antifungal protection.",
+      "longDescription": "CLOTRYVA is a Clotrimazole Dusting Powder providing broad-spectrum antifungal protection. This 100gm powder is designed for topical application to treat and prevent fungal skin infections including prickly heat, ringworm, and other superficial mycoses. Easy to apply and provides long-lasting protection.",
+      "features": [
+        "Clotrimazole antifungal powder",
+        "Broad-spectrum antifungal",
+        "100gm container",
+        "Easy dusting application",
+        "Absorbs moisture",
+        "Prevents fungal growth"
+      ],
+      "image": {
+        "original": "IMG-20231107-WA0063.jpg",
+        "path": "/images/products/IMG-20231107-WA0063.jpg",
+        "alt": "CLOTRYVA Clotrimazole Dusting Powder - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Clotrimazole",
+        "Talc",
+        "Zinc Stearate",
+        "Dusting Powder Base q.s."
+      ],
+      "usage": "Dust the powder on the affected area 2-3 times daily or as directed by physician. Ensure the area is clean and dry before application.",
+      "benefits": [
+        "Broad-spectrum antifungal action",
+        "Absorbs excess moisture",
+        "Prevents fungal infections",
+        "Soothes irritated skin",
+        "Easy powder application",
+        "Long-lasting protection"
+      ],
+      "warnings": "For external use only. Avoid inhalation. Keep away from eyes and mucous membranes. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "CL-PW-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "100gm container",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Broad-spectrum antifungal dusting powder"
+    },
+    {
+      "id": "peribiz-soap",
+      "name": "PERIBIZ Soap 75GM",
+      "category": "fungal-bacterial",
+      "subcategory": "antibacterial",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Soap",
+      "strength": "75gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Permethrin 1% Anti-Scabies & Anti-Lice Bathing Soap for parasitic skin infections.",
+      "longDescription": "PERIBIZ Soap contains Permethrin 1%, an effective anti-scabies and anti-lice bathing soap. This 75gm medicated soap is designed to help get rid of head lice and scabies mites while providing gentle cleansing for the skin.",
+      "features": [
+        "Antibacterial and antifungal",
+        "Medicated soap bar",
+        "75gm convenient size",
+        "Gentle cleansing formula",
+        "Maintains skin hygiene",
+        "Daily use suitable"
+      ],
+      "image": {
+        "original": "peribiz.jpeg",
+        "path": "/images/products/peribiz.jpeg",
+        "alt": "PERIBIZ Medicated Soap - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Antibacterial Agent",
+        "Soap Base",
+        "Glycerin",
+        "Fragrance"
+      ],
+      "usage": "Use during bath or shower. Lather well and apply to the body. Rinse thoroughly with water. Use daily for best results.",
+      "benefits": [
+        "Antibacterial protection",
+        "Antifungal action",
+        "Gentle cleansing",
+        "Maintains skin hygiene",
+        "Prevents skin infections",
+        "Suitable for daily use"
+      ],
+      "warnings": "For external use only. Avoid contact with eyes. Discontinue if irritation occurs. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "PB-SP-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with cosmetic standards",
+        "shelfLife": "3 years"
+      },
+      "packaging": "75gm bar",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Medicated soap for antibacterial and antifungal protection"
+    },
+    {
+      "id": "ycn-cream",
+      "name": "YCN Cream 10GM",
+      "category": "fungal-bacterial",
+      "subcategory": "topical",
+      "therapeuticCategory": "Fungal / Bacterial",
+      "dosageForm": "Cream",
+      "strength": "10gm",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Beclometasone Dipropionate, Neomycin & Clotrimazole Cream for skin infections.",
+      "longDescription": "YCN Cream is a triple-action topical formulation containing Beclometasone Dipropionate, Neomycin, and Clotrimazole. This combination provides anti-inflammatory, antibacterial, and antifungal action for effective treatment of mixed skin infections with inflammatory components.",
+      "features": [
+        "Beclometasone Dipropionate anti-inflammatory",
+        "Neomycin antibacterial",
+        "Clotrimazole antifungal",
+        "Triple-action formula",
+        "10gm tube",
+        "Prescription medicine"
+      ],
+      "image": {
+        "original": "IMG-20240419-WA0083.jpg",
+        "path": "/images/products/IMG-20240419-WA0083.jpg",
+        "alt": "YCN Cream - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Beclometasone Dipropionate",
+        "Neomycin Sulphate",
+        "Clotrimazole",
+        "Cream Base q.s."
+      ],
+      "usage": "Apply a thin layer to the affected area twice daily or as directed by physician. Clean and dry the affected area before application.",
+      "benefits": [
+        "Anti-inflammatory action",
+        "Antibacterial protection",
+        "Antifungal treatment",
+        "Reduces itching and inflammation",
+        "Effective against mixed infections"
+      ],
+      "warnings": "Prescription medicine. For external use only. Do not use on open wounds. Avoid prolonged use. Avoid contact with eyes. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YCN-CR-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10gm tube",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Triple-action cream for mixed skin infections"
+    },
+    {
+      "id": "bilicure-tab",
+      "name": "BILICURE Bilastine Tablets",
+      "category": "anti-histamine",
+      "subcategory": "antihistamine",
+      "therapeuticCategory": "Anti Histamine",
+      "dosageForm": "Tablet",
+      "strength": "20mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Bilastine Tablets 20mg for allergic rhinitis and urticaria.",
+      "longDescription": "BILICURE contains Bilastine 20mg, a second-generation antihistamine used for the treatment of allergic rhinitis and chronic spontaneous urticaria. Bilastine is a non-sedating antihistamine that provides effective relief from allergic symptoms without causing drowsiness.",
+      "features": [
+        "Bilastine 20mg",
+        "Non-sedating antihistamine",
+        "10x10 Tablets pack",
+        "Prescription medicine",
+        "Once daily dosing",
+        "Long-lasting relief"
+      ],
+      "image": {
+        "original": "IMG-20241018-WA0065.jpg",
+        "path": "/images/products/IMG-20241018-WA0065.jpg",
+        "alt": "BILICURE Bilastine Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Bilastine 20mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take 1 tablet once daily or as directed by physician. Take on an empty stomach for best absorption.",
+      "benefits": [
+        "Relieves allergic rhinitis symptoms",
+        "Treats chronic urticaria",
+        "Non-sedating formula",
+        "Once daily convenience",
+        "Long-lasting antihistamine action"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Avoid grapefruit juice. May interact with other medications. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "BC-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Non-sedating antihistamine for allergy relief"
+    },
+    {
+      "id": "yevafex-m-tab",
+      "name": "YEVAFEX-M Montelukast & Fexofenadine Tablets",
+      "category": "anti-histamine",
+      "subcategory": "antihistamine",
+      "therapeuticCategory": "Anti Histamine",
+      "dosageForm": "Tablet",
+      "strength": "10mg/120mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Montelukast 10mg & Fexofenadine HCl 120mg Tablets for allergic conditions.",
+      "longDescription": "YEVAFEX-M Tablets combine Montelukast 10mg and Fexofenadine Hydrochloride 120mg for comprehensive management of allergic conditions. This dual-action formulation provides antihistamine and leukotriene receptor antagonist activity for superior allergy control including allergic rhinitis, sneezing, and urticaria.",
+      "features": [
+        "Montelukast 10mg",
+        "Fexofenadine HCl 120mg",
+        "Dual-action allergy relief",
+        "10x10 Tablets pack",
+        "Prescription medicine",
+        "Comprehensive allergy management"
+      ],
+      "image": {
+        "original": "IMG-20230422-WA0088.jpg",
+        "path": "/images/products/IMG-20230422-WA0088.jpg",
+        "alt": "YEVAFEX-M Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Montelukast Sodium IP eq. to Montelukast 10mg",
+        "Fexofenadine Hydrochloride IP 120mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take 1 tablet once daily in the evening or as directed by physician.",
+      "benefits": [
+        "Dual-action allergy relief",
+        "Controls allergic rhinitis",
+        "Reduces sneezing and nasal congestion",
+        "Treats urticaria symptoms",
+        "Non-sedating antihistamine component"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Inform doctor about existing conditions. May cause headache or gastrointestinal symptoms. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YFM-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Dual-action allergy relief with Montelukast and Fexofenadine"
+    },
+    {
+      "id": "ycmont-tab",
+      "name": "YCMONT Levocetirizine & Montelukast Tablets",
+      "category": "anti-histamine",
+      "subcategory": "antihistamine",
+      "therapeuticCategory": "Anti Histamine",
+      "dosageForm": "Tablet",
+      "strength": "5mg/10mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Levocetirizine Dihydrochloride & Montelukast Sodium Tablets IP for allergies and asthma.",
+      "longDescription": "YCMONT Tablets contain Levocetirizine Dihydrochloride and Montelukast Sodium, a combination used for the management of allergic rhinitis and asthma-associated symptoms. This dual-action formula provides effective antihistamine and leukotriene receptor antagonist activity.",
+      "features": [
+        "Levocetirizine Dihydrochloride",
+        "Montelukast Sodium IP",
+        "Dual-action formula",
+        "10x10 Tablets pack",
+        "Prescription medicine",
+        "Allergy and asthma management"
+      ],
+      "image": {
+        "original": "IMG-20231011-WA0078.jpg",
+        "path": "/images/products/IMG-20231011-WA0078.jpg",
+        "alt": "YCMONT Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Levocetirizine Dihydrochloride IP",
+        "Montelukast Sodium IP",
+        "Excipients q.s."
+      ],
+      "usage": "Take 1 tablet once daily in the evening or as directed by physician.",
+      "benefits": [
+        "Manages allergic rhinitis",
+        "Controls asthma symptoms",
+        "Reduces sneezing and runny nose",
+        "Treats itchy and watery eyes",
+        "Comprehensive allergy management"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. May cause drowsiness. Avoid driving if affected. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YCM-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Effective allergy and asthma symptom management"
+    },
+    {
+      "id": "yevadox-l-tab",
+      "name": "YEVADOX-L Doxycycline & Lactic Acid Bacillus Tablets",
+      "category": "antibiotics",
+      "subcategory": "antibiotic",
+      "therapeuticCategory": "Antibiotics",
+      "dosageForm": "Tablet",
+      "strength": "100mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Doxycycline Hydrochloride & Lactic Acid Bacillus Tablets for bacterial infections.",
+      "longDescription": "YEVADOX-L Tablets contain Doxycycline Hydrochloride and Lactic Acid Bacillus. Doxycycline is a broad-spectrum tetracycline antibiotic effective against various bacterial infections, while Lactic Acid Bacillus helps maintain gut flora balance during antibiotic therapy.",
+      "features": [
+        "Doxycycline Hydrochloride",
+        "Lactic Acid Bacillus for gut health",
+        "Broad-spectrum antibiotic",
+        "10x10 Tablets pack",
+        "Prescription medicine",
+        "Probiotic-supplemented antibiotic"
+      ],
+      "image": {
+        "original": "IMG-20230422-WA0099.jpg",
+        "path": "/images/products/IMG-20230422-WA0099.jpg",
+        "alt": "YEVADOX-L Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Doxycycline Hydrochloride IP",
+        "Lactic Acid Bacillus",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Usually 1 tablet twice daily with food and water. Complete the full course of treatment.",
+      "benefits": [
+        "Broad-spectrum antibacterial action",
+        "Maintains gut flora during treatment",
+        "Effective against multiple bacterial infections",
+        "Reduces antibiotic-associated diarrhea",
+        "Well-absorbed oral antibiotic"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Avoid sun exposure during treatment. Do not take with dairy products. Not for children under 8 years. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YDL-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Antibiotic with probiotic support for gut health"
+    },
+    {
+      "id": "yc-myciwin-tab",
+      "name": "YC MYCIWIN 250/500 Tablets",
+      "category": "antibiotics",
+      "subcategory": "antibiotic",
+      "therapeuticCategory": "Antibiotics",
+      "dosageForm": "Tablet",
+      "strength": "250mg/500mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Broad-spectrum antibiotic tablets for the treatment of bacterial infections.",
+      "longDescription": "YC MYCIWIN Tablets are a broad-spectrum antibiotic formulation available in 250mg and 500mg strengths. This prescription medication is designed to treat various bacterial infections and is manufactured under strict GMP-compliant conditions.",
+      "features": [
+        "Available in 250mg and 500mg",
+        "Broad-spectrum antibiotic",
+        "Prescription medicine",
+        "GMP-compliant manufacturing",
+        "Effective against bacterial infections",
+        "Standard pharmaceutical packaging"
+      ],
+      "image": {
+        "original": "",
+        "path": "",
+        "alt": "YC MYCIWIN Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Active Antibiotic Agent",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Complete the full course of treatment even if symptoms improve.",
+      "benefits": [
+        "Treats bacterial infections effectively",
+        "Broad-spectrum antibacterial action",
+        "Available in two strengths",
+        "Well-tolerated oral antibiotic",
+        "Reduces infection symptoms"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Complete full course. May cause allergic reactions. Inform doctor of any allergies. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YMW-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Broad-spectrum antibiotic for bacterial infections"
+    },
+    {
+      "id": "yevamox-cv-tablets",
+      "name": "YEVAMOX-CV Tablets",
+      "category": "antibiotics",
+      "subcategory": "antibiotic",
+      "therapeuticCategory": "Antibiotics",
+      "dosageForm": "Tablet",
+      "strength": "625mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Amoxycillin & Potassium Clavulanate Tablets IP 625mg for bacterial infections.",
+      "longDescription": "YEVAMOX-CV Tablets contain Amoxycillin and Potassium Clavulanate, a powerful combination antibiotic used to treat a wide range of bacterial infections. This prescription medication is effective against bacteria resistant to amoxicillin alone, providing comprehensive antibacterial coverage.",
+      "features": [
+        "Amoxycillin 500mg",
+        "Potassium Clavulanate 125mg",
+        "Broad-spectrum antibiotic",
+        "IP standard formulation",
+        "10x10 tablets pack",
+        "Prescription medicine"
+      ],
+      "image": {
+        "original": "yevamox.jpeg",
+        "path": "/images/products/yevamox.jpeg",
+        "alt": "YEVAMOX-CV Antibiotic Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Amoxycillin Trihydrate IP 500mg",
+        "Potassium Clavulanate Diluted IP 125mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Usually 1 tablet twice or thrice daily. Complete the full course even if symptoms improve. Take with food to reduce stomach upset.",
+      "benefits": [
+        "Treats bacterial infections",
+        "Broad-spectrum coverage",
+        "Effective against resistant bacteria",
+        "Reduces infection symptoms",
+        "Prevents complications"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Complete full course. May cause allergic reactions. Inform doctor of any allergies. Keep out of reach of children. Not for viral infections.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YM-CV-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place below 25°C",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "₹199",
+      "availability": "In Stock",
+      "usp": "Effective broad-spectrum antibiotic combination"
+    },
+    {
+      "id": "yc-cilipod-tab",
+      "name": "YC CILIPOD 200 Tablets",
+      "category": "antibiotics",
+      "subcategory": "antibiotic",
+      "therapeuticCategory": "Antibiotics",
+      "dosageForm": "Tablet",
+      "strength": "200mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Antibiotic tablets 200mg for the treatment of bacterial infections.",
+      "longDescription": "YC CILIPOD 200 Tablets are a prescription antibiotic formulation designed to treat various bacterial infections. This 200mg tablet provides effective antibacterial action and is manufactured under strict quality control standards.",
+      "features": [
+        "200mg antibiotic tablets",
+        "Prescription medicine",
+        "Effective against bacterial infections",
+        "GMP-compliant manufacturing",
+        "Standard pharmaceutical packaging",
+        "Quality assured formulation"
+      ],
+      "image": {
+        "original": "",
+        "path": "",
+        "alt": "YC CILIPOD 200 Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Active Antibiotic Agent 200mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Complete the full course of treatment even if symptoms improve.",
+      "benefits": [
+        "Treats bacterial infections",
+        "Effective antibacterial action",
+        "Well-tolerated oral antibiotic",
+        "Convenient dosage form",
+        "Quality assured formulation"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Complete full course. May cause allergic reactions. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YCP-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Effective antibiotic for bacterial infections"
+    },
+    {
+      "id": "yevagesic-sp-tab",
+      "name": "YEVAGESIC-SP Tablets",
+      "category": "general",
+      "subcategory": "pain-relief",
+      "therapeuticCategory": "General",
+      "dosageForm": "Tablet",
+      "strength": "100mg/325mg/15mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Aceclofenac 100mg, Paracetamol 325mg & Serratiopeptidase 15mg Tablets for pain and inflammation.",
+      "longDescription": "YEVAGESIC-SP Tablets combine Aceclofenac 100mg, Paracetamol 325mg, and Serratiopeptidase 15mg for comprehensive pain and inflammation management. This triple-action formula provides analgesic, anti-inflammatory, and proteolytic enzyme activity for effective relief from pain, fever, and swelling.",
+      "features": [
+        "Aceclofenac 100mg analgesic",
+        "Paracetamol 325mg antipyretic",
+        "Serratiopeptidase 15mg anti-inflammatory",
+        "Triple-action pain relief",
+        "10x10 Tablets pack",
+        "Prescription medicine"
+      ],
+      "image": {
+        "original": "",
+        "path": "",
+        "alt": "YEVAGESIC-SP Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aceclofenac IP 100mg",
+        "Paracetamol IP 325mg",
+        "Serratiopeptidase 15mg",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Usually 1 tablet twice daily after meals. Do not exceed recommended dosage.",
+      "benefits": [
+        "Effective pain relief",
+        "Reduces inflammation and swelling",
+        "Antipyretic action",
+        "Enzyme-based anti-inflammatory",
+        "Comprehensive pain management"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Take after meals. May cause gastrointestinal effects. Avoid in patients with known hypersensitivity. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YGSP-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Triple-action pain and inflammation relief"
+    },
+    {
+      "id": "yevagesic-p-tab",
+      "name": "YEVAGESIC-P Aceclofenac, Paracetamol & Serratiopeptidase Tablets",
+      "category": "general",
+      "subcategory": "pain-relief",
+      "therapeuticCategory": "General",
+      "dosageForm": "Tablet",
+      "strength": "10x10",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Aceclofenac, Paracetamol & Serratiopeptidase Tablets for pain, fever, and inflammation.",
+      "longDescription": "YEVAGESIC-P Tablets contain Aceclofenac, Paracetamol, and Serratiopeptidase for effective management of pain, fever, and inflammation. This combination provides analgesic, antipyretic, and anti-inflammatory action with the proteolytic enzyme Serratiopeptidase for enhanced recovery.",
+      "features": [
+        "Aceclofenac analgesic",
+        "Paracetamol antipyretic",
+        "Serratiopeptidase enzyme",
+        "Triple-action formula",
+        "10x10 Tablets pack",
+        "Prescription medicine"
+      ],
+      "image": {
+        "original": "IMG-20231016-WA0067.jpg",
+        "path": "/images/products/IMG-20231016-WA0067.jpg",
+        "alt": "YEVAGESIC-P Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Aceclofenac IP",
+        "Paracetamol IP",
+        "Serratiopeptidase",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Usually 1 tablet twice daily after meals.",
+      "benefits": [
+        "Effective pain relief",
+        "Reduces fever",
+        "Anti-inflammatory action",
+        "Reduces swelling and edema",
+        "Fast-acting formula"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Take after meals. Avoid if allergic to NSAIDs. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YGP-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Tablets",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Effective pain, fever, and inflammation management"
+    },
+    {
       "id": "yevahep-ds-syrup",
       "name": "YEVAHEP-DS Syrup - Herbal Liver Tonic",
-      "category": "nutraceuticals",
+      "category": "general",
       "subcategory": "liver-health",
-      "therapeuticCategory": "Hepatoprotective",
+      "therapeuticCategory": "General",
       "dosageForm": "Syrup",
       "strength": "200ml",
       "exportAvailable": false,
@@ -613,64 +1629,394 @@
       "usp": "Sugar-free Ayurvedic liver tonic"
     },
     {
-      "id": "yevamox-cv-tablets",
-      "name": "YEVAMOX-CV Tablets",
-      "category": "pharmaceuticals",
-      "subcategory": "antibiotic",
-      "therapeuticCategory": "Anti-Infective",
-      "dosageForm": "Tablet",
-      "strength": "625mg",
+      "id": "yevacoff-dx-syrup",
+      "name": "YEVACOFF-DX Cough Syrup",
+      "category": "general",
+      "subcategory": "cough-cold",
+      "therapeuticCategory": "General",
+      "dosageForm": "Syrup",
+      "strength": "100ml",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Dextromethorphan, Chlorpheniramine & Phenylephrine Syrup for dry cough and cold.",
+      "longDescription": "YEVACOFF-DX Syrup is a sugar-free cough syrup containing Dextromethorphan, Chlorpheniramine Maleate, and Phenylephrine Hydrochloride. This combination provides effective relief from dry cough, runny nose, sneezing, and nasal congestion associated with common cold and upper respiratory tract infections.",
+      "features": [
+        "Dextromethorphan antitussive",
+        "Chlorpheniramine antihistamine",
+        "Phenylephrine decongestant",
+        "Sugar-free formula",
+        "100ml bottle",
+        "Triple-action cough relief"
+      ],
+      "image": {
+        "original": "IMG-20240923-WA0064.jpg",
+        "path": "/images/products/IMG-20240923-WA0064.jpg",
+        "alt": "YEVACOFF-DX Cough Syrup - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Dextromethorphan Hydrobromide",
+        "Chlorpheniramine Maleate",
+        "Phenylephrine Hydrochloride",
+        "Excipients q.s."
+      ],
+      "usage": "Adults: 10ml three times daily or as directed by physician. Children: As advised by physician. Use the measuring cup provided.",
+      "benefits": [
+        "Suppresses dry cough",
+        "Relieves nasal congestion",
+        "Reduces sneezing and runny nose",
+        "Sugar-free formulation",
+        "Fast-acting relief",
+        "Non-drowsy option available"
+      ],
+      "warnings": "Do not exceed recommended dose. May cause drowsiness. Avoid driving if affected. Consult doctor before use if pregnant or breastfeeding. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YCDX-SY-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C. Protect from light.",
+        "regulatory": "Compliant with pharmaceutical standards",
+        "shelfLife": "2 years"
+      },
+      "packaging": "100ml bottle",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Sugar-free triple-action cough and cold relief"
+    },
+    {
+      "id": "yevacoff-ls-syrup",
+      "name": "YEVACOFF-LS Cough Syrup",
+      "category": "general",
+      "subcategory": "cough-cold",
+      "therapeuticCategory": "General",
+      "dosageForm": "Syrup",
+      "strength": "100ml",
       "exportAvailable": false,
       "prescriptionRequired": true,
-      "shortDescription": "Amoxycillin & Potassium Clavulanate Tablets IP 625mg for bacterial infections.",
-      "longDescription": "YEVAMOX-CV Tablets contain Amoxycillin and Potassium Clavulanate, a powerful combination antibiotic used to treat a wide range of bacterial infections. This prescription medication is effective against bacteria resistant to amoxicillin alone, providing comprehensive antibacterial coverage.",
+      "shortDescription": "Ambroxol, Guaiphenesin & Levosalbutamol Syrup for productive cough and respiratory relief.",
+      "longDescription": "YEVACOFF-LS Syrup is a sugar-free expectorant syrup containing Ambroxol Hydrochloride, Guaiphenesin, and Levosalbutamol Sulphate. This combination provides mucolytic, expectorant, and bronchodilator action for effective management of productive cough and respiratory conditions.",
       "features": [
-        "Amoxycillin 500mg",
-        "Potassium Clavulanate 125mg",
-        "Broad-spectrum antibiotic",
-        "IP standard formulation",
-        "10x10 tablets pack",
+        "Ambroxol mucolytic agent",
+        "Guaiphenesin expectorant",
+        "Levosalbutamol bronchodilator",
+        "Sugar-free formula",
+        "100ml bottle",
         "Prescription medicine"
       ],
       "image": {
-        "original": "yevamox.jpeg",
-        "path": "/images/products/yevamox.jpeg",
-        "alt": "YEVAMOX-CV Antibiotic Tablets - Yevacure Pharmaceutical"
+        "original": "IMG-20231118-WA0064.jpg",
+        "path": "/images/products/IMG-20231118-WA0064.jpg",
+        "alt": "YEVACOFF-LS Cough Syrup - Yevacure Pharmaceutical"
       },
       "ingredients": [
-        "Amoxycillin Trihydrate IP 500mg",
-        "Potassium Clavulanate Diluted IP 125mg",
+        "Ambroxol Hydrochloride",
+        "Guaiphenesin",
+        "Levosalbutamol Sulphate",
         "Excipients q.s."
       ],
-      "usage": "Take as prescribed by physician. Usually 1 tablet twice or thrice daily. Complete the full course even if symptoms improve. Take with food to reduce stomach upset.",
+      "usage": "Adults: 10ml three times daily or as directed by physician. Children: As advised by physician.",
       "benefits": [
-        "Treats bacterial infections",
-        "Broad-spectrum coverage",
-        "Effective against resistant bacteria",
-        "Reduces infection symptoms",
-        "Prevents complications"
+        "Thins and loosens mucus",
+        "Facilitates expectoration",
+        "Bronchodilator action",
+        "Relieves chest congestion",
+        "Sugar-free formulation",
+        "Effective for productive cough"
       ],
-      "warnings": "Prescription medicine. Take only as directed by physician. Complete full course. May cause allergic reactions. Inform doctor of any allergies. Keep out of reach of children. Not for viral infections.",
+      "warnings": "Prescription medicine. Take only as directed by physician. May cause mild gastrointestinal symptoms. Consult doctor if symptoms persist. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YCLS-SY-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C. Protect from light.",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "100ml bottle",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Sugar-free mucolytic and bronchodilator cough syrup"
+    },
+    {
+      "id": "revadome-dsr-cap",
+      "name": "REVADOME-DSR Capsules",
+      "category": "general",
+      "subcategory": "gastro",
+      "therapeuticCategory": "General",
+      "dosageForm": "Capsule",
+      "strength": "10x10",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Rabeprazole Sodium (EC) & Domperidone (SR) Capsules for acid reflux and gastric disorders.",
+      "longDescription": "REVADOME-DSR Capsules contain Rabeprazole Sodium (Enteric Coated) and Domperidone (Sustained Release), a combination used for the management of gastroesophageal reflux disease (GERD), peptic ulcers, and associated nausea and vomiting. Rabeprazole reduces stomach acid production while Domperidone improves gastric motility.",
+      "features": [
+        "Rabeprazole Sodium (EC) proton pump inhibitor",
+        "Domperidone (SR) prokinetic agent",
+        "Dual-action gastric relief",
+        "10x10 Capsules pack",
+        "Prescription medicine",
+        "Sustained release formula"
+      ],
+      "image": {
+        "original": "",
+        "path": "",
+        "alt": "REVADOME-DSR Capsules - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Rabeprazole Sodium (Enteric Coated)",
+        "Domperidone (Sustained Release)",
+        "Excipients q.s."
+      ],
+      "usage": "Take 1 capsule once daily before breakfast or as directed by physician. Swallow whole, do not crush or chew.",
+      "benefits": [
+        "Reduces stomach acid production",
+        "Relieves acid reflux symptoms",
+        "Improves gastric motility",
+        "Manages GERD effectively",
+        "Sustained release for prolonged action"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Swallow whole. Do not use for prolonged periods without medical advice. Keep out of reach of children.",
       "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
       "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
       "compliance": {
-        "batchNumber": "YM-CV-2024",
+        "batchNumber": "RD-DSR-2024",
         "expiryDate": "24 months from manufacturing",
-        "storage": "Store in a cool, dry place below 25°C",
+        "storage": "Store below 25°C in a dry place",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "10x10 Capsules",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Dual-action acid reflux and gastric motility management"
+    },
+    {
+      "id": "yc-lyte-powder",
+      "name": "YC-LYTE Energy Powder",
+      "category": "general",
+      "subcategory": "electrolyte",
+      "therapeuticCategory": "General",
+      "dosageForm": "Powder",
+      "strength": "105gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Energy Powder with Electrolytes for hydration and energy replenishment.",
+      "longDescription": "YC-LYTE Energy Powder is a nutraceutical electrolyte formulation designed to replenish essential minerals and provide energy. This 105gm powder contains a balanced blend of electrolytes to maintain hydration, support energy levels, and restore mineral balance during physical activity, illness, or dehydration.",
+      "features": [
+        "Electrolyte replenishment",
+        "Energy powder formula",
+        "105gm pack",
+        "Nutraceutical product",
+        "Balanced mineral blend",
+        "Easy to dissolve"
+      ],
+      "image": {
+        "original": "Screenshot_20241113-144946_Adobe Acrobat.jpg",
+        "path": "/images/products/Screenshot_20241113-144946_Adobe Acrobat.jpg",
+        "alt": "YC-LYTE Energy Powder - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Sodium Chloride",
+        "Potassium Chloride",
+        "Sodium Citrate",
+        "Dextrose",
+        "Electrolyte Blend",
+        "Vitamins"
+      ],
+      "usage": "Dissolve one sachet in a glass of water (200ml). Stir well and drink. Use as needed for hydration or as directed by healthcare professional.",
+      "benefits": [
+        "Replenishes electrolytes",
+        "Provides instant energy",
+        "Maintains hydration",
+        "Restores mineral balance",
+        "Supports recovery",
+        "Easy to prepare"
+      ],
+      "warnings": "Nutraceutical product. Not for medicinal use. Dissolve completely before drinking. Keep out of reach of children. Store in a cool, dry place.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["FSSAI", "ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YCL-PW-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Nutraceutical compliant",
+        "shelfLife": "2 years"
+      },
+      "packaging": "105gm sachet",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Balanced electrolyte energy replenishment"
+    },
+    {
+      "id": "yevacef-tazo-inj",
+      "name": "YEVACEF TAZO Injection 562.5MG",
+      "category": "general",
+      "subcategory": "injectable",
+      "therapeuticCategory": "General",
+      "dosageForm": "Injection",
+      "strength": "562.5mg",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Ceftriaxone & Tazobactam for Injection 562.5mg for severe bacterial infections.",
+      "longDescription": "YEVACEF TAZO is a combination of Ceftriaxone and Tazobactam for injection, used in the treatment of severe bacterial infections. Ceftriaxone is a third-generation cephalosporin antibiotic, and Tazobactam is a beta-lactamase inhibitor that enhances the antibacterial spectrum. This injectable formulation is used for serious infections requiring parenteral antibiotic therapy.",
+      "features": [
+        "Ceftriaxone third-generation cephalosporin",
+        "Tazobactam beta-lactamase inhibitor",
+        "562.5mg injectable formulation",
+        "Prescription medicine",
+        "For severe bacterial infections",
+        "Parenteral antibiotic therapy"
+      ],
+      "image": {
+        "original": "IMG-20230815-WA0422(1).jpg",
+        "path": "/images/products/IMG-20230815-WA0422(1).jpg",
+        "alt": "YEVACEF TAZO Injection - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Ceftriaxone Sodium",
+        "Tazobactam Sodium",
+        "Sterile Water for Injection (diluent)"
+      ],
+      "usage": "For intravenous or intramuscular administration only. To be administered by healthcare professionals as directed by physician.",
+      "benefits": [
+        "Broad-spectrum antibacterial action",
+        "Enhanced spectrum with Tazobactam",
+        "Effective against resistant bacteria",
+        "Treats severe infections",
+        "Parenteral route for rapid action"
+      ],
+      "warnings": "Prescription medicine. For hospital/clinical use only. To be administered by trained healthcare professionals. May cause allergic reactions. Inform doctor of any drug allergies. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant", "IP Standard"],
+      "compliance": {
+        "batchNumber": "YCT-INJ-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C. Protect from light and moisture.",
+        "regulatory": "Schedule H - Prescription Required",
+        "shelfLife": "2 years"
+      },
+      "packaging": "Single vial with diluent",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Potent injectable antibiotic for severe infections"
+    },
+    {
+      "id": "yc-cureodox-tab",
+      "name": "YC CUREODOX Tablets",
+      "category": "general",
+      "subcategory": "antibiotic",
+      "therapeuticCategory": "General",
+      "dosageForm": "Tablet",
+      "strength": "-",
+      "exportAvailable": false,
+      "prescriptionRequired": true,
+      "shortDescription": "Prescription tablets for the management of bacterial infections and related conditions.",
+      "longDescription": "YC CUREODOX Tablets are a prescription pharmaceutical formulation designed for the treatment of bacterial infections. Manufactured under strict GMP-compliant conditions, these tablets provide effective therapeutic action for various infectious conditions as prescribed by healthcare professionals.",
+      "features": [
+        "Prescription medicine",
+        "GMP-compliant manufacturing",
+        "Effective antibacterial action",
+        "Quality assured formulation",
+        "Standard pharmaceutical packaging",
+        "Proven therapeutic efficacy"
+      ],
+      "image": {
+        "original": "",
+        "path": "",
+        "alt": "YC CUREODOX Tablets - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Active Pharmaceutical Ingredient",
+        "Excipients q.s."
+      ],
+      "usage": "Take as prescribed by physician. Complete the full course of treatment.",
+      "benefits": [
+        "Treats bacterial infections",
+        "Effective therapeutic action",
+        "Quality assured formulation",
+        "Well-tolerated oral medication",
+        "Proven clinical efficacy"
+      ],
+      "warnings": "Prescription medicine. Take only as directed by physician. Complete full course. Keep out of reach of children.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "YCCD-TB-2024",
+        "expiryDate": "24 months from manufacturing",
+        "storage": "Store below 25°C in a dry place",
         "regulatory": "Schedule H - Prescription Required",
         "shelfLife": "2 years"
       },
       "packaging": "10x10 Tablets",
-      "price": "₹199",
+      "price": "",
       "availability": "In Stock",
-      "usp": "Effective broad-spectrum antibiotic combination"
+      "usp": "Effective prescription treatment for infections"
+    },
+    {
+      "id": "vedasmile-toothpaste",
+      "name": "VEDASMILE Toothpaste 100GM",
+      "category": "general",
+      "subcategory": "oral-care",
+      "therapeuticCategory": "General",
+      "dosageForm": "Paste",
+      "strength": "100gm",
+      "exportAvailable": false,
+      "prescriptionRequired": false,
+      "shortDescription": "Premium toothpaste for complete oral care and dental hygiene.",
+      "longDescription": "VEDASMILE Toothpaste is a premium oral care product designed for complete dental hygiene. This 100gm toothpaste provides effective cleaning, cavity protection, and fresh breath while maintaining healthy gums and strong teeth with regular use.",
+      "features": [
+        "Complete oral care formula",
+        "100gm tube",
+        "Cavity protection",
+        "Fresh breath formula",
+        "Gentle on gums",
+        "Daily use recommended"
+      ],
+      "image": {
+        "original": "vedasmile.jpeg",
+        "path": "/images/products/vedasmile.jpeg",
+        "alt": "VEDASMILE Toothpaste - Yevacure Pharmaceutical"
+      },
+      "ingredients": [
+        "Fluoride",
+        "Calcium Carbonate",
+        "Sorbitol",
+        "Silica",
+        "Sodium Lauryl Sulfate",
+        "Flavoring Agent",
+        "Preservatives"
+      ],
+      "usage": "Brush teeth thoroughly twice daily or as directed by a dentist. For best results, brush after meals.",
+      "benefits": [
+        "Protects against cavities",
+        "Strengthens tooth enamel",
+        "Freshens breath",
+        "Promotes healthy gums",
+        "Gentle daily cleaning",
+        "Complete oral hygiene"
+      ],
+      "warnings": "Keep out of reach of children under 6 years. If swallowed in excess, seek medical help. For external dental use only.",
+      "manufacturer": "Yevacure Pharmaceutical Pvt Ltd",
+      "certifications": ["ISO 9001", "GMP Compliant"],
+      "compliance": {
+        "batchNumber": "VS-TP-2024",
+        "expiryDate": "36 months from manufacturing",
+        "storage": "Store in a cool, dry place",
+        "regulatory": "Compliant with oral care standards",
+        "shelfLife": "3 years"
+      },
+      "packaging": "100gm tube",
+      "price": "",
+      "availability": "In Stock",
+      "usp": "Premium toothpaste for complete oral care"
     },
     {
       "id": "yevavit9g-capsules",
       "name": "YEVAVIT9G Softgel Capsules",
-      "category": "nutraceuticals",
+      "category": "multivitamins",
       "subcategory": "multivitamin",
-      "therapeuticCategory": "Nutraceuticals",
+      "therapeuticCategory": "Multivitamins",
       "dosageForm": "Softgel Capsule",
       "strength": "10x1x10",
       "exportAvailable": false,
@@ -744,9 +2090,9 @@
     {
       "id": "yevazzit-tablets",
       "name": "YEVAZZIT Tablets",
-      "category": "nutraceuticals",
+      "category": "multivitamins",
       "subcategory": "multivitamin",
-      "therapeuticCategory": "Nutraceuticals",
+      "therapeuticCategory": "Multivitamins",
       "dosageForm": "Tablet",
       "strength": "10x1x10",
       "exportAvailable": false,
@@ -806,40 +2152,46 @@
   ],
   "categories": [
     {
-      "id": "dermatology",
-      "name": "Dermatology",
-      "description": "Skincare solutions including facewash, creams, serums, and topical treatments",
-      "products": ["yc-facium-facewash", "yc-facium-cream", "yc-facium-serum", "yc-piedocare-spray"]
+      "id": "skin-care",
+      "name": "Skin Care",
+      "description": "Skincare solutions including facewash, creams, serums, sunscreens, and topical treatments",
+      "products": ["yc-facium-serum", "yc-facium-facewash", "yc-facium-cream", "yc-serenesoft-lotion", "yc-truncle-spray", "yc-piedocare-spray", "photosalus-sunscreen"]
     },
     {
-      "id": "trichology",
-      "name": "Trichology",
-      "description": "Hair care treatments including anti-dandruff, hair regrowth, and nourishing serums",
-      "products": ["eboderm-shampoo", "hairsalus-solution", "yc-truncle-serum"]
+      "id": "hair-care",
+      "name": "Hair Care",
+      "description": "Hair care treatments including anti-dandruff, hair regrowth solutions, and hair supplements",
+      "products": ["hairsalus-solution", "hairsalus-f-solution", "coltihair-tablets", "eboderm-shampoo"]
     },
     {
-      "id": "nutraceuticals",
-      "name": "Nutraceuticals",
-      "description": "Dietary supplements and multivitamin formulations for overall wellness",
-      "products": ["coltihair-tablets", "yevavit9g-capsules", "yevazzit-tablets"]
+      "id": "fungal-bacterial",
+      "name": "Fungal / Bacterial",
+      "description": "Antifungal and antibacterial topical treatments for skin infections",
+      "products": ["yc-fine-tab", "luishh-cream", "ermolfine-cream", "yevabet-cream", "yevaderm-ointment", "clotryva-powder", "peribiz-soap", "ycn-cream"]
     },
     {
-      "id": "hepatoprotective",
-      "name": "Hepatoprotective",
-      "description": "Herbal liver care formulations for liver health and detoxification",
-      "products": ["yevahep-ds-syrup"]
+      "id": "anti-histamine",
+      "name": "Anti Histamine",
+      "description": "Antihistamine medications for allergic rhinitis, urticaria, and allergic conditions",
+      "products": ["bilicure-tab", "yevafex-m-tab", "ycmont-tab"]
     },
     {
-      "id": "anti-infective",
-      "name": "Anti-Infective",
+      "id": "antibiotics",
+      "name": "Antibiotics",
       "description": "Broad-spectrum antibiotics for bacterial infection treatment",
-      "products": ["yevamox-cv-tablets"]
+      "products": ["yevadox-l-tab", "yc-myciwin-tab", "yevamox-cv-tablets", "yc-cilipod-tab"]
     },
     {
-      "id": "general-wellness",
-      "name": "General Wellness",
-      "description": "Daily care products for skin hydration and body wellness",
-      "products": ["yc-serenesoft-lotion"]
+      "id": "general",
+      "name": "General",
+      "description": "General pharmaceutical products including pain relief, cough syrups, liver tonics, and more",
+      "products": ["yevagesic-sp-tab", "yevagesic-p-tab", "yevahep-ds-syrup", "yevacoff-dx-syrup", "yevacoff-ls-syrup", "revadome-dsr-cap", "yc-lyte-powder", "yevacef-tazo-inj", "yc-cureodox-tab", "vedasmile-toothpaste"]
+    },
+    {
+      "id": "multivitamins",
+      "name": "Multivitamins",
+      "description": "Multivitamin and mineral supplements for overall health and wellness",
+      "products": ["yevavit9g-capsules", "yevazzit-tablets"]
     }
   ]
 }

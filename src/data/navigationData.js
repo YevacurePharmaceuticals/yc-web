@@ -24,10 +24,13 @@ export const footerLinks = {
   ],
   products: [
     { label: "All Products", path: "/products" },
-    { label: "Dermatology", path: "/products/dermatology" },
-    { label: "Trichology", path: "/products/trichology" },
-    { label: "Nutraceuticals", path: "/products/nutraceuticals" },
-    { label: "Anti-Infective", path: "/products/anti-infective" },
+    { label: "Skin Care", path: "/products/skin-care" },
+    { label: "Hair Care", path: "/products/hair-care" },
+    { label: "Fungal / Bacterial", path: "/products/fungal-bacterial" },
+    { label: "Antibiotics", path: "/products/antibiotics" },
+    { label: "Anti Histamine", path: "/products/anti-histamine" },
+    { label: "General", path: "/products/general" },
+    { label: "Multivitamins", path: "/products/multivitamins" },
     {
       label: "Download Catalog",
       path: "/YevacureProductCatalog.pdf",

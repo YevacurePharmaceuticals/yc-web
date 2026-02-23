@@ -69,7 +69,7 @@ function Inquiry() {
     setSubmitted(true);
   };
 
-  const detailPath = `/products/${product.therapeuticCategory?.toLowerCase().replace(/\s+/g, '-')}/${product.id}`;
+  const detailPath = `/products/${product.therapeuticCategory?.toLowerCase().replace(/\s*\/\s*/g, '-').replace(/\s+/g, '-')}/${product.id}`;
 
   const categoryColors = {
     'Dermatology': 'bg-blue-100 text-blue-700',

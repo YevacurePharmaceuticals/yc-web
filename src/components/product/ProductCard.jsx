@@ -6,12 +6,13 @@ import { Send, ArrowRight, Package } from 'lucide-react';
 import './ProductCard.css';
 
 const categoryColors = {
-  'Dermatology': { bg: 'bg-blue-100', text: 'text-blue-700' },
-  'Trichology': { bg: 'bg-purple-100', text: 'text-purple-700' },
-  'Nutraceuticals': { bg: 'bg-green-100', text: 'text-green-700' },
-  'Hepatoprotective': { bg: 'bg-amber-100', text: 'text-amber-700' },
-  'Anti-Infective': { bg: 'bg-red-100', text: 'text-red-700' },
-  'General Wellness': { bg: 'bg-teal-100', text: 'text-teal-700' },
+  'Skin Care': { bg: 'bg-blue-100', text: 'text-blue-700' },
+  'Hair Care': { bg: 'bg-purple-100', text: 'text-purple-700' },
+  'Fungal / Bacterial': { bg: 'bg-orange-100', text: 'text-orange-700' },
+  'Anti Histamine': { bg: 'bg-pink-100', text: 'text-pink-700' },
+  'Antibiotics': { bg: 'bg-red-100', text: 'text-red-700' },
+  'General': { bg: 'bg-teal-100', text: 'text-teal-700' },
+  'Multivitamins': { bg: 'bg-green-100', text: 'text-green-700' },
 };
 
 function ProductCard({ product }) {
@@ -24,7 +25,7 @@ function ProductCard({ product }) {
   const category = product.therapeuticCategory || '';
   const colors = categoryColors[category] || { bg: 'bg-gray-100', text: 'text-gray-700' };
 
-  const detailPath = `/products/${product.therapeuticCategory?.toLowerCase().replace(/\s+/g, '-')}/${product.id}`;
+  const detailPath = `/products/${product.therapeuticCategory?.toLowerCase().replace(/\s*\/\s*/g, '-').replace(/\s+/g, '-')}/${product.id}`;
 
   const inquiryPath = `/inquiry/${product.id}`;
 

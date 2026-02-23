@@ -3,6 +3,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
+  Github,
   Mail,
   MapPin,
   ShieldCheck,
@@ -165,6 +166,39 @@ export default function Footer() {
                 </a>
               );
             })}
+          </div>
+        </div>
+
+        {/* Developer Credit */}
+        <div className="footer-dev-credit">
+          <span>Designed &amp; Developed by</span>
+          <a
+            href="https://github.com/Rishavanand9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-dev-name"
+          >
+            Rishav Anand
+          </a>
+          <div className="footer-dev-socials">
+            <a
+              href="https://github.com/Rishavanand9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-dev-social-link"
+              aria-label="GitHub"
+            >
+              <Github size={14} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rishav-anand-40bb49123/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-dev-social-link"
+              aria-label="LinkedIn"
+            >
+              <Linkedin size={14} />
+            </a>
           </div>
         </div>
       </div>
